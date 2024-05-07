@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>🖥️ 计算机编程技术 on Tofuwine&#39;s Blog</title>
+    <link>https://tofuwine.github.io/articles/code/</link>
+    <description>Recent content in 🖥️ 计算机编程技术 on Tofuwine&#39;s Blog</description>
+    <generator>Hugo -- 0.124.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tofuwine.github.io/articles/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Boot 引入本地 Jar 包</title>
+      <link>https://tofuwine.github.io/articles/code/java/c9102d8e-d700-45e8-aca8-8fda732ab9e5/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/articles/code/java/c9102d8e-d700-45e8-aca8-8fda732ab9e5/</guid>
+      <description>Spring Boot 工程引入并打包本地 Jar</description>
+    </item>
+    <item>
+      <title>Spring Boot 启动后自动执行方法的几种方式</title>
+      <link>https://tofuwine.github.io/articles/code/java/14d680b0-ef4b-402b-bd4a-99985034996f/</link>
+      <pubDate>Tue, 16 Apr 2024 10:24:15 +0800</pubDate>
+      <guid>https://tofuwine.github.io/articles/code/java/14d680b0-ef4b-402b-bd4a-99985034996f/</guid>
+      <description>Spring Boot 启动后自动执行特定方法</description>
+    </item>
+    <item>
+      <title>FreeMarker 基本用法</title>
+      <link>https://tofuwine.github.io/articles/code/z/28095def-16f4-4aab-a023-8937447fa34f/</link>
+      <pubDate>Sun, 31 Mar 2024 11:10:20 +0800</pubDate>
+      <guid>https://tofuwine.github.io/articles/code/z/28095def-16f4-4aab-a023-8937447fa34f/</guid>
+      <description>FreeMarker 基本语法介绍</description>
+    </item>
+  </channel>
+</rss>

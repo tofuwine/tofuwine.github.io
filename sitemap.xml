@@ -2,28 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tofuwine.github.io/articles/dzrclt6w/</loc>
+    <loc>https://tofuwine.github.io/articles/site/</loc>
   </url><url>
-    <loc>https://tofuwine.github.io/articles/programming/</loc>
+    <loc>https://tofuwine.github.io/articles/site/hugo/3c96c5d2-b3f3-4a33-a2f4-0b4bb887ec97/</loc>
+  </url><url>
+    <loc>https://tofuwine.github.io/articles/code/</loc>
+  </url><url>
+    <loc>https://tofuwine.github.io/articles/note/</loc>
   </url><url>
     <loc>https://tofuwine.github.io/articles/crack/</loc>
   </url><url>
     <loc>https://tofuwine.github.io/articles/</loc>
   </url><url>
-    <loc>https://tofuwine.github.io/tags/papermod/</loc>
-  </url><url>
     <loc>https://tofuwine.github.io/</loc>
+  </url><url>
+    <loc>https://tofuwine.github.io/tags/papermod/</loc>
   </url><url>
     <loc>https://tofuwine.github.io/tags/</loc>
   </url><url>
-    <loc>https://tofuwine.github.io/articles/programming/java/</loc>
+    <loc>https://tofuwine.github.io/tags/spring-boot/</loc>
   </url><url>
-    <loc>https://tofuwine.github.io/series/</loc>
+    <loc>https://tofuwine.github.io/articles/code/java/c9102d8e-d700-45e8-aca8-8fda732ab9e5/</loc>
+  </url><url>
+    <loc>https://tofuwine.github.io/articles/code/java/14d680b0-ef4b-402b-bd4a-99985034996f/</loc>
+  </url><url>
+    <loc>https://tofuwine.github.io/tags/freemarker/</loc>
+  </url><url>
+    <loc>https://tofuwine.github.io/articles/code/z/28095def-16f4-4aab-a023-8937447fa34f/</loc>
   </url><url>
     <loc>https://tofuwine.github.io/search/</loc>
+  </url><url>
+    <loc>https://tofuwine.github.io/series/</loc>
   </url><url>
     <loc>https://tofuwine.github.io/archives/</loc>
   </url><url>
     <loc>https://tofuwine.github.io/friend/</loc>
+  </url><url>
+    <loc>https://tofuwine.github.io/about/</loc>
   </url>
 </urlset>
