@@ -16,16 +16,23 @@
       <description>描述示例: 快速预览本站各种样式 (Hugo &amp;amp; PaperMod 主题)</description>
     </item>
     <item>
+      <title>Markdown 作图 —— Mermaid diagrams</title>
+      <link>https://tofuwine.github.io/articles/note/cb59edb8-e342-487b-9c28-ffd847bb9bac/</link>
+      <pubDate>Tue, 07 May 2024 14:43:43 +0800</pubDate>
+      <guid>https://tofuwine.github.io/articles/note/cb59edb8-e342-487b-9c28-ffd847bb9bac/</guid>
+      <description>Mermaid 作图以及本站显示效果示例</description>
+    </item>
+    <item>
       <title>Spring Boot 引入本地 Jar 包</title>
       <link>https://tofuwine.github.io/articles/code/java/c9102d8e-d700-45e8-aca8-8fda732ab9e5/</link>
-      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Apr 2024 10:00:00 +0800</pubDate>
       <guid>https://tofuwine.github.io/articles/code/java/c9102d8e-d700-45e8-aca8-8fda732ab9e5/</guid>
       <description>Spring Boot 工程引入并打包本地 Jar</description>
     </item>
     <item>
       <title>Spring Boot 启动后自动执行方法的几种方式</title>
       <link>https://tofuwine.github.io/articles/code/java/14d680b0-ef4b-402b-bd4a-99985034996f/</link>
-      <pubDate>Tue, 16 Apr 2024 10:24:15 +0800</pubDate>
+      <pubDate>Tue, 27 Feb 2024 10:50:00 +0800</pubDate>
       <guid>https://tofuwine.github.io/articles/code/java/14d680b0-ef4b-402b-bd4a-99985034996f/</guid>
       <description>Spring Boot 启动后自动执行特定方法</description>
     </item>
@@ -51,11 +58,10 @@
       <link>https://tofuwine.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/about/</guid>
-      <description>简介 本站仅作为个人博客、笔记使用，转载内容会显著标明出处及链接。
-名称 Tofuwine&amp;rsquo;s Blog 网址 https://tofuwine.github.io 图标 https://tofuwine.github.io/images/favicon.svg 描述 记录、 分享，仅此。 License 本站原创内容采用 CC BY-NC 4.0 许可，请在转载时标注作者和原文链接。
-相关技术 &amp;amp; 软件 本站完全托管 Github。
-以下为本站所用技术/软件，内容不分先后顺序:
-Hugo PaperMod GitHub Pages GitHub Actions PicGo Typora IntelliJ IDEA Fancybox Giscus 搬迁 原站 (halo + higan) 将逐步迁移至本站。</description>
+      <description>简介 本站搭建于 2024-04-25，仅作为个人博客、笔记使用，转载内容会显著标明出处及链接。
+站点信息 名称 Tofuwine&amp;rsquo;s Blog 网址 https://tofuwine.github.io 图标 https://tofuwine.github.io/images/favicon.svg 描述 记录、 分享，仅此。 License 本站原创内容采用 CC BY-NC 4.0 许可，请在转载时标注作者和原文链接。
+相关技术 &amp;amp; 软件 本站内容完全托管 GitHub，多仓库管理，闭源博文源码，开源静态界面。
+博客框架：Hugo 博客主题：PaperMod 存储仓库：GitHub 部署方案：GitHub Actions &amp;amp; GitHub Pages 写作方式：Typora &amp;amp; IntelliJ IDEA 图床方案：Typora + PicGo + Github 评论方案：Giscus 图片灯箱：Fancybox 搬迁 原站 (halo + higan) 将逐步迁移至本站，博文将保留原站日期。</description>
     </item>
   </channel>
 </rss>
