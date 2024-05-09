@@ -44,12 +44,23 @@
       <description>FreeMarker 基本语法介绍</description>
     </item>
     <item>
+      <title>Spring 拦截器与 Servlet Filter 的区别与使用</title>
+      <link>https://tofuwine.github.io/articles/code/java/68cf2484-e151-48cc-80e9-87a1d914a5fd/</link>
+      <pubDate>Tue, 07 May 2024 14:14:08 +0800</pubDate>
+      <guid>https://tofuwine.github.io/articles/code/java/68cf2484-e151-48cc-80e9-87a1d914a5fd/</guid>
+      <description>文中代码基于 Java 17
+Spring 拦截器与 Servlet Filter 的异同 Spring 的拦截器（Interceptor）与 Servlet 的 Filter 有相似之处，比如二者都是 AOP 编程思想的体现，都能实现权限检查、日志记录等。
+不同的是：
+使用范围不同：Filter 是 Servlet 规范规定的，只能用于 Web 程序中。而拦截器既可以用于 Web 程序，也可以用于 Application、Swing 等程序中。 规范不同：Filter 是 Servlet 规范中定义的，是 Servlet 容器支持的。而拦截器是在 Spring 容器内的，是 Spring 框架支持的。 使用资源不同：同其他代码块一样，Interceptor 也是一个 Spring 的组件，归 Spring 管理，配置在 Spring 文件中，因此能使用 Spring 里的任何资源、对象，例如 Service 对象、数据源、事务管理等，通过 IoC 注入拦截器即可。而 Filter 则不能。 深度不同：Filter 只在 Servlet 前后起作用。而拦截器能够深入到方法前后、异常抛出前后等。因此拦截器的使用具有更大的弹性。所以在 Spring 架构的程序中，要优先使用拦截器。 对于一个请求，拦截器、过滤器执行流程如下：
+flowchart LR A((request)) B(Filter) C(Servlet) D(Interceptor) E(Controller) F((doService)) A --&gt; B --&gt; C --&gt; D --&gt; E --&gt; F 何时使用 Filter、Interceptor？ 如果是非 Spring 项目，那么拦截器不能用，只能使用过滤器。 如果是处理 Controller 前后，既可以使用拦截器也可以使用过滤器。 如果是处理 DispatcherServlet 前后，只能使用过滤器。 Spring Boot 使用 Filter Spring Boot 使用 Filter 有两种方式：</description>
+    </item>
+    <item>
       <title>🤝 友链</title>
       <link>https://tofuwine.github.io/friend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/friend/</guid>
       <description> Tofuwine&amp;#39;s Blog 记录、 分享，仅此。 友链申请 如果您希望互相添加友链，请按如下格式在评论区留言：
-名称 Tofuwine&amp;rsquo;s Blog 网址 https://tofuwine.github.io 图标 https://tofuwine.github.io/images/favicon.svg 描述 记录、 分享，仅此。 作者将在审核通过后，将您的信息添加到友链列表。
+名称 Tofuwine&amp;rsquo;s Blog 网址 https://www.tofuwine.cn 图标 https://www.tofuwine.cn/images/favicon.svg 描述 记录、 分享，仅此。 作者将在审核通过后，将您的信息添加到友链列表。
 与此同时，如果您的站点提供了友链申请方式，作者也会按您的格式要求申请友链。
 请注意：如果您的站点有以下情况，作者将拒绝添加友链！ 您的站点含有涉黄、涉赌、涉毒、涉政等内容 您的站点含有分裂国家、激化民族/种族矛盾等内容 您的站点含有大量广告内容 </description>
     </item>
@@ -59,9 +70,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/about/</guid>
       <description>简介 本站搭建于 2024-04-25，仅作为个人博客、笔记使用，转载内容会显著标明出处及链接。
-站点信息 名称 Tofuwine&amp;rsquo;s Blog 网址 https://tofuwine.github.io 图标 https://tofuwine.github.io/images/favicon.svg 描述 记录、 分享，仅此。 License 本站原创内容采用 CC BY-NC 4.0 许可，请在转载时标注作者和原文链接。
+站点信息 名称 Tofuwine&amp;rsquo;s Blog 网址 https://www.tofuwine.cn 图标 https://www.tofuwine.cn/images/favicon.svg 网址(备用) https://tofuwine.github.io 图标(备用) https://tofuwine.github.io/images/favicon.svg 描述 记录、 分享，仅此。 License 本站原创内容采用 CC BY-NC 4.0 许可，请在转载时标注作者和原文链接。
 相关技术 &amp;amp; 软件 本站内容完全托管 GitHub，多仓库管理，闭源博文源码，开源静态界面。
-博客框架：Hugo 博客主题：PaperMod 存储仓库：GitHub 部署方案：GitHub Actions &amp;amp; GitHub Pages 写作方式：Typora &amp;amp; IntelliJ IDEA 图床方案：Typora + PicGo + Github 评论方案：Giscus 图片灯箱：Fancybox 搬迁 原站 (halo + higan) 将逐步迁移至本站，博文将保留原站日期。</description>
+博客框架：Hugo 博客主题：PaperMod 存储仓库：GitHub 部署方案： 🟢 GitHub Actions &amp;amp; GitHub Pages (Ref: https://tofuwine.github.io) 🟢 Cloudflare Pages (Ref: https://www.tofuwine.cn) 写作方式：Typora &amp;amp; IntelliJ IDEA 图床方案：Typora + PicGo + Github 评论方案：Giscus 图片灯箱：Fancybox 搬迁 原站 (halo + higan) 将逐步迁移至本站，博文将保留原站日期。</description>
     </item>
   </channel>
 </rss>
