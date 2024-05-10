@@ -34,11 +34,7 @@
       <link>https://tofuwine.github.io/articles/code/java/68cf2484-e151-48cc-80e9-87a1d914a5fd/</link>
       <pubDate>Tue, 07 May 2024 14:14:08 +0800</pubDate>
       <guid>https://tofuwine.github.io/articles/code/java/68cf2484-e151-48cc-80e9-87a1d914a5fd/</guid>
-      <description>文中代码基于 Java 17
-Spring 拦截器与 Servlet Filter 的异同 Spring 的拦截器（Interceptor）与 Servlet 的 Filter 有相似之处，比如二者都是 AOP 编程思想的体现，都能实现权限检查、日志记录等。
-不同的是：
-使用范围不同：Filter 是 Servlet 规范规定的，只能用于 Web 程序中。而拦截器既可以用于 Web 程序，也可以用于 Application、Swing 等程序中。 规范不同：Filter 是 Servlet 规范中定义的，是 Servlet 容器支持的。而拦截器是在 Spring 容器内的，是 Spring 框架支持的。 使用资源不同：同其他代码块一样，Interceptor 也是一个 Spring 的组件，归 Spring 管理，配置在 Spring 文件中，因此能使用 Spring 里的任何资源、对象，例如 Service 对象、数据源、事务管理等，通过 IoC 注入拦截器即可。而 Filter 则不能。 深度不同：Filter 只在 Servlet 前后起作用。而拦截器能够深入到方法前后、异常抛出前后等。因此拦截器的使用具有更大的弹性。所以在 Spring 架构的程序中，要优先使用拦截器。 对于一个请求，拦截器、过滤器执行流程如下：
-flowchart LR A((request)) B(Filter) C(Servlet) D(Interceptor) E(Controller) F((doService)) A --&gt; B --&gt; C --&gt; D --&gt; E --&gt; F 何时使用 Filter、Interceptor？ 如果是非 Spring 项目，那么拦截器不能用，只能使用过滤器。 如果是处理 Controller 前后，既可以使用拦截器也可以使用过滤器。 如果是处理 DispatcherServlet 前后，只能使用过滤器。 Spring Boot 使用 Filter Spring Boot 使用 Filter 有两种方式：</description>
+      <description>Spring Interceptor 与 Servlet Filter 区别与使用示例</description>
     </item>
   </channel>
 </rss>
