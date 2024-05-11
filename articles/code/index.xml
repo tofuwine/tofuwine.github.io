@@ -30,6 +30,13 @@
       <description>FreeMarker 基本语法介绍</description>
     </item>
     <item>
+      <title>Spring Bean Scope 解析</title>
+      <link>https://tofuwine.github.io/articles/code/java/4e4e186a-79c1-4ec1-a6d8-bc1b629c27f7/</link>
+      <pubDate>Tue, 12 Mar 2024 16:22:26 +0800</pubDate>
+      <guid>https://tofuwine.github.io/articles/code/java/4e4e186a-79c1-4ec1-a6d8-bc1b629c27f7/</guid>
+      <description>Spring Bean 六种作用域分析</description>
+    </item>
+    <item>
       <title>Spring 拦截器与 Servlet Filter 的区别与使用</title>
       <link>https://tofuwine.github.io/articles/code/java/68cf2484-e151-48cc-80e9-87a1d914a5fd/</link>
       <pubDate>Tue, 07 May 2024 14:14:08 +0800</pubDate>

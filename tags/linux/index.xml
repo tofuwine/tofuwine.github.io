@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>📒 笔记本 on Tofuwine&#39;s Blog</title>
-    <link>https://tofuwine.github.io/articles/note/</link>
-    <description>Recent content in 📒 笔记本 on Tofuwine&#39;s Blog</description>
+    <title>Linux on Tofuwine&#39;s Blog</title>
+    <link>https://tofuwine.github.io/tags/linux/</link>
+    <description>Recent content in Linux on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.125.3</generator>
     <language>zh</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://tofuwine.github.io/articles/note/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Markdown 作图 —— Mermaid diagrams</title>
-      <link>https://tofuwine.github.io/articles/note/cb59edb8-e342-487b-9c28-ffd847bb9bac/</link>
-      <pubDate>Tue, 07 May 2024 14:43:43 +0800</pubDate>
-      <guid>https://tofuwine.github.io/articles/note/cb59edb8-e342-487b-9c28-ffd847bb9bac/</guid>
-      <description>Mermaid 作图以及本站显示效果示例</description>
-    </item>
+    <atom:link href="https://tofuwine.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux 文件系统的组成</title>
       <link>https://tofuwine.github.io/articles/note/system/715f7034-ab94-491b-b6b2-bc5e01b9ebdd/</link>
