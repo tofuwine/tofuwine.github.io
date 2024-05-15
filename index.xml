@@ -120,7 +120,7 @@
 站点信息 名称 Tofuwine&amp;rsquo;s Blog 网址 https://www.tofuwine.cn 图标 https://www.tofuwine.cn/images/favicon.svg 网址(备用) https://tofuwine.github.io 图标(备用) https://tofuwine.github.io/images/favicon.svg 描述 记录、 分享，仅此。 License 本站原创内容采用 CC BY-NC 4.0 许可，请在转载时标注作者和原文链接。
 如有侵权内容，请联系作者删除。
 相关技术 &amp;amp; 软件 本站内容完全托管 GitHub，多仓库管理，闭源博文源码，开源静态界面。
-博客框架：Hugo 博客主题：PaperMod 存储仓库：GitHub 部署方案： 🟢 GitHub Actions &amp;amp; GitHub Pages (Ref: https://tofuwine.github.io) 🟢 Cloudflare Pages (Ref: https://www.tofuwine.cn) 写作方式：Typora &amp;amp; IntelliJ IDEA 图床方案：Typora + PicGo + Github 评论方案：Giscus 图片灯箱：Fancybox slug uuid：it-tools 博客历史 2024-05-09 启用 Cloudflare Pages 部署 + 自定义域名。域名：https://www.</description>
+博客框架：Hugo 博客主题：PaperMod-PE (Forked from PaperMod) 存储仓库：GitHub 部署方案： 🟢 GitHub Actions &amp;amp; GitHub Pages (Ref: https://tofuwine.github.io) 🟢 Cloudflare Pages (Ref: https://www.tofuwine.cn) 写作方式：Typora &amp;amp; IntelliJ IDEA 图床方案：Typora + PicGo + Github 评论方案：Giscus 图片灯箱：Fancybox 数学公式：MathJax &amp;amp; KaTex 绘图：Mermaid slug uuid：it-tools 博客历史 2024-05-15 本站主题拆分并开源 PaperMod-PE (Forked from PaperMod) 2024-05-09 启用 Cloudflare Pages 部署 + 自定义域名。域名：https://www.</description>
     </item>
   </channel>
 </rss>
