@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>PaperMod-PE on Tofuwine&#39;s Blog</title>
+    <link>https://tofuwine.github.io/series/papermod-pe/</link>
+    <description>Recent content in PaperMod-PE on Tofuwine&#39;s Blog</description>
+    <generator>Hugo -- 0.125.3</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tofuwine.github.io/series/papermod-pe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PaperMod-PE Documents</title>
+      <link>https://tofuwine.github.io/articles/site/hugo/041e0ff6-f9a1-4212-a1de-5af6c2c7568a/</link>
+      <pubDate>Thu, 16 May 2024 10:38:11 +0800</pubDate>
+      <guid>https://tofuwine.github.io/articles/site/hugo/041e0ff6-f9a1-4212-a1de-5af6c2c7568a/</guid>
+      <description>Documentation for PaperMod-PE</description>
+    </item>
+  </channel>
+</rss>
