@@ -4,7 +4,7 @@
     <title>🖥️ 计算机编程技术 on Tofuwine&#39;s Blog</title>
     <link>https://tofuwine.github.io/articles/code/</link>
     <description>Recent content in 🖥️ 计算机编程技术 on Tofuwine&#39;s Blog</description>
-    <generator>Hugo -- 0.125.3</generator>
+    <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/articles/code/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +17,9 @@
     </item>
     <item>
       <title>Spring Boot 启动后自动执行方法的几种方式</title>
-      <link>https://tofuwine.github.io/articles/code/java/14d680b0-ef4b-402b-bd4a-99985034996f/</link>
+      <link>https://tofuwine.github.io/p/14d680b0-ef4b-402b-bd4a-99985034996f/</link>
       <pubDate>Tue, 27 Feb 2024 10:50:00 +0800</pubDate>
-      <guid>https://tofuwine.github.io/articles/code/java/14d680b0-ef4b-402b-bd4a-99985034996f/</guid>
+      <guid>https://tofuwine.github.io/p/14d680b0-ef4b-402b-bd4a-99985034996f/</guid>
       <description>Spring Boot 启动后自动执行特定方法</description>
     </item>
     <item>
