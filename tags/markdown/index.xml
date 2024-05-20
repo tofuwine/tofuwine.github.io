@@ -10,16 +10,16 @@
     <atom:link href="https://tofuwine.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown 作图 —— Mermaid diagrams</title>
-      <link>https://tofuwine.github.io/articles/note/markdown/cb59edb8-e342-487b-9c28-ffd847bb9bac/</link>
+      <link>https://tofuwine.github.io/posts/cb59edb8-e342-487b-9c28-ffd847bb9bac/</link>
       <pubDate>Tue, 07 May 2024 14:43:43 +0800</pubDate>
-      <guid>https://tofuwine.github.io/articles/note/markdown/cb59edb8-e342-487b-9c28-ffd847bb9bac/</guid>
+      <guid>https://tofuwine.github.io/posts/cb59edb8-e342-487b-9c28-ffd847bb9bac/</guid>
       <description>Mermaid 作图以及本站显示效果示例</description>
     </item>
     <item>
       <title>Markdown 数学公式</title>
-      <link>https://tofuwine.github.io/articles/note/markdown/2ebecd7d-622f-40db-b5a8-d4e7c89af8c2/</link>
+      <link>https://tofuwine.github.io/posts/2ebecd7d-622f-40db-b5a8-d4e7c89af8c2/</link>
       <pubDate>Fri, 01 Mar 2024 09:01:44 +0800</pubDate>
-      <guid>https://tofuwine.github.io/articles/note/markdown/2ebecd7d-622f-40db-b5a8-d4e7c89af8c2/</guid>
+      <guid>https://tofuwine.github.io/posts/2ebecd7d-622f-40db-b5a8-d4e7c89af8c2/</guid>
       <description>Markdown 数学公式 KaTex 渲染语法</description>
     </item>
   </channel>
