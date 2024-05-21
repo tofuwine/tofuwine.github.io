@@ -10,9 +10,9 @@
     <atom:link href="https://tofuwine.github.io/tags/intellij-idea/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用 IntelliJ IDEA 编写 Hugo 文章</title>
-      <link>https://tofuwine.github.io/posts/91f489d1-a894-4c48-bda9-2ce1274f8134/</link>
+      <link>https://tofuwine.github.io/posts/91f489d1/</link>
       <pubDate>Fri, 10 May 2024 11:03:05 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/91f489d1-a894-4c48-bda9-2ce1274f8134/</guid>
+      <guid>https://tofuwine.github.io/posts/91f489d1/</guid>
       <description>IntelliJ IDEA Settings For Hugo</description>
     </item>
   </channel>

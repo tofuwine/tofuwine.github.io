@@ -10,109 +10,109 @@
     <atom:link href="https://tofuwine.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PaperMod-PE Documents</title>
-      <link>https://tofuwine.github.io/posts/041e0ff6-f9a1-4212-a1de-5af6c2c7568a/</link>
+      <link>https://tofuwine.github.io/posts/041e0ff6/</link>
       <pubDate>Thu, 16 May 2024 10:38:11 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/041e0ff6-f9a1-4212-a1de-5af6c2c7568a/</guid>
+      <guid>https://tofuwine.github.io/posts/041e0ff6/</guid>
       <description>Documentation for PaperMod-PE</description>
     </item>
     <item>
       <title>PaperMod 添加文章版权声明</title>
-      <link>https://tofuwine.github.io/posts/18b224b5-72d6-4cfe-b651-41f38439e5a0/</link>
+      <link>https://tofuwine.github.io/posts/18b224b5/</link>
       <pubDate>Fri, 17 May 2024 09:32:07 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/18b224b5-72d6-4cfe-b651-41f38439e5a0/</guid>
+      <guid>https://tofuwine.github.io/posts/18b224b5/</guid>
       <description>在文章章末添加版权声明</description>
     </item>
     <item>
       <title>PaperMod 添加搜索页</title>
-      <link>https://tofuwine.github.io/posts/e62f6a1b-8178-442e-ac6d-6c921b3b7750/</link>
+      <link>https://tofuwine.github.io/posts/e62f6a1b/</link>
       <pubDate>Sat, 11 May 2024 10:49:39 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/e62f6a1b-8178-442e-ac6d-6c921b3b7750/</guid>
+      <guid>https://tofuwine.github.io/posts/e62f6a1b/</guid>
       <description>Hugo PaperMod 主题添加搜索页以及搜索页样式优化</description>
     </item>
     <item>
       <title>使用 IntelliJ IDEA 编写 Hugo 文章</title>
-      <link>https://tofuwine.github.io/posts/91f489d1-a894-4c48-bda9-2ce1274f8134/</link>
+      <link>https://tofuwine.github.io/posts/91f489d1/</link>
       <pubDate>Fri, 10 May 2024 11:03:05 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/91f489d1-a894-4c48-bda9-2ce1274f8134/</guid>
+      <guid>https://tofuwine.github.io/posts/91f489d1/</guid>
       <description>IntelliJ IDEA Settings For Hugo</description>
     </item>
     <item>
       <title>Markdown 作图 —— Mermaid diagrams</title>
-      <link>https://tofuwine.github.io/posts/cb59edb8-e342-487b-9c28-ffd847bb9bac/</link>
+      <link>https://tofuwine.github.io/posts/cb59edb8/</link>
       <pubDate>Tue, 07 May 2024 14:43:43 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/cb59edb8-e342-487b-9c28-ffd847bb9bac/</guid>
+      <guid>https://tofuwine.github.io/posts/cb59edb8/</guid>
       <description>Mermaid 作图以及本站显示效果示例</description>
     </item>
     <item>
       <title>PaperMod 集成 Giscus 评论</title>
-      <link>https://tofuwine.github.io/posts/610b75f5-54df-4203-8b25-a82065c308e5/</link>
+      <link>https://tofuwine.github.io/posts/610b75f5/</link>
       <pubDate>Mon, 06 May 2024 17:00:00 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/610b75f5-54df-4203-8b25-a82065c308e5/</guid>
+      <guid>https://tofuwine.github.io/posts/610b75f5/</guid>
       <description>Hugo &amp;amp; PaperMod 集成 Giscus 评论系统</description>
     </item>
     <item>
       <title>PaperMod 主题个性化</title>
-      <link>https://tofuwine.github.io/posts/3c96c5d2-b3f3-4a33-a2f4-0b4bb887ec97/</link>
+      <link>https://tofuwine.github.io/posts/3c96c5d2/</link>
       <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://tofuwine.github.io/posts/3c96c5d2-b3f3-4a33-a2f4-0b4bb887ec97/</guid>
+      <guid>https://tofuwine.github.io/posts/3c96c5d2/</guid>
       <description>描述示例: 快速预览本站各种样式 (Hugo &amp;amp; PaperMod 主题)</description>
     </item>
     <item>
       <title>Spring Boot 引入本地 Jar 包</title>
-      <link>https://tofuwine.github.io/posts/c9102d8e-d700-45e8-aca8-8fda732ab9e5/</link>
+      <link>https://tofuwine.github.io/posts/c9102d8e/</link>
       <pubDate>Mon, 22 Apr 2024 10:00:00 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/c9102d8e-d700-45e8-aca8-8fda732ab9e5/</guid>
+      <guid>https://tofuwine.github.io/posts/c9102d8e/</guid>
       <description>Spring Boot 工程引入并打包本地 Jar</description>
     </item>
     <item>
       <title>Spring Boot 启动后自动执行方法的几种方式</title>
-      <link>https://tofuwine.github.io/posts/14d680b0-ef4b-402b-bd4a-99985034996f/</link>
+      <link>https://tofuwine.github.io/posts/14d680b0/</link>
       <pubDate>Tue, 27 Feb 2024 10:50:00 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/14d680b0-ef4b-402b-bd4a-99985034996f/</guid>
+      <guid>https://tofuwine.github.io/posts/14d680b0/</guid>
       <description>Spring Boot 启动后自动执行特定方法</description>
     </item>
     <item>
       <title>FreeMarker 基本用法</title>
-      <link>https://tofuwine.github.io/posts/28095def-16f4-4aab-a023-8937447fa34f/</link>
+      <link>https://tofuwine.github.io/posts/28095def/</link>
       <pubDate>Sun, 31 Mar 2024 11:10:20 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/28095def-16f4-4aab-a023-8937447fa34f/</guid>
+      <guid>https://tofuwine.github.io/posts/28095def/</guid>
       <description>FreeMarker 基本语法介绍</description>
     </item>
     <item>
       <title>Spring Bean Scope 解析</title>
-      <link>https://tofuwine.github.io/posts/4e4e186a-79c1-4ec1-a6d8-bc1b629c27f7/</link>
+      <link>https://tofuwine.github.io/posts/4e4e186a/</link>
       <pubDate>Tue, 12 Mar 2024 16:22:26 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/4e4e186a-79c1-4ec1-a6d8-bc1b629c27f7/</guid>
+      <guid>https://tofuwine.github.io/posts/4e4e186a/</guid>
       <description>Spring Bean 六种作用域分析</description>
     </item>
     <item>
       <title>Linux 文件系统的组成</title>
-      <link>https://tofuwine.github.io/posts/715f7034-ab94-491b-b6b2-bc5e01b9ebdd/</link>
+      <link>https://tofuwine.github.io/posts/715f7034/</link>
       <pubDate>Fri, 08 Mar 2024 16:43:14 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/715f7034-ab94-491b-b6b2-bc5e01b9ebdd/</guid>
+      <guid>https://tofuwine.github.io/posts/715f7034/</guid>
       <description>1994 年，Linux 引入了文件系统层次标准（FHS，Filesystem Hierarchy Standard）。通过实施 FHS 这样的标准，软件可以确保在不同 Linux 发行版中采用一致的布局。不过，并非所有 Linux 发行版都严格遵守这一标准。它们通常会加入自己独特的元素或迎合特定的要求。
 要熟练掌握这一标准，可以从探索开始。使用 cd 等命令进行导航，使用 ls 命令列出目录内容。将文件系统想象成一棵树，从根目录 / 开始。
 目录 介绍 补充 / 根目录 根目录是 Linux 文件系统中的顶级目录。 所有其他目录都是根目录的子目录，使其成为整个文件系统的父目录。 /bin 包含启动系统和执行基本操作所需的基本二进制可执行文件。 这些对所有用户都可用。 /boot 保存启动系统所需的文件。 包括 Linux 内核、初始 RAM 磁盘映像（用于启动时所需的驱动程序）和引导加载程序配置文件（如 GRUB）。 /dev 包含代表硬件组成或其他系统设备的设备文件。 例如，/dev/sda 代表第一个 SATA 驱动器，/dev/tty 代表终端。 /etc 存储系统和应用程序的配置文件。 这些文件通常是可以编辑的文本文件，用于更改系统或应用程序的行为。 /home 包含系统上所有有账户的用户的个人目录，根用户除外。 用户特定的设置和文件存储在此处。 /lib 包含系统和应用程序运行所需的基本共享库和内核模块。 /media /mnt 用于挂载可移动媒体（如 USB 驱动器）和临时挂载的文件系统的目录。 /opt 用于安装附加的应用软件包。 它是安装第三方应用程序的地方，将它们与 /usr 中的系统默认应用程序分开。 /proc 一个虚拟文件系统，为内核向进程发送信息提供了一种机制。 它不包含真实文件，而是运行时系统信息（例如，系统内存、挂载的设备、硬件配置等）。 /sbin 包含基本的系统二进制文件。 类似 /bin，但用于系统管理任务，通常对非特权用户不可访问。 /tmp 一个临时目录，应用程序可以在其中存储临时文件。 它通常在重启或间隔一段时间后被清空。 /usr 承载用户应用程序和大量系统内容。 它包含程序、库、文档等的子目录，这些不是启动或修复系统所必需的。 /var 包含变量数据文件。 这个目录包括系统在操作过程中写入数据的文件，如日志（/var/log）、邮件（/var/mail）和打印队列（/var/spool）等。 </description>
     </item>
     <item>
       <title>Markdown 数学公式</title>
-      <link>https://tofuwine.github.io/posts/2ebecd7d-622f-40db-b5a8-d4e7c89af8c2/</link>
+      <link>https://tofuwine.github.io/posts/2ebecd7d/</link>
       <pubDate>Fri, 01 Mar 2024 09:01:44 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/2ebecd7d-622f-40db-b5a8-d4e7c89af8c2/</guid>
+      <guid>https://tofuwine.github.io/posts/2ebecd7d/</guid>
       <description>Markdown 数学公式 KaTex 渲染语法</description>
     </item>
     <item>
       <title>Spring 拦截器与 Servlet Filter 的区别与使用</title>
-      <link>https://tofuwine.github.io/posts/68cf2484-e151-48cc-80e9-87a1d914a5fd/</link>
+      <link>https://tofuwine.github.io/posts/68cf2484/</link>
       <pubDate>Tue, 07 May 2024 14:14:08 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/68cf2484-e151-48cc-80e9-87a1d914a5fd/</guid>
+      <guid>https://tofuwine.github.io/posts/68cf2484/</guid>
       <description>Spring Interceptor 与 Servlet Filter 区别与使用示例</description>
     </item>
     <item>
       <title>Microsoft Activation</title>
-      <link>https://tofuwine.github.io/posts/4ee6297b-d255-41d8-bea1-7dbf37c7f05b/</link>
+      <link>https://tofuwine.github.io/posts/4ee6297b/</link>
       <pubDate>Fri, 23 Feb 2024 15:32:57 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/4ee6297b-d255-41d8-bea1-7dbf37c7f05b/</guid>
+      <guid>https://tofuwine.github.io/posts/4ee6297b/</guid>
       <description>Windows &amp;amp; Office Activation</description>
     </item>
     <item>
@@ -120,7 +120,7 @@
       <link>https://tofuwine.github.io/friend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/friend/</guid>
-      <description> Tofuwine&amp;#39;s Blog 记录、 分享，仅此。 友链申请 如果您希望互相添加友链，请按如下格式在评论区留言：
+      <description> Tofuwine&amp;#39;s Blog 记录、 分享，仅此。 特别鸣谢 Sulv’s Blog 一个记录技术、阅读、生活的博客 有意栽花花满枝 心中有光、点亮生活 友链申请 如果您希望互相添加友链，请按如下格式在评论区留言：
 名称 Tofuwine&amp;rsquo;s Blog 网址 https://www.tofuwine.cn 图标 https://www.tofuwine.cn/images/favicon.svg 描述 记录、 分享，仅此。 作者将在审核通过后，将您的信息添加到友链列表。
 与此同时，如果您的站点提供了友链申请方式，作者也会按您的格式要求申请友链。
 请注意：如果您的站点有以下情况，作者将拒绝添加友链！ 您的站点含有涉黄、涉赌、涉毒、涉政等内容 您的站点含有分裂国家、激化民族/种族矛盾等内容 您的站点含有大量广告内容 </description>

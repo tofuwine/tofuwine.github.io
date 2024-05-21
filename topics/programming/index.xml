@@ -10,37 +10,37 @@
     <atom:link href="https://tofuwine.github.io/topics/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring Boot 引入本地 Jar 包</title>
-      <link>https://tofuwine.github.io/posts/c9102d8e-d700-45e8-aca8-8fda732ab9e5/</link>
+      <link>https://tofuwine.github.io/posts/c9102d8e/</link>
       <pubDate>Mon, 22 Apr 2024 10:00:00 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/c9102d8e-d700-45e8-aca8-8fda732ab9e5/</guid>
+      <guid>https://tofuwine.github.io/posts/c9102d8e/</guid>
       <description>Spring Boot 工程引入并打包本地 Jar</description>
     </item>
     <item>
       <title>Spring Boot 启动后自动执行方法的几种方式</title>
-      <link>https://tofuwine.github.io/posts/14d680b0-ef4b-402b-bd4a-99985034996f/</link>
+      <link>https://tofuwine.github.io/posts/14d680b0/</link>
       <pubDate>Tue, 27 Feb 2024 10:50:00 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/14d680b0-ef4b-402b-bd4a-99985034996f/</guid>
+      <guid>https://tofuwine.github.io/posts/14d680b0/</guid>
       <description>Spring Boot 启动后自动执行特定方法</description>
     </item>
     <item>
       <title>FreeMarker 基本用法</title>
-      <link>https://tofuwine.github.io/posts/28095def-16f4-4aab-a023-8937447fa34f/</link>
+      <link>https://tofuwine.github.io/posts/28095def/</link>
       <pubDate>Sun, 31 Mar 2024 11:10:20 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/28095def-16f4-4aab-a023-8937447fa34f/</guid>
+      <guid>https://tofuwine.github.io/posts/28095def/</guid>
       <description>FreeMarker 基本语法介绍</description>
     </item>
     <item>
       <title>Spring Bean Scope 解析</title>
-      <link>https://tofuwine.github.io/posts/4e4e186a-79c1-4ec1-a6d8-bc1b629c27f7/</link>
+      <link>https://tofuwine.github.io/posts/4e4e186a/</link>
       <pubDate>Tue, 12 Mar 2024 16:22:26 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/4e4e186a-79c1-4ec1-a6d8-bc1b629c27f7/</guid>
+      <guid>https://tofuwine.github.io/posts/4e4e186a/</guid>
       <description>Spring Bean 六种作用域分析</description>
     </item>
     <item>
       <title>Spring 拦截器与 Servlet Filter 的区别与使用</title>
-      <link>https://tofuwine.github.io/posts/68cf2484-e151-48cc-80e9-87a1d914a5fd/</link>
+      <link>https://tofuwine.github.io/posts/68cf2484/</link>
       <pubDate>Tue, 07 May 2024 14:14:08 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/68cf2484-e151-48cc-80e9-87a1d914a5fd/</guid>
+      <guid>https://tofuwine.github.io/posts/68cf2484/</guid>
       <description>Spring Interceptor 与 Servlet Filter 区别与使用示例</description>
     </item>
   </channel>
