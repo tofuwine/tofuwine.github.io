@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>🌟 瞬间 on Tofuwine&#39;s Blog</title>
+    <link>https://tofuwine.github.io/moments/</link>
+    <description>Recent content in 🌟 瞬间 on Tofuwine&#39;s Blog</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tofuwine.github.io/moments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Mon, 01 Apr 2024 10:00:00 +0800</pubDate>
+      <guid></guid>
+      <description>当反射赋值 private 修饰的属性时，需先设置 accessible 为 true：
+java 1 fieldName.setAccessible(true); 当反射赋值静态属性，将第一个参数设置为 null：
+java 1 fieldName.set(null, newValue); </description>
+    </item>
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Tue, 26 Mar 2024 09:20:00 +0800</pubDate>
+      <guid></guid>
+      <description>广告屏蔽大师 Plus+ 订阅链接：
+text 1 2 3 4 5 // ad-pc.txt：[推荐桌面端]合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX&amp;#39;sAnnoyance，以及补充的一些规则； https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt // ad.txt：【推荐】合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX&amp;#39;sAnnoyance，以及补充的一些规则； https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt </description>
+    </item>
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Fri, 22 Mar 2024 14:12:00 +0800</pubDate>
+      <guid></guid>
+      <description>Windows 11 家庭中文版 转 专业版密钥：
+text 1 BTY9C-JXQ4W-YFHCH-6RF4V-VC2RY </description>
+    </item>
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Wed, 13 Mar 2024 09:05:00 +0800</pubDate>
+      <guid></guid>
+      <description>Apple 美区礼品卡购买地址：Buy Apple Gift Cards - Apple</description>
+    </item>
+  </channel>
+</rss>
