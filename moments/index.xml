@@ -6,8 +6,17 @@
     <description>Recent content in 🌟 瞬间 on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 01 Apr 2024 10:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 25 May 2024 13:38:46 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/moments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Sat, 25 May 2024 13:38:46 +0800</pubDate>
+      <guid></guid>
+      <description>在将顶部导航栏设置为 position: fixed 后，页面锚点跳转会导致锚点内容被导航栏遮挡。
+可通过如下方式进行修正：
+css 1 2 3 4 /* 假设你的导航栏高度是 60px */ html { scroll-padding-top: 60px; } Powered by ChatGPT </description>
+    </item>
     <item>
       <title></title>
       <link></link>
