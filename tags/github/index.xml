@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GitHub on Tofuwine&#39;s Blog</title>
+    <link>https://tofuwine.github.io/tags/github/</link>
+    <description>Recent content in GitHub on Tofuwine&#39;s Blog</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 27 May 2024 15:17:52 +0800</lastBuildDate>
+    <atom:link href="https://tofuwine.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github 免费图床攻略</title>
+      <link>https://tofuwine.github.io/posts/6b53001d/</link>
+      <pubDate>Mon, 27 May 2024 15:17:52 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/6b53001d/</guid>
+      <description>使用 Github 存储图片作为免费图床并通过 Typora + PicGo 自动上传</description>
+    </item>
+  </channel>
+</rss>
