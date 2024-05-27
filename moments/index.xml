@@ -49,5 +49,14 @@ text 1 BTY9C-JXQ4W-YFHCH-6RF4V-VC2RY </description>
       <guid></guid>
       <description>Apple 美区礼品卡购买地址：Buy Apple Gift Cards - Apple</description>
     </item>
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Tue, 08 Aug 2023 13:41:23 +0800</pubDate>
+      <guid></guid>
+      <description>指定一个目录，获取该目录下（包含子目录）的所有 txt 文件：
+依赖：commons-io:commons-io
+java 1 FileUtils.listFiles(new File(filePath), new SuffixFileFilter(&amp;#34;txt&amp;#34;), DirectoryFileFilter.INSTANCE); </description>
+    </item>
   </channel>
 </rss>
