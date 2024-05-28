@@ -6,8 +6,15 @@
     <description>Recent content in 📒 笔记本 on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 07 May 2024 14:43:43 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 28 May 2024 10:44:46 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/topics/notebook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google 搜索技巧</title>
+      <link>https://tofuwine.github.io/posts/70df73fb/</link>
+      <pubDate>Tue, 28 May 2024 10:44:46 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/70df73fb/</guid>
+      <description>Google 搜索的高级技巧</description>
+    </item>
     <item>
       <title>Markdown 作图 —— Mermaid diagrams</title>
       <link>https://tofuwine.github.io/posts/cb59edb8/</link>

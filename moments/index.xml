@@ -6,8 +6,16 @@
     <description>Recent content in 🌟 瞬间 on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 25 May 2024 13:38:46 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 28 May 2024 13:08:06 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/moments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Tue, 28 May 2024 13:08:06 +0800</pubDate>
+      <guid></guid>
+      <description>Chrome 恐龙小游戏：
+text 1 chrome://dino/ </description>
+    </item>
     <item>
       <title></title>
       <link></link>
@@ -52,11 +60,35 @@ text 1 BTY9C-JXQ4W-YFHCH-6RF4V-VC2RY </description>
     <item>
       <title></title>
       <link></link>
+      <pubDate>Tue, 27 Feb 2024 09:59:38 +0800</pubDate>
+      <guid></guid>
+      <description>获取 Spring Boot 启动类信息：
+java 1 2 3 4 5 6 7 8 9 10 11 import org.springframework.boot.context.event.ApplicationStartedEvent; import org.springframework.context.ApplicationListener; import org.springframework.stereotype.Component; @Component public class StorageStartApplicationClassListener implements ApplicationListener&amp;lt;ApplicationStartedEvent&amp;gt; { @Override public void onApplicationEvent(ApplicationStartedEvent event) { Class&amp;lt;?&amp;gt; mainApplicationClass = event.getSpringApplication().getMainApplicationClass(); } } 上述示例使用 ApplicationStartedEvent 事件，也可以使用 ApplicationReadyEvent 事件。</description>
+    </item>
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Wed, 13 Dec 2023 15:27:00 +0800</pubDate>
+      <guid></guid>
+      <description>获取 Spring Boot 注入的对象的原始 class:
+java 1 2 3 4 import org.springframework.aop.support.AopUtils; // 使用 Spring 自带工具实现 AopUtil.getTargetClass() </description>
+    </item>
+    <item>
+      <title></title>
+      <link></link>
       <pubDate>Tue, 08 Aug 2023 13:41:23 +0800</pubDate>
       <guid></guid>
       <description>指定一个目录，获取该目录下（包含子目录）的所有 txt 文件：
 依赖：commons-io:commons-io
 java 1 FileUtils.listFiles(new File(filePath), new SuffixFileFilter(&amp;#34;txt&amp;#34;), DirectoryFileFilter.INSTANCE); </description>
+    </item>
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Mon, 20 Mar 2023 08:59:41 +0800</pubDate>
+      <guid></guid>
+      <description>Spring Boot 打包后获取 Classpath 目录下文件:
+ResourceUtils.java 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 import org.</description>
     </item>
   </channel>
 </rss>
