@@ -137,6 +137,13 @@
       <description>FreeMarker 基本语法介绍</description>
     </item>
     <item>
+      <title>OpenWRT 使用 AdGuardHome &#43; PassWall</title>
+      <link>https://tofuwine.github.io/posts/1b7354d2/</link>
+      <pubDate>Wed, 27 Mar 2024 11:03:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/1b7354d2/</guid>
+      <description>OpenWRT 同时配置 AdGuardHome + PassWall</description>
+    </item>
+    <item>
       <title>Windows 常用技巧</title>
       <link>https://tofuwine.github.io/posts/dfe4b5cc/</link>
       <pubDate>Tue, 26 Mar 2024 09:04:42 +0800</pubDate>

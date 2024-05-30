@@ -76,6 +76,16 @@ java 1 2 3 4 import org.springframework.aop.support.AopUtils; // 使用 Spring �
     <item>
       <title></title>
       <link></link>
+      <pubDate>Fri, 25 Aug 2023 14:43:00 +0800</pubDate>
+      <guid></guid>
+      <description>引入 Spring Boot 依赖的两种方式:
+Parent
+xml 1 2 3 4 5 &amp;lt;parent&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-starter-parent&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.1.2&amp;lt;/version&amp;gt; &amp;lt;/parent&amp;gt; 依赖管理
+xml 1 2 3 4 5 6 7 8 9 10 11 &amp;lt;dependencyManagement&amp;gt; &amp;lt;dependencies&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-dependencies&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.1.2&amp;lt;/version&amp;gt; &amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt; &amp;lt;scope&amp;gt;import&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;/dependencies&amp;gt; &amp;lt;/dependencyManagement&amp;gt; </description>
+    </item>
+    <item>
+      <title></title>
+      <link></link>
       <pubDate>Tue, 08 Aug 2023 13:41:23 +0800</pubDate>
       <guid></guid>
       <description>指定一个目录，获取该目录下（包含子目录）的所有 txt 文件：
