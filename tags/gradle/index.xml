@@ -15,5 +15,12 @@
       <guid>https://tofuwine.github.io/posts/879d9ef5/</guid>
       <description>Gradle 常见问题汇总</description>
     </item>
+    <item>
+      <title>Gradle 配置私有仓库</title>
+      <link>https://tofuwine.github.io/posts/1fa7bd81/</link>
+      <pubDate>Sat, 20 Apr 2024 19:50:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/1fa7bd81/</guid>
+      <description>本文介绍 Gradle 如何使用 Nexus3 私有仓库</description>
+    </item>
   </channel>
 </rss>

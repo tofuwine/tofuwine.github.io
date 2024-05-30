@@ -23,6 +23,13 @@
       <description>Gradle 常见问题汇总</description>
     </item>
     <item>
+      <title>Gradle 配置私有仓库</title>
+      <link>https://tofuwine.github.io/posts/1fa7bd81/</link>
+      <pubDate>Sat, 20 Apr 2024 19:50:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/1fa7bd81/</guid>
+      <description>本文介绍 Gradle 如何使用 Nexus3 私有仓库</description>
+    </item>
+    <item>
       <title>SQL 语句是如何执行的？</title>
       <link>https://tofuwine.github.io/posts/21eb59d0/</link>
       <pubDate>Fri, 19 Apr 2024 10:26:18 +0800</pubDate>
@@ -100,6 +107,20 @@
       <pubDate>Thu, 22 Feb 2024 15:02:00 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/56f4e65f/</guid>
       <description>Go fmt 包基本用法</description>
+    </item>
+    <item>
+      <title>instanceof、isAssignableFrom、isInstance 区别</title>
+      <link>https://tofuwine.github.io/posts/6be41760/</link>
+      <pubDate>Mon, 19 Feb 2024 17:12:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/6be41760/</guid>
+      <description>本文介绍了 instanceof、isAssignableFrom、isInstance 区别</description>
+    </item>
+    <item>
+      <title>Java 位运算</title>
+      <link>https://tofuwine.github.io/posts/f7d5beec/</link>
+      <pubDate>Tue, 23 Jan 2024 16:12:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/f7d5beec/</guid>
+      <description>本文介绍 Java 的几种位运算</description>
     </item>
     <item>
       <title>Git FAQs</title>
