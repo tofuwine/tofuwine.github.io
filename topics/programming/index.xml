@@ -6,8 +6,15 @@
     <description>Recent content in 🖥️ 计算机编程技术 on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 07 May 2024 14:14:08 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 31 May 2024 14:14:02 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/topics/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>单例模式的多种实现方式</title>
+      <link>https://tofuwine.github.io/posts/218a0437/</link>
+      <pubDate>Fri, 31 May 2024 14:14:02 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/218a0437/</guid>
+      <description>本文介绍实现单例模式的 6 种方式</description>
+    </item>
     <item>
       <title>Spring Boot 引入本地 Jar 包</title>
       <link>https://tofuwine.github.io/posts/c9102d8e/</link>

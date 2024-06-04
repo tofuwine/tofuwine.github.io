@@ -6,7 +6,7 @@
     <description>Recent content on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 28 May 2024 10:44:46 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 31 May 2024 14:14:02 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PaperMod-PE Documents</title>
@@ -14,6 +14,13 @@
       <pubDate>Thu, 16 May 2024 10:38:11 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/041e0ff6/</guid>
       <description>Documentation for PaperMod-PE</description>
+    </item>
+    <item>
+      <title>单例模式的多种实现方式</title>
+      <link>https://tofuwine.github.io/posts/218a0437/</link>
+      <pubDate>Fri, 31 May 2024 14:14:02 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/218a0437/</guid>
+      <description>本文介绍实现单例模式的 6 种方式</description>
     </item>
     <item>
       <title>Google 搜索技巧</title>
@@ -265,6 +272,13 @@
       <description>Git 常见问题汇总</description>
     </item>
     <item>
+      <title>WinRAR</title>
+      <link>https://tofuwine.github.io/posts/4f48627c/</link>
+      <pubDate>Mon, 20 Mar 2023 21:23:56 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/4f48627c/</guid>
+      <description>WinRAR Activation</description>
+    </item>
+    <item>
       <title>第十四章 补充知识</title>
       <link>https://tofuwine.github.io/posts/d95669d1/</link>
       <pubDate>Tue, 21 Feb 2023 14:11:00 +0800</pubDate>
@@ -367,7 +381,7 @@
       <link>https://tofuwine.github.io/friend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/friend/</guid>
-      <description> Tofuwine&amp;#39;s Blog 记录、 分享，仅此。 特别鸣谢 Sulv’s Blog 一个记录技术、阅读、生活的博客 有意栽花花满枝 心中有光、点亮生活 友链申请 如果您希望互相添加友链，请按如下格式在评论区留言：
+      <description> Tofuwine&amp;#39;s Blog 记录、 分享，仅此。 友链申请 如果您希望互相添加友链，请按如下格式在评论区留言：
 名称 Tofuwine&amp;rsquo;s Blog 网址 https://www.tofuwine.cn 图标 https://www.tofuwine.cn/images/favicon.svg 描述 记录、 分享，仅此。 作者将在审核通过后，将您的信息添加到友链列表。
 与此同时，如果您的站点提供了友链申请方式，作者也会按您的格式要求申请友链。
 请注意：如果您的站点有以下情况，作者将拒绝添加友链！ 您的站点含有涉黄、涉赌、涉毒、涉政等内容 您的站点含有分裂国家、激化民族/种族矛盾等内容 您的站点含有大量广告内容 </description>

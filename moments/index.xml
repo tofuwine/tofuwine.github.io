@@ -6,8 +6,26 @@
     <description>Recent content in 🌟 瞬间 on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 28 May 2024 13:08:06 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 04 Jun 2024 11:04:20 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/moments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Tue, 04 Jun 2024 11:04:20 +0800</pubDate>
+      <guid></guid>
+      <description>::-webkit-scrollbar CSS 伪类元素会影响设置了 overflow:scroll; 的元素的滚动条样式。
+::-webkit-scrollbar 仅在基于 Blink 或 WebKit 的浏览器 （例如，Chrome、Edge、Opera、Safari、iOS 上所有的浏览器，以及其他基于 WebKit 的浏览器） 上可用。滚动条样式的标准方法可用于 scrollbar-color 和 scrollbar-width。 CSS 滚动条选择器 你可以使用以下伪元素选择器去修改基于 webkit 的浏览器的滚动条样式：
+::-webkit-scrollbar：整个滚动条。 ::-webkit-scrollbar-button：滚动条上的按钮（上下箭头）。 ::-webkit-scrollbar-thumb：滚动条上的滚动滑块。 ::-webkit-scrollbar-track：滚动条轨道。 ::-webkit-scrollbar-track-piece：滚动条没有滑块的轨道部分。 ::-webkit-scrollbar-corner：当同时有垂直滚动条和水平滚动条时交汇的部分。通常是浏览器窗口的右下角。 ::-webkit-resizer：出现在某些元素底角的可拖动调整大小的滑块。 </description>
+    </item>
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Fri, 31 May 2024 14:03:03 +0800</pubDate>
+      <guid></guid>
+      <description>Maven 镜像仓库（阿里云）：
+text 1 https://maven.aliyun.com/repository/public gradle plugin 镜像仓库（阿里云）：
+text 1 https://maven.aliyun.com/repository/gradle-plugin 配置指南：阿里云云效 Maven</description>
+    </item>
     <item>
       <title></title>
       <link></link>
@@ -72,6 +90,15 @@ java 1 2 3 4 5 6 7 8 9 10 11 import org.springframework.boot.context.event.Appli
       <guid></guid>
       <description>获取 Spring Boot 注入的对象的原始 class:
 java 1 2 3 4 import org.springframework.aop.support.AopUtils; // 使用 Spring 自带工具实现 AopUtil.getTargetClass() </description>
+    </item>
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Mon, 04 Sep 2023 09:28:45 +0800</pubDate>
+      <guid></guid>
+      <description>Internet Download Manager Activation Script:
+lstprjct/IDM-Activation-Script 快速激活：
+powershell 1 iex(irm is.gd/idm_reset) </description>
     </item>
     <item>
       <title></title>

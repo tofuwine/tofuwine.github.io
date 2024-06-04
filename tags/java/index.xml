@@ -6,8 +6,15 @@
     <description>Recent content in Java on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 20 Mar 2024 08:30:42 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 31 May 2024 14:14:02 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>单例模式的多种实现方式</title>
+      <link>https://tofuwine.github.io/posts/218a0437/</link>
+      <pubDate>Fri, 31 May 2024 14:14:02 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/218a0437/</guid>
+      <description>本文介绍实现单例模式的 6 种方式</description>
+    </item>
     <item>
       <title>Java 获取应用 PID</title>
       <link>https://tofuwine.github.io/posts/5d7a2ee8/</link>

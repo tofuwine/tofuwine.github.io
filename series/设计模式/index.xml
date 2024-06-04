@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>设计模式 on Tofuwine&#39;s Blog</title>
+    <link>https://tofuwine.github.io/series/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link>
+    <description>Recent content in 设计模式 on Tofuwine&#39;s Blog</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 31 May 2024 14:14:02 +0800</lastBuildDate>
+    <atom:link href="https://tofuwine.github.io/series/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>单例模式的多种实现方式</title>
+      <link>https://tofuwine.github.io/posts/218a0437/</link>
+      <pubDate>Fri, 31 May 2024 14:14:02 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/218a0437/</guid>
+      <description>本文介绍实现单例模式的 6 种方式</description>
+    </item>
+  </channel>
+</rss>
