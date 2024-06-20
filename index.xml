@@ -272,6 +272,13 @@
       <description>Git 常见问题汇总</description>
     </item>
     <item>
+      <title>npm 配置镜像仓库</title>
+      <link>https://tofuwine.github.io/posts/a3d38191/</link>
+      <pubDate>Mon, 27 Nov 2023 15:16:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/a3d38191/</guid>
+      <description>npm 配置私有仓库 or 国内镜像仓库</description>
+    </item>
+    <item>
       <title>WinRAR</title>
       <link>https://tofuwine.github.io/posts/4f48627c/</link>
       <pubDate>Mon, 20 Mar 2023 21:23:56 +0800</pubDate>
@@ -375,6 +382,13 @@
       <pubDate>Thu, 12 Jan 2023 13:44:10 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/f9e86e51/</guid>
       <description>【软件设计师】第一章 计算机基础</description>
+    </item>
+    <item>
+      <title>Java 9 新特性</title>
+      <link>https://tofuwine.github.io/posts/df5b48f5/</link>
+      <pubDate>Mon, 15 Feb 2021 17:05:10 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/df5b48f5/</guid>
+      <description>Java 9 新特性介绍</description>
     </item>
     <item>
       <title>🤝 友链</title>

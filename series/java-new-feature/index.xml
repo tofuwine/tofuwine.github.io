@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Java New Feature on Tofuwine&#39;s Blog</title>
+    <link>https://tofuwine.github.io/series/java-new-feature/</link>
+    <description>Recent content in Java New Feature on Tofuwine&#39;s Blog</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 15 Feb 2021 17:05:10 +0800</lastBuildDate>
+    <atom:link href="https://tofuwine.github.io/series/java-new-feature/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java 9 新特性</title>
+      <link>https://tofuwine.github.io/posts/df5b48f5/</link>
+      <pubDate>Mon, 15 Feb 2021 17:05:10 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/df5b48f5/</guid>
+      <description>Java 9 新特性介绍</description>
+    </item>
+  </channel>
+</rss>

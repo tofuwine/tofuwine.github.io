@@ -36,5 +36,12 @@
       <guid>https://tofuwine.github.io/posts/f7d5beec/</guid>
       <description>本文介绍 Java 的几种位运算</description>
     </item>
+    <item>
+      <title>Java 9 新特性</title>
+      <link>https://tofuwine.github.io/posts/df5b48f5/</link>
+      <pubDate>Mon, 15 Feb 2021 17:05:10 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/df5b48f5/</guid>
+      <description>Java 9 新特性介绍</description>
+    </item>
   </channel>
 </rss>
