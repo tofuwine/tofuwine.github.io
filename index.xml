@@ -6,7 +6,7 @@
     <description>Recent content on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 31 May 2024 14:14:02 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jun 2024 10:01:39 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PaperMod-PE Documents</title>
@@ -14,6 +14,13 @@
       <pubDate>Thu, 16 May 2024 10:38:11 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/041e0ff6/</guid>
       <description>Documentation for PaperMod-PE</description>
+    </item>
+    <item>
+      <title>Cron 表达式</title>
+      <link>https://tofuwine.github.io/posts/d5ee17d5/</link>
+      <pubDate>Mon, 24 Jun 2024 10:01:39 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/d5ee17d5/</guid>
+      <description>cron 表达式基本语法</description>
     </item>
     <item>
       <title>单例模式的多种实现方式</title>

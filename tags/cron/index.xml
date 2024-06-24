@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cron on Tofuwine&#39;s Blog</title>
+    <link>https://tofuwine.github.io/tags/cron/</link>
+    <description>Recent content in Cron on Tofuwine&#39;s Blog</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 24 Jun 2024 10:01:39 +0800</lastBuildDate>
+    <atom:link href="https://tofuwine.github.io/tags/cron/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cron 表达式</title>
+      <link>https://tofuwine.github.io/posts/d5ee17d5/</link>
+      <pubDate>Mon, 24 Jun 2024 10:01:39 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/d5ee17d5/</guid>
+      <description>cron 表达式基本语法</description>
+    </item>
+  </channel>
+</rss>
