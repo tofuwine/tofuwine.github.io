@@ -6,7 +6,7 @@
     <description>Recent content in 🖥️ 计算机编程技术 on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 24 Jun 2024 10:01:39 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 25 Jun 2024 11:16:00 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/topics/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cron 表达式</title>
@@ -149,6 +149,13 @@
       <pubDate>Mon, 27 Nov 2023 15:16:00 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/a3d38191/</guid>
       <description>npm 配置私有仓库 or 国内镜像仓库</description>
+    </item>
+    <item>
+      <title>Spring Boot 自定义数据源配置</title>
+      <link>https://tofuwine.github.io/posts/ed39789e/</link>
+      <pubDate>Thu, 08 Jun 2023 15:47:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/ed39789e/</guid>
+      <description>Spring Boot 集成 Mybatis or MyBatis-Plus 自定义数据源</description>
     </item>
     <item>
       <title>Java 9 新特性</title>
