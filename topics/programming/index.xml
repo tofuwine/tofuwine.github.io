@@ -6,8 +6,15 @@
     <description>Recent content in 🖥️ 计算机编程技术 on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 25 Jun 2024 11:16:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2024 10:05:27 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/topics/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker 镜像源</title>
+      <link>https://tofuwine.github.io/posts/5e705765/</link>
+      <pubDate>Mon, 29 Jul 2024 10:05:27 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/5e705765/</guid>
+      <description>现在仍然可用的镜像源</description>
+    </item>
     <item>
       <title>Cron 表达式</title>
       <link>https://tofuwine.github.io/posts/d5ee17d5/</link>
@@ -163,6 +170,13 @@
       <pubDate>Mon, 15 Feb 2021 17:05:10 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/df5b48f5/</guid>
       <description>Java 9 新特性介绍</description>
+    </item>
+    <item>
+      <title>List 去重的几种方式</title>
+      <link>https://tofuwine.github.io/posts/6acd152c/</link>
+      <pubDate>Thu, 28 Jan 2021 10:04:20 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/6acd152c/</guid>
+      <description>List 去除重复数据的几种方式介绍</description>
     </item>
   </channel>
 </rss>

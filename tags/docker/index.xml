@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Docker on Tofuwine&#39;s Blog</title>
+    <link>https://tofuwine.github.io/tags/docker/</link>
+    <description>Recent content in Docker on Tofuwine&#39;s Blog</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 29 Jul 2024 10:05:27 +0800</lastBuildDate>
+    <atom:link href="https://tofuwine.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker 镜像源</title>
+      <link>https://tofuwine.github.io/posts/5e705765/</link>
+      <pubDate>Mon, 29 Jul 2024 10:05:27 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/5e705765/</guid>
+      <description>现在仍然可用的镜像源</description>
+    </item>
+  </channel>
+</rss>

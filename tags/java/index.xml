@@ -43,5 +43,12 @@
       <guid>https://tofuwine.github.io/posts/df5b48f5/</guid>
       <description>Java 9 新特性介绍</description>
     </item>
+    <item>
+      <title>List 去重的几种方式</title>
+      <link>https://tofuwine.github.io/posts/6acd152c/</link>
+      <pubDate>Thu, 28 Jan 2021 10:04:20 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/6acd152c/</guid>
+      <description>List 去除重复数据的几种方式介绍</description>
+    </item>
   </channel>
 </rss>
