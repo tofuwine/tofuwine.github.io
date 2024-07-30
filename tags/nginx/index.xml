@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nginx on Tofuwine&#39;s Blog</title>
+    <link>https://tofuwine.github.io/tags/nginx/</link>
+    <description>Recent content in Nginx on Tofuwine&#39;s Blog</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 19 Jan 2024 14:24:51 +0800</lastBuildDate>
+    <atom:link href="https://tofuwine.github.io/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 Docker 部署 Nginx Proxy Manager</title>
+      <link>https://tofuwine.github.io/posts/af13278e/</link>
+      <pubDate>Fri, 19 Jan 2024 14:24:51 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/af13278e/</guid>
+      <description>本文主要分享 Docker 部署 Nginx Proxy Manager 的配置</description>
+    </item>
+  </channel>
+</rss>

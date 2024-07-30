@@ -15,5 +15,12 @@
       <guid>https://tofuwine.github.io/posts/5e705765/</guid>
       <description>现在仍然可用的镜像源</description>
     </item>
+    <item>
+      <title>使用 Docker 部署 Nginx Proxy Manager</title>
+      <link>https://tofuwine.github.io/posts/af13278e/</link>
+      <pubDate>Fri, 19 Jan 2024 14:24:51 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/af13278e/</guid>
+      <description>本文主要分享 Docker 部署 Nginx Proxy Manager 的配置</description>
+    </item>
   </channel>
 </rss>
