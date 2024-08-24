@@ -6,14 +6,21 @@
     <description>Recent content in Run on Docker on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 19 Jan 2024 14:24:51 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jul 2024 16:58:47 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/series/run-on-docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 Docker 部署 qBittorrent</title>
+      <link>https://tofuwine.github.io/posts/2fe79e5b/</link>
+      <pubDate>Tue, 30 Jul 2024 16:58:47 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/2fe79e5b/</guid>
+      <description>本文分享如何使用 Docker 部署 qBittorrent</description>
+    </item>
     <item>
       <title>使用 Docker 部署 Nginx Proxy Manager</title>
       <link>https://tofuwine.github.io/posts/af13278e/</link>
       <pubDate>Fri, 19 Jan 2024 14:24:51 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/af13278e/</guid>
-      <description>本文主要分享 Docker 部署 Nginx Proxy Manager 的配置</description>
+      <description>本文主要分享如何使用 Docker 部署 Nginx Proxy Manager</description>
     </item>
   </channel>
 </rss>

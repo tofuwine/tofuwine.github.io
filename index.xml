@@ -6,7 +6,7 @@
     <description>Recent content on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 29 Jul 2024 10:05:27 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 23 Aug 2024 14:23:29 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PaperMod-PE Documents</title>
@@ -14,6 +14,20 @@
       <pubDate>Thu, 16 May 2024 10:38:11 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/041e0ff6/</guid>
       <description>Documentation for PaperMod-PE</description>
+    </item>
+    <item>
+      <title>MyBatis FAQs</title>
+      <link>https://tofuwine.github.io/posts/637ec26d/</link>
+      <pubDate>Fri, 23 Aug 2024 14:23:29 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/637ec26d/</guid>
+      <description>MyBatis 问题汇总</description>
+    </item>
+    <item>
+      <title>使用 Docker 部署 qBittorrent</title>
+      <link>https://tofuwine.github.io/posts/2fe79e5b/</link>
+      <pubDate>Tue, 30 Jul 2024 16:58:47 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/2fe79e5b/</guid>
+      <description>本文分享如何使用 Docker 部署 qBittorrent</description>
     </item>
     <item>
       <title>Docker 镜像源</title>
@@ -283,7 +297,7 @@
       <link>https://tofuwine.github.io/posts/af13278e/</link>
       <pubDate>Fri, 19 Jan 2024 14:24:51 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/af13278e/</guid>
-      <description>本文主要分享 Docker 部署 Nginx Proxy Manager 的配置</description>
+      <description>本文主要分享如何使用 Docker 部署 Nginx Proxy Manager</description>
     </item>
     <item>
       <title>Git FAQs</title>
@@ -430,7 +444,7 @@
       <link>https://tofuwine.github.io/friend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/friend/</guid>
-      <description> Tofuwine&amp;#39;s Blog 记录、 分享，仅此。 友链申请 如果您希望互相添加友链，请按如下格式在评论区留言：
+      <description> Tofuwine&amp;#39;s Blog 记录、 分享，仅此。 LS-Shandong LS-Shandong 的博客网站 友链申请 如果您希望互相添加友链，请按如下格式在评论区留言：
 名称 Tofuwine&amp;rsquo;s Blog 网址 https://www.tofuwine.cn 图标 https://www.tofuwine.cn/images/favicon.svg 描述 记录、 分享，仅此。 作者将在审核通过后，将您的信息添加到友链列表。
 与此同时，如果您的站点提供了友链申请方式，作者也会按您的格式要求申请友链。
 请注意：如果您的站点有以下情况，作者将拒绝添加友链！ 您的站点含有涉黄、涉赌、涉毒、涉政等内容 您的站点含有分裂国家、激化民族/种族矛盾等内容 您的站点含有大量广告内容 </description>
