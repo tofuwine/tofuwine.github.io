@@ -6,7 +6,7 @@
     <description>Recent content on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 26 Aug 2024 15:14:56 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 14:58:56 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PaperMod-PE Documents</title>
@@ -14,6 +14,13 @@
       <pubDate>Thu, 16 May 2024 10:38:11 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/041e0ff6/</guid>
       <description>Documentation for PaperMod-PE</description>
+    </item>
+    <item>
+      <title>Nginx 常用配置参考</title>
+      <link>https://tofuwine.github.io/posts/719fee23/</link>
+      <pubDate>Thu, 29 Aug 2024 09:50:45 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/719fee23/</guid>
+      <description>Nginx 常用配置</description>
     </item>
     <item>
       <title>Java 中子类与父类的同名字段</title>
@@ -312,6 +319,13 @@
       <pubDate>Wed, 03 Jan 2024 16:45:06 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/10a5c8d8/</guid>
       <description>Git 常见问题汇总</description>
+    </item>
+    <item>
+      <title>Typora</title>
+      <link>https://tofuwine.github.io/posts/d85f002c/</link>
+      <pubDate>Tue, 19 Dec 2023 21:23:56 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/d85f002c/</guid>
+      <description>Typora Activation</description>
     </item>
     <item>
       <title>npm 配置镜像仓库</title>
