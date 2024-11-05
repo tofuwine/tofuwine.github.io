@@ -6,14 +6,14 @@
     <description>Recent content in Npm on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 27 Nov 2023 15:16:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2024 10:50:00 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/tags/npm/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>npm 配置镜像仓库</title>
+      <title>Node.js 基础配置</title>
       <link>https://tofuwine.github.io/posts/a3d38191/</link>
       <pubDate>Mon, 27 Nov 2023 15:16:00 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/a3d38191/</guid>
-      <description>npm 配置私有仓库 or 国内镜像仓库</description>
+      <description>Node 配置。npm 配置私有仓库 or 国内镜像仓库</description>
     </item>
   </channel>
 </rss>
