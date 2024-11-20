@@ -16,6 +16,13 @@
       <description>Documentation for PaperMod-PE</description>
     </item>
     <item>
+      <title>log4j.properties 配置详解</title>
+      <link>https://tofuwine.github.io/posts/f2b2cf7b/</link>
+      <pubDate>Sat, 23 Sep 2017 13:29:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/f2b2cf7b/</guid>
+      <description>Log4j 配置文件详解</description>
+    </item>
+    <item>
       <title>Java 中的正则表达式</title>
       <link>https://tofuwine.github.io/posts/35acc566/</link>
       <pubDate>Wed, 06 Nov 2024 11:27:38 +0800</pubDate>
@@ -473,6 +480,13 @@
       <pubDate>Thu, 12 Jan 2023 13:44:10 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/f9e86e51/</guid>
       <description>【软件设计师】第一章 计算机基础</description>
+    </item>
+    <item>
+      <title>Spring Boot 打包后获取 Classpath 目录下文件</title>
+      <link>https://tofuwine.github.io/posts/2478e847/</link>
+      <pubDate>Fri, 24 Jun 2022 08:59:41 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/2478e847/</guid>
+      <description>Spring Boot 打包后获取 Classpath 目录下文件</description>
     </item>
     <item>
       <title>Java 9 新特性</title>

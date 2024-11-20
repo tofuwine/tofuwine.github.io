@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Log4j on Tofuwine&#39;s Blog</title>
+    <link>https://tofuwine.github.io/tags/log4j/</link>
+    <description>Recent content in Log4j on Tofuwine&#39;s Blog</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 23 Sep 2017 13:29:00 +0800</lastBuildDate>
+    <atom:link href="https://tofuwine.github.io/tags/log4j/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>log4j.properties 配置详解</title>
+      <link>https://tofuwine.github.io/posts/f2b2cf7b/</link>
+      <pubDate>Sat, 23 Sep 2017 13:29:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/f2b2cf7b/</guid>
+      <description>Log4j 配置文件详解</description>
+    </item>
+  </channel>
+</rss>

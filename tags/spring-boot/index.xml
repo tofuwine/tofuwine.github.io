@@ -36,5 +36,12 @@
       <guid>https://tofuwine.github.io/posts/5d7a2ee8/</guid>
       <description>本文介绍 Java 获取应用 PID 的几种方式</description>
     </item>
+    <item>
+      <title>Spring Boot 打包后获取 Classpath 目录下文件</title>
+      <link>https://tofuwine.github.io/posts/2478e847/</link>
+      <pubDate>Fri, 24 Jun 2022 08:59:41 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/2478e847/</guid>
+      <description>Spring Boot 打包后获取 Classpath 目录下文件</description>
+    </item>
   </channel>
 </rss>
