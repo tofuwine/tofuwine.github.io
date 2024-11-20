@@ -9,13 +9,6 @@
     <lastBuildDate>Thu, 07 Nov 2024 14:42:50 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/topics/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>log4j.properties 配置详解</title>
-      <link>https://tofuwine.github.io/posts/f2b2cf7b/</link>
-      <pubDate>Sat, 23 Sep 2017 13:29:00 +0800</pubDate>
-      <guid>https://tofuwine.github.io/posts/f2b2cf7b/</guid>
-      <description>Log4j 配置文件详解</description>
-    </item>
-    <item>
       <title>Java 中的正则表达式</title>
       <link>https://tofuwine.github.io/posts/35acc566/</link>
       <pubDate>Wed, 06 Nov 2024 11:27:38 +0800</pubDate>
@@ -233,6 +226,13 @@
       <pubDate>Thu, 28 Jan 2021 10:04:20 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/6acd152c/</guid>
       <description>List 去除重复数据的几种方式介绍</description>
+    </item>
+    <item>
+      <title>log4j.properties 配置详解</title>
+      <link>https://tofuwine.github.io/posts/f2b2cf7b/</link>
+      <pubDate>Sat, 23 Sep 2017 13:29:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/f2b2cf7b/</guid>
+      <description>Log4j 配置文件详解</description>
     </item>
   </channel>
 </rss>
