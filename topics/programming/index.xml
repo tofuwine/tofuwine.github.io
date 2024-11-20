@@ -234,5 +234,12 @@
       <guid>https://tofuwine.github.io/posts/f2b2cf7b/</guid>
       <description>Log4j 配置文件详解</description>
     </item>
+    <item>
+      <title>HTTP 响应状态码</title>
+      <link>https://tofuwine.github.io/posts/836d051d/</link>
+      <pubDate>Sun, 02 Jul 2017 16:12:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/836d051d/</guid>
+      <description>服务器常用的状态码及其对应的含义</description>
+    </item>
   </channel>
 </rss>
