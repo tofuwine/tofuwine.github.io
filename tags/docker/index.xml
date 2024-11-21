@@ -23,6 +23,13 @@
       <description>现在仍然可用的镜像源</description>
     </item>
     <item>
+      <title>Docker Compose 入门</title>
+      <link>https://tofuwine.github.io/posts/1a161e90/</link>
+      <pubDate>Tue, 09 Apr 2024 08:35:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/1a161e90/</guid>
+      <description>Docker Compose 入门</description>
+    </item>
+    <item>
       <title>使用 Docker 部署 Nginx Proxy Manager</title>
       <link>https://tofuwine.github.io/posts/af13278e/</link>
       <pubDate>Fri, 19 Jan 2024 14:24:51 +0800</pubDate>

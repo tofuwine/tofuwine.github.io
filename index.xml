@@ -6,7 +6,7 @@
     <description>Recent content on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 07 Nov 2024 14:42:50 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 21 Nov 2024 13:48:00 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PaperMod-PE Documents</title>
@@ -14,6 +14,13 @@
       <pubDate>Thu, 16 May 2024 10:38:11 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/041e0ff6/</guid>
       <description>Documentation for PaperMod-PE</description>
+    </item>
+    <item>
+      <title>iQOO 13 关闭通话视频彩铃</title>
+      <link>https://tofuwine.github.io/posts/f25baf26/</link>
+      <pubDate>Thu, 21 Nov 2024 13:30:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/f25baf26/</guid>
+      <description>iQOO 手机关闭通话视频彩铃</description>
     </item>
     <item>
       <title>Java 中的正则表达式</title>
@@ -77,6 +84,13 @@
       <pubDate>Mon, 29 Jul 2024 10:05:27 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/5e705765/</guid>
       <description>现在仍然可用的镜像源</description>
+    </item>
+    <item>
+      <title>地下城与勇士：起源</title>
+      <link>https://tofuwine.github.io/posts/4c94ed90/</link>
+      <pubDate>Sat, 20 Jul 2024 13:00:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/4c94ed90/</guid>
+      <description>地下城与勇士：起源</description>
     </item>
     <item>
       <title>Cron 表达式</title>
@@ -207,6 +221,13 @@
       <description>Spring Boot 启动后自动执行特定方法</description>
     </item>
     <item>
+      <title>Docker Compose 入门</title>
+      <link>https://tofuwine.github.io/posts/1a161e90/</link>
+      <pubDate>Tue, 09 Apr 2024 08:35:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/1a161e90/</guid>
+      <description>Docker Compose 入门</description>
+    </item>
+    <item>
       <title>FreeMarker 基本用法</title>
       <link>https://tofuwine.github.io/posts/28095def/</link>
       <pubDate>Sun, 31 Mar 2024 11:10:20 +0800</pubDate>
@@ -226,6 +247,13 @@
       <pubDate>Tue, 26 Mar 2024 09:04:42 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/dfe4b5cc/</guid>
       <description>Windows 常用技巧</description>
+    </item>
+    <item>
+      <title>YAML 基本语法</title>
+      <link>https://tofuwine.github.io/posts/2b8960db/</link>
+      <pubDate>Sat, 23 Mar 2024 10:26:56 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/2b8960db/</guid>
+      <description>YAML 基本语法介绍</description>
     </item>
     <item>
       <title>Java 获取应用 PID</title>

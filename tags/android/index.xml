@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Android on Tofuwine&#39;s Blog</title>
+    <link>https://tofuwine.github.io/tags/android/</link>
+    <description>Recent content in Android on Tofuwine&#39;s Blog</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 21 Nov 2024 13:30:00 +0800</lastBuildDate>
+    <atom:link href="https://tofuwine.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iQOO 13 关闭通话视频彩铃</title>
+      <link>https://tofuwine.github.io/posts/f25baf26/</link>
+      <pubDate>Thu, 21 Nov 2024 13:30:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/f25baf26/</guid>
+      <description>iQOO 手机关闭通话视频彩铃</description>
+    </item>
+  </channel>
+</rss>

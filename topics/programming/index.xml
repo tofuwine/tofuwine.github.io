@@ -116,11 +116,25 @@
       <description>Spring Boot 启动后自动执行特定方法</description>
     </item>
     <item>
+      <title>Docker Compose 入门</title>
+      <link>https://tofuwine.github.io/posts/1a161e90/</link>
+      <pubDate>Tue, 09 Apr 2024 08:35:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/1a161e90/</guid>
+      <description>Docker Compose 入门</description>
+    </item>
+    <item>
       <title>FreeMarker 基本用法</title>
       <link>https://tofuwine.github.io/posts/28095def/</link>
       <pubDate>Sun, 31 Mar 2024 11:10:20 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/28095def/</guid>
       <description>FreeMarker 基本语法介绍</description>
+    </item>
+    <item>
+      <title>YAML 基本语法</title>
+      <link>https://tofuwine.github.io/posts/2b8960db/</link>
+      <pubDate>Sat, 23 Mar 2024 10:26:56 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/2b8960db/</guid>
+      <description>YAML 基本语法介绍</description>
     </item>
     <item>
       <title>Java 获取应用 PID</title>
