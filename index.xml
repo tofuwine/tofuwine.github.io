@@ -356,6 +356,13 @@
       <description>介绍 Vim 基础命令</description>
     </item>
     <item>
+      <title>Maven 打包跳过测试的几种实现方式</title>
+      <link>https://tofuwine.github.io/posts/9327881c/</link>
+      <pubDate>Thu, 25 Jan 2024 10:18:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/9327881c/</guid>
+      <description>Maven 打包跳过测试的几种实现方式</description>
+    </item>
+    <item>
       <title>Java 位运算</title>
       <link>https://tofuwine.github.io/posts/f7d5beec/</link>
       <pubDate>Tue, 23 Jan 2024 16:12:00 +0800</pubDate>

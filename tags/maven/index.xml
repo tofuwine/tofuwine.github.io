@@ -16,6 +16,13 @@
       <description>记录 Maven 常见问题处理方式</description>
     </item>
     <item>
+      <title>Maven 打包跳过测试的几种实现方式</title>
+      <link>https://tofuwine.github.io/posts/9327881c/</link>
+      <pubDate>Thu, 25 Jan 2024 10:18:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/9327881c/</guid>
+      <description>Maven 打包跳过测试的几种实现方式</description>
+    </item>
+    <item>
       <title>Maven pom.xml 标签全量参考</title>
       <link>https://tofuwine.github.io/posts/c4440f3c/</link>
       <pubDate>Sat, 14 Mar 2020 10:00:00 +0800</pubDate>
