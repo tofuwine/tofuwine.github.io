@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SVN on Tofuwine&#39;s Blog</title>
+    <link>https://tofuwine.github.io/tags/svn/</link>
+    <description>Recent content in SVN on Tofuwine&#39;s Blog</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 06 Sep 2019 13:37:00 +0800</lastBuildDate>
+    <atom:link href="https://tofuwine.github.io/tags/svn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SVN 自动上锁</title>
+      <link>https://tofuwine.github.io/posts/30ad2cbc/</link>
+      <pubDate>Fri, 06 Sep 2019 13:37:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/30ad2cbc/</guid>
+      <description>本文介绍如何设置 SVN 自动上锁</description>
+    </item>
+  </channel>
+</rss>

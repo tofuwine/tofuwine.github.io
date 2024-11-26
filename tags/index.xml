@@ -6,8 +6,15 @@
     <description>Recent content in Tags on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 21 Nov 2024 13:48:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2024 13:58:00 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maven</title>
+      <link>https://tofuwine.github.io/tags/maven/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/maven/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Android</title>
       <link>https://tofuwine.github.io/tags/android/</link>
@@ -328,6 +335,13 @@
       <link>https://tofuwine.github.io/tags/new-feature/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/tags/new-feature/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SVN</title>
+      <link>https://tofuwine.github.io/tags/svn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/svn/</guid>
       <description></description>
     </item>
     <item>

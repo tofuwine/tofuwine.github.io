@@ -1,0 +1,1350 @@
+<!doctype html><html lang=zh dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Maven pom.xml 标签全量参考 | Tofuwine's Blog</title>
+<meta name=keywords content><meta name=description content='xml 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272 273 274 275 276 277 278 279 280 281 282 283 284 285 286 287 288 289 290 291 292 293 294 295 296 297 298 299 300 301 302 303 304 305 306 307 308 309 310 311 312 313 314 315 316 317 318 319 320 321 322 323 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 353 354 355 356 357 358 359 360 361 362 363 364 365 366 367 368 369 370 371 372 373 374 375 376 377 378 379 380 381 382 383 384 385 386 387 388 389 390 391 392 393 394 395 396 397 398 399 400 401 402 403 404 405 406 407 408 409 410 411 412 413 414 415 416 417 418 419 420 421 422 423 424 425 426 427 428 429 430 431 432 433 434 435 436 437 438 439 440 441 442 443 444 445 446 447 448 449 450 451 452 453 454 455 456 457 458 459 460 461 462 463 464 465 466 467 468 469 470 471 472 473 474 475 476 477 478 479 480 481 482 483 484 485 486 487 488 489 490 491 492 493 494 495 496 497 498 499 500 501 502 503 504 505 506 507 508 509 510 511 512 513 514 515 516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 531 532 533 534 535 536 537 538 539 540 541 542 543 544 545 546 547 548 549 550 551 552 553 554 555 556 557 558 559 560 561 562 563 564 565 566 567 568 569 570 571 572 573 574 575 576 577 578 579 580 581 582 583 584 585 586 587 588 589 590 591 592 593 594 595 596 597 598 599 600 601 602 603 604 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 623 624 625 626 627 628 629 630 631 632 633 634 635 636 637 638 639 640 641 642 643 644 645 646 647 648 649 650 651 652 653 654 655 656 657 658 659 660 661 662 663 664 665 666 667 668 669 670 <project xmlns="http://maven.'><meta name=author content="tofuwine"><link rel=canonical href=https://tofuwine.github.io/posts/c4440f3c/><meta name=google-site-verification content="ckyTuus1DUaw4_LZBZpYeGKqKWmtHFLEeqp1rsXNwZA"><meta name=yandex-verification content="XYZabc"><meta name=msvalidate.01 content="XYZabc"><meta name=baidu-site-verification content="codeva-9WUKJrZrua"><script defer src=https://static.cloudflareinsights.com/beacon.min.js data-cf-beacon='{"token": "d28b07fc964a45f4aeb37a3550910329"}'></script><link crossorigin=anonymous href=/assets/css/stylesheet.css rel="preload stylesheet" as=style><link rel=icon href=https://tofuwine.github.io/images/favicon.svg><link rel=icon type=image/png sizes=16x16 href=https://tofuwine.github.io/images/favicon.svg><link rel=icon type=image/png sizes=32x32 href=https://tofuwine.github.io/images/favicon.svg><link rel=apple-touch-icon href=https://tofuwine.github.io/images/favicon.svg><link rel=mask-icon href=https://tofuwine.github.io/images/favicon.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=zh href=https://tofuwine.github.io/posts/c4440f3c/><noscript><style>#theme-toggle,#top-link{display:none}</style></noscript><link crossorigin=anonymous href=/assets/css/pe.min.css rel="preload stylesheet" as=style><script defer crossorigin=anonymous src=/assets/js/pe.min.js></script><link rel=stylesheet href=https://cdn.staticfile.net/font-awesome/6.5.1/css/all.min.css><link rel=stylesheet href=https://cdn.staticfile.net/font-awesome/6.5.1/css/v4-shims.min.css><script id=MathJax-script async src=https://cdn.staticfile.net/mathjax/3.2.2/es5/tex-chtml.js></script><script>MathJax={tex:{displayMath:[["$$","$$"]],inlineMath:[["\\$","\\$"]]}}</script><meta property="og:title" content="Maven pom.xml 标签全量参考"><meta property="og:description" content='xml 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272 273 274 275 276 277 278 279 280 281 282 283 284 285 286 287 288 289 290 291 292 293 294 295 296 297 298 299 300 301 302 303 304 305 306 307 308 309 310 311 312 313 314 315 316 317 318 319 320 321 322 323 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 353 354 355 356 357 358 359 360 361 362 363 364 365 366 367 368 369 370 371 372 373 374 375 376 377 378 379 380 381 382 383 384 385 386 387 388 389 390 391 392 393 394 395 396 397 398 399 400 401 402 403 404 405 406 407 408 409 410 411 412 413 414 415 416 417 418 419 420 421 422 423 424 425 426 427 428 429 430 431 432 433 434 435 436 437 438 439 440 441 442 443 444 445 446 447 448 449 450 451 452 453 454 455 456 457 458 459 460 461 462 463 464 465 466 467 468 469 470 471 472 473 474 475 476 477 478 479 480 481 482 483 484 485 486 487 488 489 490 491 492 493 494 495 496 497 498 499 500 501 502 503 504 505 506 507 508 509 510 511 512 513 514 515 516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 531 532 533 534 535 536 537 538 539 540 541 542 543 544 545 546 547 548 549 550 551 552 553 554 555 556 557 558 559 560 561 562 563 564 565 566 567 568 569 570 571 572 573 574 575 576 577 578 579 580 581 582 583 584 585 586 587 588 589 590 591 592 593 594 595 596 597 598 599 600 601 602 603 604 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 623 624 625 626 627 628 629 630 631 632 633 634 635 636 637 638 639 640 641 642 643 644 645 646 647 648 649 650 651 652 653 654 655 656 657 658 659 660 661 662 663 664 665 666 667 668 669 670 <project xmlns="http://maven.'><meta property="og:type" content="article"><meta property="og:url" content="https://tofuwine.github.io/posts/c4440f3c/"><meta property="article:section" content="topics"><meta property="article:published_time" content="2020-03-14T10:00:00+08:00"><meta property="article:modified_time" content="2020-03-14T10:00:00+08:00"><meta property="og:site_name" content="Tofuwine's Blog"><meta name=twitter:card content="summary"><meta name=twitter:title content="Maven pom.xml 标签全量参考"><meta name=twitter:description content='xml 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272 273 274 275 276 277 278 279 280 281 282 283 284 285 286 287 288 289 290 291 292 293 294 295 296 297 298 299 300 301 302 303 304 305 306 307 308 309 310 311 312 313 314 315 316 317 318 319 320 321 322 323 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 353 354 355 356 357 358 359 360 361 362 363 364 365 366 367 368 369 370 371 372 373 374 375 376 377 378 379 380 381 382 383 384 385 386 387 388 389 390 391 392 393 394 395 396 397 398 399 400 401 402 403 404 405 406 407 408 409 410 411 412 413 414 415 416 417 418 419 420 421 422 423 424 425 426 427 428 429 430 431 432 433 434 435 436 437 438 439 440 441 442 443 444 445 446 447 448 449 450 451 452 453 454 455 456 457 458 459 460 461 462 463 464 465 466 467 468 469 470 471 472 473 474 475 476 477 478 479 480 481 482 483 484 485 486 487 488 489 490 491 492 493 494 495 496 497 498 499 500 501 502 503 504 505 506 507 508 509 510 511 512 513 514 515 516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 531 532 533 534 535 536 537 538 539 540 541 542 543 544 545 546 547 548 549 550 551 552 553 554 555 556 557 558 559 560 561 562 563 564 565 566 567 568 569 570 571 572 573 574 575 576 577 578 579 580 581 582 583 584 585 586 587 588 589 590 591 592 593 594 595 596 597 598 599 600 601 602 603 604 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 623 624 625 626 627 628 629 630 631 632 633 634 635 636 637 638 639 640 641 642 643 644 645 646 647 648 649 650 651 652 653 654 655 656 657 658 659 660 661 662 663 664 665 666 667 668 669 670 <project xmlns="http://maven.'><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"📂 专题","item":"https://tofuwine.github.io/topics/"},{"@type":"ListItem","position":2,"name":"🖥️ 计算机编程技术","item":"https://tofuwine.github.io/topics/programming/"},{"@type":"ListItem","position":3,"name":"Maven pom.xml 标签全量参考","item":"https://tofuwine.github.io/posts/c4440f3c/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Maven pom.xml 标签全量参考","name":"Maven pom.xml 标签全量参考","description":"xml 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272 273 274 275 276 277 278 279 280 281 282 283 284 285 286 287 288 289 290 291 292 293 294 295 296 297 298 299 300 301 302 303 304 305 306 307 308 309 310 311 312 313 314 315 316 317 318 319 320 321 322 323 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 353 354 355 356 357 358 359 360 361 362 363 364 365 366 367 368 369 370 371 372 373 374 375 376 377 378 379 380 381 382 383 384 385 386 387 388 389 390 391 392 393 394 395 396 397 398 399 400 401 402 403 404 405 406 407 408 409 410 411 412 413 414 415 416 417 418 419 420 421 422 423 424 425 426 427 428 429 430 431 432 433 434 435 436 437 438 439 440 441 442 443 444 445 446 447 448 449 450 451 452 453 454 455 456 457 458 459 460 461 462 463 464 465 466 467 468 469 470 471 472 473 474 475 476 477 478 479 480 481 482 483 484 485 486 487 488 489 490 491 492 493 494 495 496 497 498 499 500 501 502 503 504 505 506 507 508 509 510 511 512 513 514 515 516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 531 532 533 534 535 536 537 538 539 540 541 542 543 544 545 546 547 548 549 550 551 552 553 554 555 556 557 558 559 560 561 562 563 564 565 566 567 568 569 570 571 572 573 574 575 576 577 578 579 580 581 582 583 584 585 586 587 588 589 590 591 592 593 594 595 596 597 598 599 600 601 602 603 604 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 623 624 625 626 627 628 629 630 631 632 633 634 635 636 637 638 639 640 641 642 643 644 645 646 647 648 649 650 651 652 653 654 655 656 657 658 659 660 661 662 663 664 665 666 667 668 669 670 \u0026lt;project xmlns=\u0026#34;http://maven.","keywords":[""],"articleBody":" xml 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272 273 274 275 276 277 278 279 280 281 282 283 284 285 286 287 288 289 290 291 292 293 294 295 296 297 298 299 300 301 302 303 304 305 306 307 308 309 310 311 312 313 314 315 316 317 318 319 320 321 322 323 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 353 354 355 356 357 358 359 360 361 362 363 364 365 366 367 368 369 370 371 372 373 374 375 376 377 378 379 380 381 382 383 384 385 386 387 388 389 390 391 392 393 394 395 396 397 398 399 400 401 402 403 404 405 406 407 408 409 410 411 412 413 414 415 416 417 418 419 420 421 422 423 424 425 426 427 428 429 430 431 432 433 434 435 436 437 438 439 440 441 442 443 444 445 446 447 448 449 450 451 452 453 454 455 456 457 458 459 460 461 462 463 464 465 466 467 468 469 470 471 472 473 474 475 476 477 478 479 480 481 482 483 484 485 486 487 488 489 490 491 492 493 494 495 496 497 498 499 500 501 502 503 504 505 506 507 508 509 510 511 512 513 514 515 516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 531 532 533 534 535 536 537 538 539 540 541 542 543 544 545 546 547 548 549 550 551 552 553 554 555 556 557 558 559 560 561 562 563 564 565 566 567 568 569 570 571 572 573 574 575 576 577 578 579 580 581 582 583 584 585 586 587 588 589 590 591 592 593 594 595 596 597 598 599 600 601 602 603 604 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 623 624 625 626 627 628 629 630 631 632 633 634 635 636 637 638 639 640 641 642 643 644 645 646 647 648 649 650 651 652 653 654 655 656 657 658 659 660 661 662 663 664 665 666 667 668 669 670 ","wordCount":"1833","inLanguage":"zh","datePublished":"2020-03-14T10:00:00+08:00","dateModified":"2020-03-14T10:00:00+08:00","author":{"@type":"Person","name":"tofuwine"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://tofuwine.github.io/posts/c4440f3c/"},"publisher":{"@type":"Organization","name":"Tofuwine's Blog","logo":{"@type":"ImageObject","url":"https://tofuwine.github.io/images/favicon.svg"}}}</script></head><body id=top><script>localStorage.getItem("pref-theme")==="dark"&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://tofuwine.github.io/><img src=https://tofuwine.github.io/images/profile.png alt aria-label=logo height=35>Tofuwine's Blog</a><div class=logo-switches></div></div><ul id=menu><li><a href=https://tofuwine.github.io/topics><span>📂 专题</span></a></li><li><a href=https://tofuwine.github.io/moments><span>🌟 瞬间</span></a></li><li><a href=https://tofuwine.github.io/archives><span>🗂️ 归档</span></a></li><li><a href=https://tofuwine.github.io/friend><span>🤝 友链</span></a></li><li><a href=https://tofuwine.github.io/search accesskey=/><span>🔍 搜索</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=https://tofuwine.github.io/>🏠 主页</a>&nbsp;»&nbsp;<a href=https://tofuwine.github.io/topics/>📂 专题</a>&nbsp;»&nbsp;<a href=https://tofuwine.github.io/topics/programming/>🖥️ 计算机编程技术</a></div><h1 class="post-title entry-hint-parent">Maven pom.xml 标签全量参考</h1><div class=post-meta><span class=pe-post-meta-item><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentcolor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select:text"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select:text"/><line x1="16" y1="2" x2="16" y2="6" style="user-select:text"/><line x1="8" y1="2" x2="8" y2="6" style="user-select:text"/><line x1="3" y1="10" x2="21" y2="10" style="user-select:text"/></svg><span>2020-03-14</span></span>&nbsp;·&nbsp;<span class=pe-post-meta-item><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentcolor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text" style="user-select:text"><path d="M14 2H6A2 2 0 004 4v16a2 2 0 002 2h12a2 2 0 002-2V8z" style="user-select:text"/><polyline points="14 2 14 8 20 8" style="user-select:text"/><line x1="16" y1="13" x2="8" y2="13" style="user-select:text"/><line x1="16" y1="17" x2="8" y2="17" style="user-select:text"/><polyline points="10 9 9 9 8 9" style="user-select:text"/></svg><span>1833 字</span></span>&nbsp;·&nbsp;<span class=pe-post-meta-item><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentcolor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg><span>9 分钟</span></span>
+<span class=pe-post-meta-item>&nbsp;·&nbsp;<svg t="1714036239378" fill="currentcolor" class="icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" p-id="6659" width="256" height="256"><path d="M690 78.2c-18.6-18.8-49-19-67.8-.4s-19 49-.4 67.8l255.4 258.6c67.8 68.6 67.8 178.8.0 247.4L653.4 878.2c-18.6 18.8-18.4 49.2.4 67.8s49.2 18.4 67.8-.4l224-226.4c104.8-106 104.8-276.4.0-382.4L690 78.2zM485.4 101.4c-24-24-56.6-37.4-90.6-37.4H96C43 64 0 107 0 160v299c0 34 13.4 66.6 37.4 90.6l336 336c50 50 131 50 181 0l267-267c50-50 50-131 0-181l-336-336zM96 160h299c8.4.0 16.6 3.4 22.6 9.4l336 336c12.4 12.4 12.4 32.8.0 45.2l-267 267c-12.4 12.4-32.8 12.4-45.2.0l-336-336c-6-6-9.4-14.2-9.4-22.6V160zm192 128a64 64 0 10-128 0 64 64 0 10128 0z" p-id="6660"/></svg></span><ul class=pe-post-meta-item><a href=https://tofuwine.github.io/tags/maven/>#Maven</a></ul></div></header><script src=/js/pe-toc.min.445eb1bfc5e85dd13b9519fcc2a806522e9629b6224a2974052789ba00ab78af.js integrity="sha256-RF6xv8XoXdE7lRn8wqgGUi6WKbYiSil0BSeJugCreK8="></script><div class=post-content><div class="pe-tip warning"><i class="icon fas fa-lightbulb fa-fw" aria-hidden=true></i>
+本文最后更新于&nbsp;4 年前&nbsp;，文中信息可能已经过时。如有问题请在评论区留言。</div><div class="pe-code-block-wrap scrollable"><div class="pe-code-block-header pe-code-details-summary"><div class=pe-code-block-header-left><span>xml</span></div><div class=pe-code-block-header-center><span></span></div><div class=pe-code-block-header-right><button class=pe-code-copy-button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="pe-icon"><path fill="currentcolor" fill-rule="evenodd" d="M7 5a3 3 0 013-3h9a3 3 0 013 3v9a3 3 0 01-3 3h-2v2a3 3 0 01-3 3H5a3 3 0 01-3-3v-9a3 3 0 013-3h2zm2 2h5a3 3 0 013 3v5h2a1 1 0 001-1V5a1 1 0 00-1-1h-9A1 1 0 009 5zM5 9a1 1 0 00-1 1v9a1 1 0 001 1h9a1 1 0 001-1v-9a1 1 0 00-1-1z" clip-rule="evenodd"/></svg></button></div></div><div class="pe-code-details-content scrollable"><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>  1
+</span><span class=lnt>  2
+</span><span class=lnt>  3
+</span><span class=lnt>  4
+</span><span class=lnt>  5
+</span><span class=lnt>  6
+</span><span class=lnt>  7
+</span><span class=lnt>  8
+</span><span class=lnt>  9
+</span><span class=lnt> 10
+</span><span class=lnt> 11
+</span><span class=lnt> 12
+</span><span class=lnt> 13
+</span><span class=lnt> 14
+</span><span class=lnt> 15
+</span><span class=lnt> 16
+</span><span class=lnt> 17
+</span><span class=lnt> 18
+</span><span class=lnt> 19
+</span><span class=lnt> 20
+</span><span class=lnt> 21
+</span><span class=lnt> 22
+</span><span class=lnt> 23
+</span><span class=lnt> 24
+</span><span class=lnt> 25
+</span><span class=lnt> 26
+</span><span class=lnt> 27
+</span><span class=lnt> 28
+</span><span class=lnt> 29
+</span><span class=lnt> 30
+</span><span class=lnt> 31
+</span><span class=lnt> 32
+</span><span class=lnt> 33
+</span><span class=lnt> 34
+</span><span class=lnt> 35
+</span><span class=lnt> 36
+</span><span class=lnt> 37
+</span><span class=lnt> 38
+</span><span class=lnt> 39
+</span><span class=lnt> 40
+</span><span class=lnt> 41
+</span><span class=lnt> 42
+</span><span class=lnt> 43
+</span><span class=lnt> 44
+</span><span class=lnt> 45
+</span><span class=lnt> 46
+</span><span class=lnt> 47
+</span><span class=lnt> 48
+</span><span class=lnt> 49
+</span><span class=lnt> 50
+</span><span class=lnt> 51
+</span><span class=lnt> 52
+</span><span class=lnt> 53
+</span><span class=lnt> 54
+</span><span class=lnt> 55
+</span><span class=lnt> 56
+</span><span class=lnt> 57
+</span><span class=lnt> 58
+</span><span class=lnt> 59
+</span><span class=lnt> 60
+</span><span class=lnt> 61
+</span><span class=lnt> 62
+</span><span class=lnt> 63
+</span><span class=lnt> 64
+</span><span class=lnt> 65
+</span><span class=lnt> 66
+</span><span class=lnt> 67
+</span><span class=lnt> 68
+</span><span class=lnt> 69
+</span><span class=lnt> 70
+</span><span class=lnt> 71
+</span><span class=lnt> 72
+</span><span class=lnt> 73
+</span><span class=lnt> 74
+</span><span class=lnt> 75
+</span><span class=lnt> 76
+</span><span class=lnt> 77
+</span><span class=lnt> 78
+</span><span class=lnt> 79
+</span><span class=lnt> 80
+</span><span class=lnt> 81
+</span><span class=lnt> 82
+</span><span class=lnt> 83
+</span><span class=lnt> 84
+</span><span class=lnt> 85
+</span><span class=lnt> 86
+</span><span class=lnt> 87
+</span><span class=lnt> 88
+</span><span class=lnt> 89
+</span><span class=lnt> 90
+</span><span class=lnt> 91
+</span><span class=lnt> 92
+</span><span class=lnt> 93
+</span><span class=lnt> 94
+</span><span class=lnt> 95
+</span><span class=lnt> 96
+</span><span class=lnt> 97
+</span><span class=lnt> 98
+</span><span class=lnt> 99
+</span><span class=lnt>100
+</span><span class=lnt>101
+</span><span class=lnt>102
+</span><span class=lnt>103
+</span><span class=lnt>104
+</span><span class=lnt>105
+</span><span class=lnt>106
+</span><span class=lnt>107
+</span><span class=lnt>108
+</span><span class=lnt>109
+</span><span class=lnt>110
+</span><span class=lnt>111
+</span><span class=lnt>112
+</span><span class=lnt>113
+</span><span class=lnt>114
+</span><span class=lnt>115
+</span><span class=lnt>116
+</span><span class=lnt>117
+</span><span class=lnt>118
+</span><span class=lnt>119
+</span><span class=lnt>120
+</span><span class=lnt>121
+</span><span class=lnt>122
+</span><span class=lnt>123
+</span><span class=lnt>124
+</span><span class=lnt>125
+</span><span class=lnt>126
+</span><span class=lnt>127
+</span><span class=lnt>128
+</span><span class=lnt>129
+</span><span class=lnt>130
+</span><span class=lnt>131
+</span><span class=lnt>132
+</span><span class=lnt>133
+</span><span class=lnt>134
+</span><span class=lnt>135
+</span><span class=lnt>136
+</span><span class=lnt>137
+</span><span class=lnt>138
+</span><span class=lnt>139
+</span><span class=lnt>140
+</span><span class=lnt>141
+</span><span class=lnt>142
+</span><span class=lnt>143
+</span><span class=lnt>144
+</span><span class=lnt>145
+</span><span class=lnt>146
+</span><span class=lnt>147
+</span><span class=lnt>148
+</span><span class=lnt>149
+</span><span class=lnt>150
+</span><span class=lnt>151
+</span><span class=lnt>152
+</span><span class=lnt>153
+</span><span class=lnt>154
+</span><span class=lnt>155
+</span><span class=lnt>156
+</span><span class=lnt>157
+</span><span class=lnt>158
+</span><span class=lnt>159
+</span><span class=lnt>160
+</span><span class=lnt>161
+</span><span class=lnt>162
+</span><span class=lnt>163
+</span><span class=lnt>164
+</span><span class=lnt>165
+</span><span class=lnt>166
+</span><span class=lnt>167
+</span><span class=lnt>168
+</span><span class=lnt>169
+</span><span class=lnt>170
+</span><span class=lnt>171
+</span><span class=lnt>172
+</span><span class=lnt>173
+</span><span class=lnt>174
+</span><span class=lnt>175
+</span><span class=lnt>176
+</span><span class=lnt>177
+</span><span class=lnt>178
+</span><span class=lnt>179
+</span><span class=lnt>180
+</span><span class=lnt>181
+</span><span class=lnt>182
+</span><span class=lnt>183
+</span><span class=lnt>184
+</span><span class=lnt>185
+</span><span class=lnt>186
+</span><span class=lnt>187
+</span><span class=lnt>188
+</span><span class=lnt>189
+</span><span class=lnt>190
+</span><span class=lnt>191
+</span><span class=lnt>192
+</span><span class=lnt>193
+</span><span class=lnt>194
+</span><span class=lnt>195
+</span><span class=lnt>196
+</span><span class=lnt>197
+</span><span class=lnt>198
+</span><span class=lnt>199
+</span><span class=lnt>200
+</span><span class=lnt>201
+</span><span class=lnt>202
+</span><span class=lnt>203
+</span><span class=lnt>204
+</span><span class=lnt>205
+</span><span class=lnt>206
+</span><span class=lnt>207
+</span><span class=lnt>208
+</span><span class=lnt>209
+</span><span class=lnt>210
+</span><span class=lnt>211
+</span><span class=lnt>212
+</span><span class=lnt>213
+</span><span class=lnt>214
+</span><span class=lnt>215
+</span><span class=lnt>216
+</span><span class=lnt>217
+</span><span class=lnt>218
+</span><span class=lnt>219
+</span><span class=lnt>220
+</span><span class=lnt>221
+</span><span class=lnt>222
+</span><span class=lnt>223
+</span><span class=lnt>224
+</span><span class=lnt>225
+</span><span class=lnt>226
+</span><span class=lnt>227
+</span><span class=lnt>228
+</span><span class=lnt>229
+</span><span class=lnt>230
+</span><span class=lnt>231
+</span><span class=lnt>232
+</span><span class=lnt>233
+</span><span class=lnt>234
+</span><span class=lnt>235
+</span><span class=lnt>236
+</span><span class=lnt>237
+</span><span class=lnt>238
+</span><span class=lnt>239
+</span><span class=lnt>240
+</span><span class=lnt>241
+</span><span class=lnt>242
+</span><span class=lnt>243
+</span><span class=lnt>244
+</span><span class=lnt>245
+</span><span class=lnt>246
+</span><span class=lnt>247
+</span><span class=lnt>248
+</span><span class=lnt>249
+</span><span class=lnt>250
+</span><span class=lnt>251
+</span><span class=lnt>252
+</span><span class=lnt>253
+</span><span class=lnt>254
+</span><span class=lnt>255
+</span><span class=lnt>256
+</span><span class=lnt>257
+</span><span class=lnt>258
+</span><span class=lnt>259
+</span><span class=lnt>260
+</span><span class=lnt>261
+</span><span class=lnt>262
+</span><span class=lnt>263
+</span><span class=lnt>264
+</span><span class=lnt>265
+</span><span class=lnt>266
+</span><span class=lnt>267
+</span><span class=lnt>268
+</span><span class=lnt>269
+</span><span class=lnt>270
+</span><span class=lnt>271
+</span><span class=lnt>272
+</span><span class=lnt>273
+</span><span class=lnt>274
+</span><span class=lnt>275
+</span><span class=lnt>276
+</span><span class=lnt>277
+</span><span class=lnt>278
+</span><span class=lnt>279
+</span><span class=lnt>280
+</span><span class=lnt>281
+</span><span class=lnt>282
+</span><span class=lnt>283
+</span><span class=lnt>284
+</span><span class=lnt>285
+</span><span class=lnt>286
+</span><span class=lnt>287
+</span><span class=lnt>288
+</span><span class=lnt>289
+</span><span class=lnt>290
+</span><span class=lnt>291
+</span><span class=lnt>292
+</span><span class=lnt>293
+</span><span class=lnt>294
+</span><span class=lnt>295
+</span><span class=lnt>296
+</span><span class=lnt>297
+</span><span class=lnt>298
+</span><span class=lnt>299
+</span><span class=lnt>300
+</span><span class=lnt>301
+</span><span class=lnt>302
+</span><span class=lnt>303
+</span><span class=lnt>304
+</span><span class=lnt>305
+</span><span class=lnt>306
+</span><span class=lnt>307
+</span><span class=lnt>308
+</span><span class=lnt>309
+</span><span class=lnt>310
+</span><span class=lnt>311
+</span><span class=lnt>312
+</span><span class=lnt>313
+</span><span class=lnt>314
+</span><span class=lnt>315
+</span><span class=lnt>316
+</span><span class=lnt>317
+</span><span class=lnt>318
+</span><span class=lnt>319
+</span><span class=lnt>320
+</span><span class=lnt>321
+</span><span class=lnt>322
+</span><span class=lnt>323
+</span><span class=lnt>324
+</span><span class=lnt>325
+</span><span class=lnt>326
+</span><span class=lnt>327
+</span><span class=lnt>328
+</span><span class=lnt>329
+</span><span class=lnt>330
+</span><span class=lnt>331
+</span><span class=lnt>332
+</span><span class=lnt>333
+</span><span class=lnt>334
+</span><span class=lnt>335
+</span><span class=lnt>336
+</span><span class=lnt>337
+</span><span class=lnt>338
+</span><span class=lnt>339
+</span><span class=lnt>340
+</span><span class=lnt>341
+</span><span class=lnt>342
+</span><span class=lnt>343
+</span><span class=lnt>344
+</span><span class=lnt>345
+</span><span class=lnt>346
+</span><span class=lnt>347
+</span><span class=lnt>348
+</span><span class=lnt>349
+</span><span class=lnt>350
+</span><span class=lnt>351
+</span><span class=lnt>352
+</span><span class=lnt>353
+</span><span class=lnt>354
+</span><span class=lnt>355
+</span><span class=lnt>356
+</span><span class=lnt>357
+</span><span class=lnt>358
+</span><span class=lnt>359
+</span><span class=lnt>360
+</span><span class=lnt>361
+</span><span class=lnt>362
+</span><span class=lnt>363
+</span><span class=lnt>364
+</span><span class=lnt>365
+</span><span class=lnt>366
+</span><span class=lnt>367
+</span><span class=lnt>368
+</span><span class=lnt>369
+</span><span class=lnt>370
+</span><span class=lnt>371
+</span><span class=lnt>372
+</span><span class=lnt>373
+</span><span class=lnt>374
+</span><span class=lnt>375
+</span><span class=lnt>376
+</span><span class=lnt>377
+</span><span class=lnt>378
+</span><span class=lnt>379
+</span><span class=lnt>380
+</span><span class=lnt>381
+</span><span class=lnt>382
+</span><span class=lnt>383
+</span><span class=lnt>384
+</span><span class=lnt>385
+</span><span class=lnt>386
+</span><span class=lnt>387
+</span><span class=lnt>388
+</span><span class=lnt>389
+</span><span class=lnt>390
+</span><span class=lnt>391
+</span><span class=lnt>392
+</span><span class=lnt>393
+</span><span class=lnt>394
+</span><span class=lnt>395
+</span><span class=lnt>396
+</span><span class=lnt>397
+</span><span class=lnt>398
+</span><span class=lnt>399
+</span><span class=lnt>400
+</span><span class=lnt>401
+</span><span class=lnt>402
+</span><span class=lnt>403
+</span><span class=lnt>404
+</span><span class=lnt>405
+</span><span class=lnt>406
+</span><span class=lnt>407
+</span><span class=lnt>408
+</span><span class=lnt>409
+</span><span class=lnt>410
+</span><span class=lnt>411
+</span><span class=lnt>412
+</span><span class=lnt>413
+</span><span class=lnt>414
+</span><span class=lnt>415
+</span><span class=lnt>416
+</span><span class=lnt>417
+</span><span class=lnt>418
+</span><span class=lnt>419
+</span><span class=lnt>420
+</span><span class=lnt>421
+</span><span class=lnt>422
+</span><span class=lnt>423
+</span><span class=lnt>424
+</span><span class=lnt>425
+</span><span class=lnt>426
+</span><span class=lnt>427
+</span><span class=lnt>428
+</span><span class=lnt>429
+</span><span class=lnt>430
+</span><span class=lnt>431
+</span><span class=lnt>432
+</span><span class=lnt>433
+</span><span class=lnt>434
+</span><span class=lnt>435
+</span><span class=lnt>436
+</span><span class=lnt>437
+</span><span class=lnt>438
+</span><span class=lnt>439
+</span><span class=lnt>440
+</span><span class=lnt>441
+</span><span class=lnt>442
+</span><span class=lnt>443
+</span><span class=lnt>444
+</span><span class=lnt>445
+</span><span class=lnt>446
+</span><span class=lnt>447
+</span><span class=lnt>448
+</span><span class=lnt>449
+</span><span class=lnt>450
+</span><span class=lnt>451
+</span><span class=lnt>452
+</span><span class=lnt>453
+</span><span class=lnt>454
+</span><span class=lnt>455
+</span><span class=lnt>456
+</span><span class=lnt>457
+</span><span class=lnt>458
+</span><span class=lnt>459
+</span><span class=lnt>460
+</span><span class=lnt>461
+</span><span class=lnt>462
+</span><span class=lnt>463
+</span><span class=lnt>464
+</span><span class=lnt>465
+</span><span class=lnt>466
+</span><span class=lnt>467
+</span><span class=lnt>468
+</span><span class=lnt>469
+</span><span class=lnt>470
+</span><span class=lnt>471
+</span><span class=lnt>472
+</span><span class=lnt>473
+</span><span class=lnt>474
+</span><span class=lnt>475
+</span><span class=lnt>476
+</span><span class=lnt>477
+</span><span class=lnt>478
+</span><span class=lnt>479
+</span><span class=lnt>480
+</span><span class=lnt>481
+</span><span class=lnt>482
+</span><span class=lnt>483
+</span><span class=lnt>484
+</span><span class=lnt>485
+</span><span class=lnt>486
+</span><span class=lnt>487
+</span><span class=lnt>488
+</span><span class=lnt>489
+</span><span class=lnt>490
+</span><span class=lnt>491
+</span><span class=lnt>492
+</span><span class=lnt>493
+</span><span class=lnt>494
+</span><span class=lnt>495
+</span><span class=lnt>496
+</span><span class=lnt>497
+</span><span class=lnt>498
+</span><span class=lnt>499
+</span><span class=lnt>500
+</span><span class=lnt>501
+</span><span class=lnt>502
+</span><span class=lnt>503
+</span><span class=lnt>504
+</span><span class=lnt>505
+</span><span class=lnt>506
+</span><span class=lnt>507
+</span><span class=lnt>508
+</span><span class=lnt>509
+</span><span class=lnt>510
+</span><span class=lnt>511
+</span><span class=lnt>512
+</span><span class=lnt>513
+</span><span class=lnt>514
+</span><span class=lnt>515
+</span><span class=lnt>516
+</span><span class=lnt>517
+</span><span class=lnt>518
+</span><span class=lnt>519
+</span><span class=lnt>520
+</span><span class=lnt>521
+</span><span class=lnt>522
+</span><span class=lnt>523
+</span><span class=lnt>524
+</span><span class=lnt>525
+</span><span class=lnt>526
+</span><span class=lnt>527
+</span><span class=lnt>528
+</span><span class=lnt>529
+</span><span class=lnt>530
+</span><span class=lnt>531
+</span><span class=lnt>532
+</span><span class=lnt>533
+</span><span class=lnt>534
+</span><span class=lnt>535
+</span><span class=lnt>536
+</span><span class=lnt>537
+</span><span class=lnt>538
+</span><span class=lnt>539
+</span><span class=lnt>540
+</span><span class=lnt>541
+</span><span class=lnt>542
+</span><span class=lnt>543
+</span><span class=lnt>544
+</span><span class=lnt>545
+</span><span class=lnt>546
+</span><span class=lnt>547
+</span><span class=lnt>548
+</span><span class=lnt>549
+</span><span class=lnt>550
+</span><span class=lnt>551
+</span><span class=lnt>552
+</span><span class=lnt>553
+</span><span class=lnt>554
+</span><span class=lnt>555
+</span><span class=lnt>556
+</span><span class=lnt>557
+</span><span class=lnt>558
+</span><span class=lnt>559
+</span><span class=lnt>560
+</span><span class=lnt>561
+</span><span class=lnt>562
+</span><span class=lnt>563
+</span><span class=lnt>564
+</span><span class=lnt>565
+</span><span class=lnt>566
+</span><span class=lnt>567
+</span><span class=lnt>568
+</span><span class=lnt>569
+</span><span class=lnt>570
+</span><span class=lnt>571
+</span><span class=lnt>572
+</span><span class=lnt>573
+</span><span class=lnt>574
+</span><span class=lnt>575
+</span><span class=lnt>576
+</span><span class=lnt>577
+</span><span class=lnt>578
+</span><span class=lnt>579
+</span><span class=lnt>580
+</span><span class=lnt>581
+</span><span class=lnt>582
+</span><span class=lnt>583
+</span><span class=lnt>584
+</span><span class=lnt>585
+</span><span class=lnt>586
+</span><span class=lnt>587
+</span><span class=lnt>588
+</span><span class=lnt>589
+</span><span class=lnt>590
+</span><span class=lnt>591
+</span><span class=lnt>592
+</span><span class=lnt>593
+</span><span class=lnt>594
+</span><span class=lnt>595
+</span><span class=lnt>596
+</span><span class=lnt>597
+</span><span class=lnt>598
+</span><span class=lnt>599
+</span><span class=lnt>600
+</span><span class=lnt>601
+</span><span class=lnt>602
+</span><span class=lnt>603
+</span><span class=lnt>604
+</span><span class=lnt>605
+</span><span class=lnt>606
+</span><span class=lnt>607
+</span><span class=lnt>608
+</span><span class=lnt>609
+</span><span class=lnt>610
+</span><span class=lnt>611
+</span><span class=lnt>612
+</span><span class=lnt>613
+</span><span class=lnt>614
+</span><span class=lnt>615
+</span><span class=lnt>616
+</span><span class=lnt>617
+</span><span class=lnt>618
+</span><span class=lnt>619
+</span><span class=lnt>620
+</span><span class=lnt>621
+</span><span class=lnt>622
+</span><span class=lnt>623
+</span><span class=lnt>624
+</span><span class=lnt>625
+</span><span class=lnt>626
+</span><span class=lnt>627
+</span><span class=lnt>628
+</span><span class=lnt>629
+</span><span class=lnt>630
+</span><span class=lnt>631
+</span><span class=lnt>632
+</span><span class=lnt>633
+</span><span class=lnt>634
+</span><span class=lnt>635
+</span><span class=lnt>636
+</span><span class=lnt>637
+</span><span class=lnt>638
+</span><span class=lnt>639
+</span><span class=lnt>640
+</span><span class=lnt>641
+</span><span class=lnt>642
+</span><span class=lnt>643
+</span><span class=lnt>644
+</span><span class=lnt>645
+</span><span class=lnt>646
+</span><span class=lnt>647
+</span><span class=lnt>648
+</span><span class=lnt>649
+</span><span class=lnt>650
+</span><span class=lnt>651
+</span><span class=lnt>652
+</span><span class=lnt>653
+</span><span class=lnt>654
+</span><span class=lnt>655
+</span><span class=lnt>656
+</span><span class=lnt>657
+</span><span class=lnt>658
+</span><span class=lnt>659
+</span><span class=lnt>660
+</span><span class=lnt>661
+</span><span class=lnt>662
+</span><span class=lnt>663
+</span><span class=lnt>664
+</span><span class=lnt>665
+</span><span class=lnt>666
+</span><span class=lnt>667
+</span><span class=lnt>668
+</span><span class=lnt>669
+</span><span class=lnt>670
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-xml data-lang=xml><span class=line><span class=cl><span class=nt>&lt;project</span> <span class=na>xmlns=</span><span class=s>&#34;http://maven.apache.org/POM/4.0.0&#34;</span> <span class=na>xmlns:xsi=</span><span class=s>&#34;http://www.w3.org/2001/XMLSchema-instance&#34;</span>
+</span></span><span class=line><span class=cl>         <span class=na>xsi:schemaLocation=</span><span class=s>&#34;http://maven.apache.org/POM/4.0.0http://maven.apache.org/maven-v4_0_0.xsd&#34;</span><span class=nt>&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--父项目的坐标。如果项目中没有规定某个元素的值，那么父项目中的对应值即为项目的默认值。 坐标包括group ID，artifact ID和
+</span></span></span><span class=line><span class=cl><span class=c>    version。 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;parent&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--被继承的父项目的构件标识符 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;artifactId</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--被继承的父项目的全球唯一标识符 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;groupId</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--被继承的父项目的版本 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;version</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!-- 父项目的pom.xml文件的相对路径。相对路径允许你选择一个不同的路径。默认值是../pom.xml。Maven首先在构建当前项目的地方寻找父项
+</span></span></span><span class=line><span class=cl><span class=c>        目的pom，其次在文件系统的这个位置（relativePath位置），然后在本地仓库，最后在远程仓库寻找父项目的pom。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;relativePath</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/parent&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--声明项目描述符遵循哪一个POM模型版本。模型本身的版本很少改变，虽然如此，但它仍然是必不可少的，这是为了当Maven引入了新的特性或者其他模型变更的时候，确保稳定性。 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;modelVersion&gt;</span>4.0.0<span class=nt>&lt;/modelVersion&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--项目的全球唯一标识符，通常使用全限定的包名区分该项目和其他项目。并且构建时生成的路径也是由此生成， 如com.mycompany.app生成的相对路径为：/com/mycompany/app --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;groupId&gt;</span>asia.banseon<span class=nt>&lt;/groupId&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!-- 构件的标识符，它和group ID一起唯一标识一个构件。换句话说，你不能有两个不同的项目拥有同样的artifact ID和groupID；在某个
+</span></span></span><span class=line><span class=cl><span class=c>    特定的group ID下，artifact ID也必须是唯一的。构件是项目产生的或使用的一个东西，Maven为项目产生的构件包括：JARs，源 码，二进制发布和WARs等。 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;artifactId&gt;</span>banseon-maven2<span class=nt>&lt;/artifactId&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--项目产生的构件类型，例如jar、war、ear、pom。插件可以创建他们自己的构件类型，所以前面列的不是全部构件类型 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;packaging&gt;</span>jar<span class=nt>&lt;/packaging&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--项目当前版本，格式为:主版本.次版本.增量版本-限定版本号 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;version&gt;</span>1.0-SNAPSHOT<span class=nt>&lt;/version&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--项目的名称, Maven产生的文档用 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;name&gt;</span>banseon-maven<span class=nt>&lt;/name&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--项目主页的URL, Maven产生的文档用 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;url&gt;</span>http://www.baidu.com/banseon<span class=nt>&lt;/url&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!-- 项目的详细描述, Maven 产生的文档用。 当这个元素能够用HTML格式描述时（例如，CDATA中的文本会被解析器忽略，就可以包含HTML标
+</span></span></span><span class=line><span class=cl><span class=c>    签）， 不鼓励使用纯文本描述。如果你需要修改产生的web站点的索引页面，你应该修改你自己的索引页文件，而不是调整这里的文档。 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;description&gt;</span>A maven project to study maven.<span class=nt>&lt;/description&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--描述了这个项目构建环境中的前提条件。 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;prerequisites&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--构建该项目或使用该插件所需要的Maven的最低版本 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;maven</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/prerequisites&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--项目的问题管理系统(Bugzilla, Jira, Scarab,或任何你喜欢的问题管理系统)的名称和URL，本例为 jira --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;issueManagement&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--问题管理系统（例如jira）的名字， --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;system&gt;</span>jira<span class=nt>&lt;/system&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--该项目使用的问题管理系统的URL --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;url&gt;</span>http://jira.baidu.com/banseon<span class=nt>&lt;/url&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/issueManagement&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--项目持续集成信息 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;ciManagement&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--持续集成系统的名字，例如continuum --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;system</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--该项目使用的持续集成系统的URL（如果持续集成系统有web接口的话）。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;url</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--构建完成时，需要通知的开发者/用户的配置项。包括被通知者信息和通知条件（错误，失败，成功，警告） --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;notifiers&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--配置一种方式，当构建中断时，以该方式通知用户/开发者 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;notifier&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--传送通知的途径 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;type</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--发生错误时是否通知 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;sendOnError</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--构建失败时是否通知 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;sendOnFailure</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--构建成功时是否通知 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;sendOnSuccess</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--发生警告时是否通知 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;sendOnWarning</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--不赞成使用。通知发送到哪里 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;address</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--扩展配置项 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;configuration</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/notifier&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/notifiers&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/ciManagement&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--项目创建年份，4位数字。当产生版权信息时需要使用这个值。 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;inceptionYear</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--项目相关邮件列表信息 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;mailingLists&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--该元素描述了项目相关的所有邮件列表。自动产生的网站引用这些信息。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;mailingList&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--邮件的名称 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;name&gt;</span>Demo<span class=nt>&lt;/name&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--发送邮件的地址或链接，如果是邮件地址，创建文档时，mailto: 链接会被自动创建 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;post&gt;</span>banseon@126.com<span class=nt>&lt;/post&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--订阅邮件的地址或链接，如果是邮件地址，创建文档时，mailto: 链接会被自动创建 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;subscribe&gt;</span>banseon@126.com<span class=nt>&lt;/subscribe&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--取消订阅邮件的地址或链接，如果是邮件地址，创建文档时，mailto: 链接会被自动创建 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;unsubscribe&gt;</span>banseon@126.com<span class=nt>&lt;/unsubscribe&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--你可以浏览邮件信息的URL --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;archive&gt;</span>http:/hi.baidu.com/banseon/demo/dev/<span class=nt>&lt;/archive&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/mailingList&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/mailingLists&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--项目开发者列表 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;developers&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--某个项目开发者的信息 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;developer&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--SCM里项目开发者的唯一标识符 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;id&gt;</span>HELLO WORLD<span class=nt>&lt;/id&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--项目开发者的全名 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;name&gt;</span>banseon<span class=nt>&lt;/name&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--项目开发者的email --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;email&gt;</span>banseon@126.com<span class=nt>&lt;/email&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--项目开发者的主页的URL --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;url</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--项目开发者在项目中扮演的角色，角色元素描述了各种角色 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;roles&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;role&gt;</span>Project Manager<span class=nt>&lt;/role&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;role&gt;</span>Architect<span class=nt>&lt;/role&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/roles&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--项目开发者所属组织 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;organization&gt;</span>demo<span class=nt>&lt;/organization&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--项目开发者所属组织的URL --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;organizationUrl&gt;</span>http://hi.baidu.com/banseon<span class=nt>&lt;/organizationUrl&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--项目开发者属性，如即时消息如何处理等 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;properties&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;dept&gt;</span>No<span class=nt>&lt;/dept&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/properties&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--项目开发者所在时区， -11到12范围内的整数。 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;timezone&gt;</span>-5<span class=nt>&lt;/timezone&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/developer&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/developers&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--项目的其他贡献者列表 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;contributors&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--项目的其他贡献者。参见developers/developer元素 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;contributor&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;name</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;email</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;url</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;organization</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;organizationUrl</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;roles</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;timezone</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;properties</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/contributor&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/contributors&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--该元素描述了项目所有License列表。 应该只列出该项目的license列表，不要列出依赖项目的 license列表。如果列出多个license，用户可以选择它们中的一个而不是接受所有license。 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;licenses&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--描述了项目的license，用于生成项目的web站点的license页面，其他一些报表和validation也会用到该元素。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;license&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--license用于法律上的名称 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;name&gt;</span>Apache 2<span class=nt>&lt;/name&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--官方的license正文页面的URL --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;url&gt;</span>http://www.baidu.com/banseon/LICENSE-2.0.txt<span class=nt>&lt;/url&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--项目分发的主要方式： repo，可以从Maven库下载 manual， 用户必须手动下载和安装依赖 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;distribution&gt;</span>repo<span class=nt>&lt;/distribution&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--关于license的补充信息 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;comments&gt;</span>A business-friendly OSS license<span class=nt>&lt;/comments&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/license&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/licenses&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--SCM(Source Control Management)标签允许你配置你的代码库，供Maven web站点和其它插件使用。 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;scm&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--SCM的URL,该URL描述了版本库和如何连接到版本库。欲知详情，请看SCMs提供的URL格式和列表。该连接只读。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;connection&gt;</span>
+</span></span><span class=line><span class=cl>        scm:svn:http://svn.baidu.com/banseon/maven/banseon/banseon-maven2-trunk(dao-trunk)
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/connection&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--给开发者使用的，类似connection元素。即该连接不仅仅只读 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;developerConnection&gt;</span>
+</span></span><span class=line><span class=cl>        scm:svn:http://svn.baidu.com/banseon/maven/banseon/dao-trunk
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/developerConnection&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--当前代码的标签，在开发阶段默认为HEAD --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;tag</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--指向项目的可浏览SCM库（例如ViewVC或者Fisheye）的URL。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;url&gt;</span>http://svn.baidu.com/banseon<span class=nt>&lt;/url&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/scm&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--描述项目所属组织的各种属性。Maven产生的文档用 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;organization&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--组织的全名 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;name&gt;</span>demo<span class=nt>&lt;/name&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--组织主页的URL --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;url&gt;</span>http://www.baidu.com/banseon<span class=nt>&lt;/url&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/organization&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--构建项目需要的信息 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;build&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--该元素设置了项目源码目录，当构建项目的时候，构建系统会编译目录里的源码。该路径是相对于pom.xml的相对路径。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;sourceDirectory</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--该元素设置了项目脚本源码目录，该目录和源码目录不同：绝大多数情况下，该目录下的内容 会被拷贝到输出目录(因为脚本是被解释的，而不是被编译的)。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;scriptSourceDirectory</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--该元素设置了项目单元测试使用的源码目录，当测试项目的时候，构建系统会编译目录里的源码。该路径是相对于pom.xml的相对路径。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;testSourceDirectory</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--被编译过的应用程序class文件存放的目录。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;outputDirectory</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--被编译过的测试class文件存放的目录。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;testOutputDirectory</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--使用来自该项目的一系列构建扩展 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;extensions&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--描述使用到的构建扩展。 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;extension&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--构建扩展的groupId --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;groupId</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--构建扩展的artifactId --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;artifactId</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--构建扩展的版本 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;version</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/extension&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/extensions&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--当项目没有规定目标（Maven2 叫做阶段）时的默认值 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;defaultGoal</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--这个元素描述了项目相关的所有资源路径列表，例如和项目相关的属性文件，这些资源被包含在最终的打包文件里。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;resources&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--这个元素描述了项目相关或测试相关的所有资源路径 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;resource&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!-- 描述了资源的目标路径。该路径相对target/classes目录（例如${project.build.outputDirectory}）。举个例
+</span></span></span><span class=line><span class=cl><span class=c>                子，如果你想资源在特定的包里(org.apache.maven.messages)，你就必须该元素设置为org/apache/maven /messages。然而，如果你只是想把资源放到源码目录结构里，就不需要该配置。 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;targetPath</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--是否使用参数值代替参数名。参数值取自properties元素或者文件里配置的属性，文件在filters元素里列出。 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;filtering</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--描述存放资源的目录，该路径相对POM路径 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;directory</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--包含的模式列表，例如**/*.xml. --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;includes</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--排除的模式列表，例如**/*.xml --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;excludes</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/resource&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/resources&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--这个元素描述了单元测试相关的所有资源路径，例如和单元测试相关的属性文件。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;testResources&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--这个元素描述了测试相关的所有资源路径，参见build/resources/resource元素的说明 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;testResource&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;targetPath</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;filtering</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;directory</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;includes</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;excludes</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/testResource&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/testResources&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--构建产生的所有文件存放的目录 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;directory</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--产生的构件的文件名，默认值是${artifactId}-${version}。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;finalName</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--当filtering开关打开时，使用到的过滤器属性文件列表 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;filters</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--子项目可以引用的默认插件信息。该插件配置项直到被引用时才会被解析或绑定到生命周期。给定插件的任何本地配置都会覆盖这里的配置 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;pluginManagement&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--使用的插件列表 。 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;plugins&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--plugin元素包含描述插件所需要的信息。 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;plugin&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--插件在仓库里的group ID --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;groupId</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--插件在仓库里的artifact ID --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;artifactId</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--被使用的插件的版本（或版本范围） --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;version</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--是否从该插件下载Maven扩展（例如打包和类型处理器），由于性能原因，只有在真需要下载时，该元素才被设置成enabled。 --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;extensions</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--在构建生命周期中执行一组目标的配置。每个目标可能有不同的配置。 --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;executions&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=c>&lt;!--execution元素包含了插件执行需要的信息 --&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;execution&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=c>&lt;!--执行目标的标识符，用于标识构建过程中的目标，或者匹配继承过程中需要合并的执行目标 --&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;id</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=c>&lt;!--绑定了目标的构建生命周期阶段，如果省略，目标会被绑定到源数据里配置的默认阶段 --&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;phase</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=c>&lt;!--配置的执行目标 --&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;goals</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=c>&lt;!--配置是否被传播到子POM --&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;inherited</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=c>&lt;!--作为DOM对象的配置 --&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;configuration</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;/execution&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;/executions&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--项目引入插件所需要的额外依赖 --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;dependencies&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=c>&lt;!--参见dependencies/dependency元素 --&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;dependency&gt;</span>
+</span></span><span class=line><span class=cl>                        ......
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;/dependency&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;/dependencies&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--任何配置是否被传播到子项目 --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;inherited</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--作为DOM对象的配置 --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;configuration</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/plugin&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/plugins&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/pluginManagement&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--使用的插件列表 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;plugins&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--参见build/pluginManagement/plugins/plugin元素 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;plugin&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;groupId</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;artifactId</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;version</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;extensions</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;executions&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;execution&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;id</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;phase</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;goals</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;inherited</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;configuration</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;/execution&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/executions&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;dependencies&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--参见dependencies/dependency元素 --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;dependency&gt;</span>
+</span></span><span class=line><span class=cl>                    ......
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;/dependency&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/dependencies&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;goals</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;inherited</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;configuration</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/plugin&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/plugins&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/build&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--在列的项目构建profile，如果被激活，会修改构建处理 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;profiles&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--根据环境参数或命令行参数激活某个构建处理 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;profile&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--构建配置的唯一标识符。即用于命令行激活，也用于在继承时合并具有相同标识符的profile。 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;id</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--自动触发profile的条件逻辑。Activation是profile的开启钥匙。profile的力量来自于它 能够在某些特定的环境中自动使用某些特定的值；这些环境通过activation元素指定。activation元素并不是激活profile的唯一方式。 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;activation&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--profile默认是否激活的标志 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;activeByDefault</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--当匹配的jdk被检测到，profile被激活。例如，1.4激活JDK1.4，1.4.0_2，而!1.4激活所有版本不是以1.4开头的JDK。 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;jdk</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--当匹配的操作系统属性被检测到，profile被激活。os元素可以定义一些操作系统相关的属性。 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;os&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--激活profile的操作系统的名字 --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;name&gt;</span>Windows XP<span class=nt>&lt;/name&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--激活profile的操作系统所属家族(如 &#39;windows&#39;) --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;family&gt;</span>Windows<span class=nt>&lt;/family&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--激活profile的操作系统体系结构 --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;arch&gt;</span>x86<span class=nt>&lt;/arch&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--激活profile的操作系统版本 --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;version&gt;</span>5.1.2600<span class=nt>&lt;/version&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/os&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--如果Maven检测到某一个属性（其值可以在POM中通过${名称}引用），其拥有对应的名称和值，Profile就会被激活。如果值 字段是空的，那么存在属性名称字段就会激活profile，否则按区分大小写方式匹配属性值字段 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;property&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--激活profile的属性的名称 --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;name&gt;</span>mavenVersion<span class=nt>&lt;/name&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--激活profile的属性的值 --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;value&gt;</span>2.0.3<span class=nt>&lt;/value&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/property&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--提供一个文件名，通过检测该文件的存在或不存在来激活profile。missing检查文件是否存在，如果不存在则激活 profile。另一方面，exists则会检查文件是否存在，如果存在则激活profile。 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;file&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--如果指定的文件存在，则激活profile。 --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;exists&gt;</span>/usr/local/hudson/hudson-home/jobs/maven-guide-zh-to-production/workspace/
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;/exists&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--如果指定的文件不存在，则激活profile。 --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;missing&gt;</span>/usr/local/hudson/hudson-home/jobs/maven-guide-zh-to-production/workspace/
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;/missing&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/file&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/activation&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--构建项目所需要的信息。参见build元素 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;build&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;defaultGoal</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;resources&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;resource&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;targetPath</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;filtering</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;directory</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;includes</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;excludes</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;/resource&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/resources&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;testResources&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;testResource&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;targetPath</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;filtering</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;directory</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;includes</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;excludes</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;/testResource&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/testResources&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;directory</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;finalName</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;filters</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;pluginManagement&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;plugins&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=c>&lt;!--参见build/pluginManagement/plugins/plugin元素 --&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;plugin&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;groupId</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;artifactId</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;version</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;extensions</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;executions&gt;</span>
+</span></span><span class=line><span class=cl>                            <span class=nt>&lt;execution&gt;</span>
+</span></span><span class=line><span class=cl>                                <span class=nt>&lt;id</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                                <span class=nt>&lt;phase</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                                <span class=nt>&lt;goals</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                                <span class=nt>&lt;inherited</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                                <span class=nt>&lt;configuration</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                            <span class=nt>&lt;/execution&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;/executions&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;dependencies&gt;</span>
+</span></span><span class=line><span class=cl>                            <span class=c>&lt;!--参见dependencies/dependency元素 --&gt;</span>
+</span></span><span class=line><span class=cl>                            <span class=nt>&lt;dependency&gt;</span>
+</span></span><span class=line><span class=cl>                                ......
+</span></span><span class=line><span class=cl>                            <span class=nt>&lt;/dependency&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;/dependencies&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;goals</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;inherited</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;configuration</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;/plugin&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;/plugins&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/pluginManagement&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;plugins&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--参见build/pluginManagement/plugins/plugin元素 --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;plugin&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;groupId</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;artifactId</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;version</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;extensions</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;executions&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;execution&gt;</span>
+</span></span><span class=line><span class=cl>                            <span class=nt>&lt;id</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                            <span class=nt>&lt;phase</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                            <span class=nt>&lt;goals</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                            <span class=nt>&lt;inherited</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                            <span class=nt>&lt;configuration</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;/execution&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;/executions&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;dependencies&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=c>&lt;!--参见dependencies/dependency元素 --&gt;</span>
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;dependency&gt;</span>
+</span></span><span class=line><span class=cl>                            ......
+</span></span><span class=line><span class=cl>                        <span class=nt>&lt;/dependency&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;/dependencies&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;goals</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;inherited</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;configuration</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;/plugin&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/plugins&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/build&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--模块（有时称作子项目） 被构建成项目的一部分。列出的每个模块元素是指向该模块的目录的相对路径 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;modules</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--发现依赖和扩展的远程仓库列表。 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;repositories&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--参见repositories/repository元素 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;repository&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;releases&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;enabled</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;updatePolicy</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;checksumPolicy</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;/releases&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;snapshots&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;enabled</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;updatePolicy</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;checksumPolicy</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;/snapshots&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;id</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;name</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;url</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;layout</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/repository&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/repositories&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--发现插件的远程仓库列表，这些插件用于构建和报表 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;pluginRepositories&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--包含需要连接到远程插件仓库的信息.参见repositories/repository元素 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;pluginRepository&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;releases&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;enabled</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;updatePolicy</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;checksumPolicy</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;/releases&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;snapshots&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;enabled</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;updatePolicy</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;checksumPolicy</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;/snapshots&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;id</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;name</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;url</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;layout</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/pluginRepository&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/pluginRepositories&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--该元素描述了项目相关的所有依赖。 这些依赖组成了项目构建过程中的一个个环节。它们自动从项目定义的仓库中下载。要获取更多信息，请看项目依赖机制。 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;dependencies&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--参见dependencies/dependency元素 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;dependency&gt;</span>
+</span></span><span class=line><span class=cl>                ......
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/dependency&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/dependencies&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--不赞成使用. 现在Maven忽略该元素. --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;reports</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--该元素包括使用报表插件产生报表的规范。当用户执行&#34;mvn site&#34;，这些报表就会运行。 在页面导航栏能看到所有报表的链接。参见reporting元素 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;reporting&gt;</span>
+</span></span><span class=line><span class=cl>            ......
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/reporting&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--参见dependencyManagement元素 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;dependencyManagement&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;dependencies&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--参见dependencies/dependency元素 --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;dependency&gt;</span>
+</span></span><span class=line><span class=cl>                    ......
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;/dependency&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/dependencies&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/dependencyManagement&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--参见distributionManagement元素 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;distributionManagement&gt;</span>
+</span></span><span class=line><span class=cl>            ......
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/distributionManagement&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--参见properties元素 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;properties</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/profile&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/profiles&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--模块（有时称作子项目） 被构建成项目的一部分。列出的每个模块元素是指向该模块的目录的相对路径 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;modules</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--发现依赖和扩展的远程仓库列表。 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;repositories&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--包含需要连接到远程仓库的信息 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;repository&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--如何处理远程仓库里发布版本的下载 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;releases&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--true或者false表示该仓库是否为下载某种类型构件（发布版，快照版）开启。 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;enabled</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--该元素指定更新发生的频率。Maven会比较本地POM和远程POM的时间戳。这里的选项是：always（一直），daily（默认，每日），interval：X（这里X是以分钟为单位的时间间隔），或者never（从不）。 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;updatePolicy</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--当Maven验证构件校验文件失败时该怎么做：ignore（忽略），fail（失败），或者warn（警告）。 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;checksumPolicy</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/releases&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!-- 如何处理远程仓库里快照版本的下载。有了releases和snapshots这两组配置，POM就可以在每个单独的仓库中，为每种类型的构件采取不同的
+</span></span></span><span class=line><span class=cl><span class=c>            策略。例如，可能有人会决定只为开发目的开启对快照版本下载的支持。参见repositories/repository/releases元素 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;snapshots&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;enabled</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;updatePolicy</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;checksumPolicy</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/snapshots&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--远程仓库唯一标识符。可以用来匹配在settings.xml文件里配置的远程仓库 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;id&gt;</span>banseon-repository-proxy<span class=nt>&lt;/id&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--远程仓库名称 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;name&gt;</span>banseon-repository-proxy<span class=nt>&lt;/name&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--远程仓库URL，按protocol://hostname/path形式 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;url&gt;</span>http://192.168.1.169:9999/repository/<span class=nt>&lt;/url&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!-- 用于定位和排序构件的仓库布局类型-可以是default（默认）或者legacy（遗留）。Maven 2为其仓库提供了一个默认的布局；然
+</span></span></span><span class=line><span class=cl><span class=c>            而，Maven 1.x有一种不同的布局。我们可以使用该元素指定布局是default（默认）还是legacy（遗留）。 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;layout&gt;</span>default<span class=nt>&lt;/layout&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/repository&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/repositories&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--发现插件的远程仓库列表，这些插件用于构建和报表 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;pluginRepositories&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--包含需要连接到远程插件仓库的信息.参见repositories/repository元素 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;pluginRepository&gt;</span>
+</span></span><span class=line><span class=cl>        ......
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/pluginRepository&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/pluginRepositories&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--该元素描述了项目相关的所有依赖。 这些依赖组成了项目构建过程中的一个个环节。它们自动从项目定义的仓库中下载。要获取更多信息，请看项目依赖机制。 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;dependencies&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;dependency&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--依赖的group ID --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;groupId&gt;</span>org.apache.maven<span class=nt>&lt;/groupId&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--依赖的artifact ID --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;artifactId&gt;</span>maven-artifact<span class=nt>&lt;/artifactId&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--依赖的版本号。 在Maven 2里, 也可以配置成版本号的范围。 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;version&gt;</span>3.8.1<span class=nt>&lt;/version&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!-- 依赖类型，默认类型是jar。它通常表示依赖的文件的扩展名，但也有例外。一个类型可以被映射成另外一个扩展名或分类器。类型经常和使用的打包方式对应，
+</span></span></span><span class=line><span class=cl><span class=c>            尽管这也有例外。一些类型的例子：jar，war，ejb-client和test-jar。如果设置extensions为 true，就可以在 plugin里定义新的类型。所以前面的类型的例子不完整。 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;type&gt;</span>jar<span class=nt>&lt;/type&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!-- 依赖的分类器。分类器可以区分属于同一个POM，但不同构建方式的构件。分类器名被附加到文件名的版本号后面。例如，如果你想要构建两个单独的构件成
+</span></span></span><span class=line><span class=cl><span class=c>            JAR，一个使用Java 1.4编译器，另一个使用Java 6编译器，你就可以使用分类器来生成两个单独的JAR构件。 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;classifier&gt;&lt;/classifier&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--依赖范围。在项目发布过程中，帮助决定哪些构件被包括进来。欲知详情请参考依赖机制。 - compile ：默认范围，用于编译 - provided：类似于编译，但支持你期待jdk或者容器提供，类似于classpath
+</span></span></span><span class=line><span class=cl><span class=c>            - runtime: 在执行时需要使用 - test: 用于test任务时使用 - system: 需要外在提供相应的元素。通过systemPath来取得
+</span></span></span><span class=line><span class=cl><span class=c>            - systemPath: 仅用于范围为system。提供相应的路径 - optional: 当项目自身被依赖时，标注依赖是否传递。用于连续依赖时使用 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;scope&gt;</span>test<span class=nt>&lt;/scope&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--仅供system范围使用。注意，不鼓励使用这个元素，并且在新的版本中该元素可能被覆盖掉。该元素为依赖规定了文件系统上的路径。需要绝对路径而不是相对路径。推荐使用属性匹配绝对路径，例如${java.home}。 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;systemPath&gt;&lt;/systemPath&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--当计算传递依赖时， 从依赖构件列表里，列出被排除的依赖构件集。即告诉maven你只依赖指定的项目，不依赖项目的依赖。此元素主要用于解决版本冲突问题 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;exclusions&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;exclusion&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;artifactId&gt;</span>spring-core<span class=nt>&lt;/artifactId&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;groupId&gt;</span>org.springframework<span class=nt>&lt;/groupId&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/exclusion&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/exclusions&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--可选依赖，如果你在项目B中把C依赖声明为可选，你就需要在依赖于B的项目（例如项目A）中显式的引用对C的依赖。可选依赖阻断依赖的传递性。 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;optional&gt;</span>true<span class=nt>&lt;/optional&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/dependency&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/dependencies&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--不赞成使用. 现在Maven忽略该元素. --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;reports&gt;&lt;/reports&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--该元素描述使用报表插件产生报表的规范。当用户执行&#34;mvn site&#34;，这些报表就会运行。 在页面导航栏能看到所有报表的链接。 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;reporting&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--true，则，网站不包括默认的报表。这包括&#34;项目信息&#34;菜单中的报表。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;excludeDefaults</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--所有产生的报表存放到哪里。默认值是${project.build.directory}/site。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;outputDirectory</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--使用的报表插件和他们的配置。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;plugins&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--plugin元素包含描述报表插件需要的信息 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;plugin&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--报表插件在仓库里的group ID --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;groupId</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--报表插件在仓库里的artifact ID --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;artifactId</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--被使用的报表插件的版本（或版本范围） --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;version</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--任何配置是否被传播到子项目 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;inherited</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--报表插件的配置 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;configuration</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=c>&lt;!--一组报表的多重规范，每个规范可能有不同的配置。一个规范（报表集）对应一个执行目标 。例如，有1，2，3，4，5，6，7，8，9个报表。1，2，5构成A报表集，对应一个执行目标。2，5，8构成B报表集，对应另一个执行目标 --&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;reportSets&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=c>&lt;!--表示报表的一个集合，以及产生该集合的配置 --&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;reportSet&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=c>&lt;!--报表集合的唯一标识符，POM继承时用到 --&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;id</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=c>&lt;!--产生报表集合时，被使用的报表的配置 --&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;configuration</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=c>&lt;!--配置是否被继承到子POMs --&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;inherited</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=c>&lt;!--这个集合里使用到哪些报表 --&gt;</span>
+</span></span><span class=line><span class=cl>                    <span class=nt>&lt;reports</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>                <span class=nt>&lt;/reportSet&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=nt>&lt;/reportSets&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/plugin&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/plugins&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/reporting&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!-- 继承自该项目的所有子项目的默认依赖信息。这部分的依赖信息不会被立即解析,而是当子项目声明一个依赖（必须描述group ID和 artifact
+</span></span></span><span class=line><span class=cl><span class=c>    ID信息），如果group ID和artifact ID以外的一些信息没有描述，则通过group ID和artifact ID 匹配到这里的依赖，并使用这里的依赖信息。 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;dependencyManagement&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;dependencies&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--参见dependencies/dependency元素 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;dependency&gt;</span>
+</span></span><span class=line><span class=cl>            ......
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/dependency&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/dependencies&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/dependencyManagement&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--项目分发信息，在执行mvn deploy后表示要发布的位置。有了这些信息就可以把网站部署到远程服务器或者把构件部署到远程仓库。 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;distributionManagement&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--部署项目产生的构件到远程仓库需要的信息 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;repository&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--是分配给快照一个唯一的版本号（由时间戳和构建流水号）？还是每次都使用相同的版本号？参见repositories/repository元素 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;uniqueVersion</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;id&gt;</span>banseon-maven2<span class=nt>&lt;/id&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;name&gt;</span>banseon maven2<span class=nt>&lt;/name&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;url&gt;</span>file://${basedir}/target/deploy<span class=nt>&lt;/url&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;layout</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/repository&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--构件的快照部署到哪里？如果没有配置该元素，默认部署到repository元素配置的仓库，参见distributionManagement/repository元素 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;snapshotRepository&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;uniqueVersion</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;id&gt;</span>banseon-maven2<span class=nt>&lt;/id&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;name&gt;</span>Banseon-maven2 Snapshot Repository<span class=nt>&lt;/name&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;url&gt;</span>scp://svn.baidu.com/banseon:/usr/local/maven-snapshot<span class=nt>&lt;/url&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;layout</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/snapshotRepository&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--部署项目的网站需要的信息 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;site&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--部署位置的唯一标识符，用来匹配站点和settings.xml文件里的配置 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;id&gt;</span>banseon-site<span class=nt>&lt;/id&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--部署位置的名称 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;name&gt;</span>business api website<span class=nt>&lt;/name&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--部署位置的URL，按protocol://hostname/path形式 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;url&gt;</span>
+</span></span><span class=line><span class=cl>            scp://svn.baidu.com/banseon:/var/www/localhost/banseon-web
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;/url&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/site&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--项目下载页面的URL。如果没有该元素，用户应该参考主页。使用该元素的原因是：帮助定位那些不在仓库里的构件（由于license限制）。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;downloadUrl</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!--如果构件有了新的group ID和artifact ID（构件移到了新的位置），这里列出构件的重定位信息。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;relocation&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--构件新的group ID --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;groupId</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--构件新的artifact ID --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;artifactId</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--构件新的版本号 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;version</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c>&lt;!--显示给用户的，关于移动的额外信息，例如原因。 --&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=nt>&lt;message</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;/relocation&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=c>&lt;!-- 给出该构件在远程仓库的状态。不得在本地项目中设置该元素，因为这是工具自动更新的。有效的值有：none（默认），converted（仓库管理员从
+</span></span></span><span class=line><span class=cl><span class=c>        Maven 1 POM转换过来），partner（直接从伙伴Maven 2仓库同步过来），deployed（从Maven 2实例部 署），verified（被核实时正确的和最终的）。 --&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nt>&lt;status</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/distributionManagement&gt;</span>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--以值替代名称，Properties可以在整个POM中使用，也可以作为触发条件（见settings.xml配置文件里activation元素的说明）。格式是&lt;name&gt;value&lt;/name&gt;。 --&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;properties</span> <span class=nt>/&gt;</span>
+</span></span><span class=line><span class=cl><span class=nt>&lt;/project&gt;</span></span></span></code></pre></td></tr></table></div></div></div></div></div><div class=pe-reward-wrap><div class=pe-reward><div class=pe-reward-btn><a href=javascript:void(0); onclick='document.querySelector(".pe-reward-overlay").classList.remove("hidden")'><svg t="1715776042195" class="icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" p-id="17691" width="20" height="20"><path d="M835.52 337.824a159.04 159.04.0 01124.544 59.52 155.904 155.904.0 0130.4 134.08l-80.896 341.632a157.952 157.952.0 01-56.224 87.68 160.544 160.544.0 01-98.688 33.952H166.72c-75.712.0-137.44-60.96-137.44-136.256v-363.84c0-75.296 61.76-136.288 137.44-136.288h80.704c50.176.0 71.232-12.48 85.792-36.544 10.368-17.12 17.472-41.376 23.04-76 1.728-10.656 2.88-19.392 5.408-38.72 11.712-90.944 21.888-124.736 62.528-155.168 25.504-19.072 56.768-25.984 90.72-20.992 64.672 9.504 115.936 43.52 145.824 97.6 23.36 42.272 32.64 95.584 27.904 154.24-1.056 12.832-2.752 25.888-5.12 38.912-.64 3.68-1.856 9.024-3.712 16.192h155.68zm-261.472 80 14.72-51.104c9.472-32.704 15.04-53.376 16.064-59.2 1.92-10.56 3.264-21.024 4.096-31.296 3.584-43.84-3.04-81.6-18.208-109.056-17.472-31.68-46.88-51.2-87.392-57.12-13.696-2.016-23.456.128-31.168 5.888-15.808 11.84-22.4 33.792-31.136 101.312-2.56 20.16-3.84 29.44-5.76 41.248-7.04 43.872-16.704 76.8-33.536 104.64-28.736 47.52-75.424 75.2-154.24 75.2H166.72c-31.744.0-57.44 25.376-57.44 56.224v363.872c0 30.88 25.696 56.256 57.44 56.256h587.904c17.824.0 35.424-6.08 49.344-16.96 13.856-10.848 23.68-26.24 27.712-43.104l80.896-341.6a75.904 75.904.0 00-14.944-65.6 79.04 79.04.0 00-62.144-29.6H574.08zm-212.8 205.984 97.28 72.64 242.24-209.28s16.224-13.888 30.4-3.008c4.256 3.264 9.12 12.512-1.856 27.008L476.416 789.024s-19.392 24.864-42.4-.288l-109.12-138.208s-12.96-18.688 3.264-29.92c5.44-3.744 17.888-9.6 33.12 3.2z" fill="currentcolor" p-id="17692"/></svg></div><div class="pe-reward-overlay hidden"><div class=pe-reward-qr-wrap><div class=pe-reward-img><a class=fancybox rel=group><img src=https://tofuwine.github.io/images/wechat_pay.jpg alt=wechat_pay></a><p>微信</p></div><div class=pe-reward-img><a class=fancybox rel=group><img src=https://tofuwine.github.io/images/alipay.jpg alt=alipay></a><p>支付宝</p></div></div></div><p>如果本文对你有所帮助，可以点击上方按钮请作者喝杯咖啡！</p></div></div><script>document.querySelector(".pe-reward-overlay").addEventListener("click",e=>{e.target.classList.add("hidden")})</script><div class=pe-copyright><hr><blockquote><p>本文为原创内容，版权归作者所有。如需转载，请在文章中声明本文标题及链接。</p><p>文章标题：Maven pom.xml 标签全量参考 —— tofuwine</p><p>文章链接：<a href=https://tofuwine.github.io/posts/c4440f3c/ target=_blank>https://tofuwine.github.io/posts/c4440f3c/</a></p><p>许可协议：<a href=https://creativecommons.org/licenses/by-nc/4.0/ target=_blank>CC BY-NC 4.0</a></p></blockquote></div><footer class=post-footer><ul class=post-tags><li><a href=https://tofuwine.github.io/tags/maven/>Maven</a></li></ul><nav class=paginav><a class=prev href=https://tofuwine.github.io/posts/30ad2cbc/><span class=title>上一篇</span><br><span>SVN 自动上锁</span>
+</a><a class=next href=https://tofuwine.github.io/posts/6acd152c/><span class=title>下一篇</span><br><span>List 去重的几种方式</span></a></nav></footer><div class=pe-comments-decoration><p class=pe-comments-title>欢迎来到评论区</p><p class=pe-comments-subtitle>感谢您的耐心阅读！来选个表情，或者留个评论吧！</p></div><div id=pe-comments></div><script src=/js/pe-go-comment.min.86a214102576ba5f9b7bdc29eed8d58dd56e34aef80b3c65c73ea9cc88443696.js integrity="sha256-hqIUECV2ul+be9wp7tjVjdVuNK74Czxlxz6pzIhENpY="></script><script>const getStoredTheme=()=>localStorage.getItem("pref-theme")==="dark"?"dark":"light",setGiscusTheme=()=>{const e=e=>{const t=document.querySelector("iframe.giscus-frame");t&&t.contentWindow.postMessage({giscus:e},"https://giscus.app")};e({setConfig:{theme:getStoredTheme()}})};document.addEventListener("DOMContentLoaded",()=>{const s={src:"https://giscus.app/client.js","data-repo":"tofuwine/tofuwine.github.io","data-repo-id":"R_kgDOLz45lw","data-category":"Announcements","data-category-id":"DIC_kwDOLz45l84CfBDJ","data-mapping":"specific","data-term":"posts/c4440f3c","data-strict":"0","data-reactions-enabled":"1","data-emit-metadata":"0","data-input-position":"top","data-theme":getStoredTheme(),"data-lang":"zh-CN","data-loading":"lazy",crossorigin:"anonymous",async:""},e=document.createElement("script");Object.entries(s).forEach(([t,n])=>e.setAttribute(t,n)),document.querySelector("#pe-comments").appendChild(e);const t=document.querySelector("#theme-toggle");t&&t.addEventListener("click",setGiscusTheme);const n=document.querySelector("#theme-toggle-float");n&&n.addEventListener("click",setGiscusTheme)})</script></article></main><footer class=footer><span>&copy; 2024-2024 <a href=https://tofuwine.github.io/>Tofuwine's Blog</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/tofuwine/PaperMod-PE rel=noopener target=_blank>PaperMod-PE</a></span></footer><div class=pe-right-sidebar><a href=#pe-comments class=pe-float-btn id=comments-link style=visibility:visible;opacity:1><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.338 29.338" fill="currentcolor"><path d="M27.184 1.605H2.156C.967 1.605.0 2.572.0 3.76v17.572c0 1.188.967 2.155 2.156 2.155h13.543l5.057 3.777c.414.31.842.468 1.268.468.789.0 1.639-.602 1.637-1.923v-2.322h3.523c1.188.0 2.154-.967 2.154-2.155V3.76C29.338 2.572 28.371 1.605 27.184 1.605zM27.34 21.332c0 .085-.068.155-.154.155h-5.523v3.955l-5.297-3.956H2.156c-.086.0-.154-.07-.154-.155V3.759c0-.085.068-.155.154-.155v.001h25.029c.086.0.154.07.154.155L27.34 21.332zM5.505 10.792h4.334v4.333H5.505V10.792zm7 0h4.334v4.333h-4.334V10.792zm7 0h4.334v4.333h-4.334V10.792z"/></svg>
+</a><a href=javascript:void(0); id=theme-toggle-float class=pe-float-btn><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+</a><a href=#top class=pe-float-btn id=top-link><span id=pe-read-progress></span></a></div></body></html>
