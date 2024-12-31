@@ -6,8 +6,20 @@
     <description>Recent content in 🖥️ 计算机编程技术 on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 25 Nov 2024 13:58:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2024 10:05:00 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/topics/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java 中 9 种常见的 CMS GC 问题分析与解决</title>
+      <link>https://tofuwine.github.io/posts/5c9fd614/</link>
+      <pubDate>Fri, 20 Dec 2024 10:05:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/5c9fd614/</guid>
+      <description>概览 想要系统地掌握 GC 问题处理，可以按以下四步进行学习：
+建立知识体系：从 JVM 的内存结构到垃圾收集的算法和收集器，学习 GC 的基础知识，掌握一些常用的 GC 问题分析工具。 确定评估指标：了解基本 GC 的评估方法，摸清如何设定独立系统的指标，以及在业务场景中判断 GC 是否存在问题的手段。 场景调优实践：运用掌握的知识和系统评价指标，分析与解决九种 CMS 中常用 GC 问题场景。 总结优化经验：对整体过程做总结并提出建议，同时将总结到的经验完善到知识体系之中。 GC 基础 基础概念 GC GC 本身有三种语义，下文需要根据具体场景带入不同的语义：
+Garbage Collection：垃圾收集技术，名次 Garbage Collector：垃圾收集器，名次 Garbage Collecting：垃圾收集动作，动词 Mutator Mutator：生产垃圾的角色，也就是我们的应用程序，垃圾制造者，通过 Allocator 进行 allocate 和 free。
+TLAB TLAB：Thread Local Allocation Buffer （TLAB），基于 CAS 的独享线程（Mutator Threads）可以优先将对象分配在 Eden 中的一块内存，因为是 Java 独享的内存区，没有锁竞争，所以分配速度更快，每个 TLAB 都是一个线程独享的。
+Card Table 卡表，主要用来标记卡页的状态，每个卡表项对应一个卡页。当卡页中一个对象引用有写操作时，写屏障将会标记对象所在的卡表状态改为 dirty，卡表的本质是用来 解决跨代引用的问题。具体怎么解决的可以参考 StackOverFlow 上的这个问题 how-actually-card-table-and-writer-barrier-works， 或者研读一下 cardTableRS.app 中的源码。
+内存划分 JVM 规范随着版本迭代而变更，但本文主要讨论 CMS，此处以 Java 8 内存结构为例：</description>
+    </item>
     <item>
       <title>Maven FAQ</title>
       <link>https://tofuwine.github.io/posts/d19d7a70/</link>
