@@ -6,13 +6,41 @@
     <description>Recent content in Tags on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 20 Dec 2024 10:05:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2025 12:46:00 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NPM</title>
+      <link>https://tofuwine.github.io/tags/npm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/npm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CSS</title>
+      <link>https://tofuwine.github.io/tags/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTML</title>
+      <link>https://tofuwine.github.io/tags/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/html/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Java</title>
       <link>https://tofuwine.github.io/tags/java/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>https://tofuwine.github.io/tags/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
@@ -254,13 +282,6 @@
       <description></description>
     </item>
     <item>
-      <title>CSS</title>
-      <link>https://tofuwine.github.io/tags/css/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tofuwine.github.io/tags/css/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Activation</title>
       <link>https://tofuwine.github.io/tags/activation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -300,13 +321,6 @@
       <link>https://tofuwine.github.io/tags/nexus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/tags/nexus/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Npm</title>
-      <link>https://tofuwine.github.io/tags/npm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tofuwine.github.io/tags/npm/</guid>
       <description></description>
     </item>
     <item>

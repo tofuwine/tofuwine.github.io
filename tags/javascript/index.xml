@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>JavaScript on Tofuwine&#39;s Blog</title>
+    <link>https://tofuwine.github.io/tags/javascript/</link>
+    <description>Recent content in JavaScript on Tofuwine&#39;s Blog</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 10 Jan 2025 09:32:00 +0800</lastBuildDate>
+    <atom:link href="https://tofuwine.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一些常用技术汇总</title>
+      <link>https://tofuwine.github.io/posts/b1c5decf/</link>
+      <pubDate>Fri, 10 Jan 2025 09:32:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/b1c5decf/</guid>
+      <description>一些常用技术汇总</description>
+    </item>
+  </channel>
+</rss>

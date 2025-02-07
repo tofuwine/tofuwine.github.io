@@ -6,8 +6,15 @@
     <description>Recent content in Java on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 20 Dec 2024 10:05:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jan 2025 09:32:00 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一些常用技术汇总</title>
+      <link>https://tofuwine.github.io/posts/b1c5decf/</link>
+      <pubDate>Fri, 10 Jan 2025 09:32:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/b1c5decf/</guid>
+      <description>一些常用技术汇总</description>
+    </item>
     <item>
       <title>Java 中 9 种常见的 CMS GC 问题分析与解决</title>
       <link>https://tofuwine.github.io/posts/5c9fd614/</link>
