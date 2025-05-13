@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>🌐 建站 on Tofuwine&#39;s Blog</title>
+    <link>https://tofuwine.github.io/topics/03-%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</link>
+    <description>Recent content in 🌐 建站 on Tofuwine&#39;s Blog</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 27 Feb 2025 09:55:00 +0800</lastBuildDate>
+    <atom:link href="https://tofuwine.github.io/topics/03-%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PaperMod-PE Documents</title>
+      <link>https://tofuwine.github.io/posts/041e0ff6/</link>
+      <pubDate>Thu, 16 May 2024 10:38:11 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/041e0ff6/</guid>
+      <description>Documentation for PaperMod-PE</description>
+    </item>
+    <item>
+      <title>PaperMod 添加赞赏</title>
+      <link>https://tofuwine.github.io/posts/bd8c037a/</link>
+      <pubDate>Thu, 27 Feb 2025 09:16:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/bd8c037a/</guid>
+      <description>为 PaperMod 主题的文章添加赞赏功能</description>
+    </item>
+    <item>
+      <title>Github 免费图床攻略</title>
+      <link>https://tofuwine.github.io/posts/6b53001d/</link>
+      <pubDate>Mon, 27 May 2024 15:17:52 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/6b53001d/</guid>
+      <description>使用 Github 存储图片作为免费图床并通过 Typora + PicGo 自动上传</description>
+    </item>
+    <item>
+      <title>Hugo 添加瞬间页</title>
+      <link>https://tofuwine.github.io/posts/d44c2e7d/</link>
+      <pubDate>Thu, 23 May 2024 13:49:26 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/d44c2e7d/</guid>
+      <description>Hugo 添加瞬间页面</description>
+    </item>
+    <item>
+      <title>PaperMod 添加文章版权声明</title>
+      <link>https://tofuwine.github.io/posts/18b224b5/</link>
+      <pubDate>Fri, 17 May 2024 09:32:07 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/18b224b5/</guid>
+      <description>在文章章末添加版权声明</description>
+    </item>
+    <item>
+      <title>PaperMod 添加搜索页</title>
+      <link>https://tofuwine.github.io/posts/e62f6a1b/</link>
+      <pubDate>Sat, 11 May 2024 10:49:39 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/e62f6a1b/</guid>
+      <description>Hugo PaperMod 主题添加搜索页以及搜索页样式优化</description>
+    </item>
+    <item>
+      <title>使用 IntelliJ IDEA 编写 Hugo 文章</title>
+      <link>https://tofuwine.github.io/posts/91f489d1/</link>
+      <pubDate>Fri, 10 May 2024 11:03:05 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/91f489d1/</guid>
+      <description>IntelliJ IDEA Settings For Hugo</description>
+    </item>
+    <item>
+      <title>PaperMod 集成 Giscus 评论</title>
+      <link>https://tofuwine.github.io/posts/610b75f5/</link>
+      <pubDate>Mon, 06 May 2024 17:00:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/610b75f5/</guid>
+      <description>Hugo &amp;amp; PaperMod 集成 Giscus 评论系统</description>
+    </item>
+    <item>
+      <title>PaperMod 主题个性化</title>
+      <link>https://tofuwine.github.io/posts/3c96c5d2/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/posts/3c96c5d2/</guid>
+      <description>描述示例: 快速预览本站各种样式 (Hugo &amp;amp; PaperMod 主题)</description>
+    </item>
+  </channel>
+</rss>
