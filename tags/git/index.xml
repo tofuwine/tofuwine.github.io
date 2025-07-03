@@ -6,8 +6,15 @@
     <description>Recent content in Git on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 24 Feb 2025 11:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 02 Jul 2025 11:00:00 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git 常用命令</title>
+      <link>https://tofuwine.github.io/posts/41e460e7/</link>
+      <pubDate>Wed, 02 Jul 2025 10:00:33 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/41e460e7/</guid>
+      <description>Git 常用命令记录</description>
+    </item>
     <item>
       <title>Git FAQs</title>
       <link>https://tofuwine.github.io/posts/10a5c8d8/</link>
