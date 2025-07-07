@@ -15,5 +15,13 @@
       <guid>https://tofuwine.github.io/posts/1b7354d2/</guid>
       <description>OpenWRT 同时配置 AdGuardHome + PassWall</description>
     </item>
+    <item>
+      <title></title>
+      <link>https://tofuwine.github.io/moments/742acb47/</link>
+      <pubDate>Tue, 26 Mar 2024 09:20:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/742acb47/</guid>
+      <description>广告屏蔽大师 Plus+ 订阅链接：
+text 1 2 3 4 5 // ad-pc.txt：[推荐桌面端]合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX&amp;#39;sAnnoyance，以及补充的一些规则； https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt // ad.txt：【推荐】合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX&amp;#39;sAnnoyance，以及补充的一些规则； https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt </description>
+    </item>
   </channel>
 </rss>

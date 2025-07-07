@@ -135,6 +135,13 @@
       <description></description>
     </item>
     <item>
+      <title>游戏</title>
+      <link>https://tofuwine.github.io/tags/%E6%B8%B8%E6%88%8F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/%E6%B8%B8%E6%88%8F/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Docker</title>
       <link>https://tofuwine.github.io/tags/docker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -170,10 +177,24 @@
       <description></description>
     </item>
     <item>
+      <title>Gradle</title>
+      <link>https://tofuwine.github.io/tags/gradle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/gradle/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>设计模式</title>
       <link>https://tofuwine.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game</title>
+      <link>https://tofuwine.github.io/tags/game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/game/</guid>
       <description></description>
     </item>
     <item>
@@ -226,17 +247,17 @@
       <description></description>
     </item>
     <item>
-      <title>Gradle</title>
-      <link>https://tofuwine.github.io/tags/gradle/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tofuwine.github.io/tags/gradle/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>SQL</title>
       <link>https://tofuwine.github.io/tags/sql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/tags/sql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>反射</title>
+      <link>https://tofuwine.github.io/tags/%E5%8F%8D%E5%B0%84/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/%E5%8F%8D%E5%B0%84/</guid>
       <description></description>
     </item>
     <item>
@@ -268,6 +289,13 @@
       <description></description>
     </item>
     <item>
+      <title>Apple</title>
+      <link>https://tofuwine.github.io/tags/apple/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/apple/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Linux</title>
       <link>https://tofuwine.github.io/tags/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -286,6 +314,13 @@
       <link>https://tofuwine.github.io/tags/katex/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/tags/katex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring Boot</title>
+      <link>https://tofuwine.github.io/tags/spring-boot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/spring-boot/</guid>
       <description></description>
     </item>
     <item>
@@ -321,6 +356,13 @@
       <link>https://tofuwine.github.io/tags/nexus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/tags/nexus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IDM</title>
+      <link>https://tofuwine.github.io/tags/idm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/idm/</guid>
       <description></description>
     </item>
     <item>

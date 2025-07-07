@@ -16,6 +16,24 @@
       <description>一些常用技术汇总</description>
     </item>
     <item>
+      <title></title>
+      <link>https://tofuwine.github.io/moments/3ff9dbf0/</link>
+      <pubDate>Tue, 04 Jun 2024 11:04:20 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/3ff9dbf0/</guid>
+      <description>::-webkit-scrollbar CSS 伪类元素会影响设置了 overflow:scroll; 的元素的滚动条样式。
+::-webkit-scrollbar 仅在基于 Blink 或 WebKit 的浏览器 （例如，Chrome、Edge、Opera、Safari、iOS 上所有的浏览器，以及其他基于 WebKit 的浏览器） 上可用。滚动条样式的标准方法可用于 scrollbar-color 和 scrollbar-width。 CSS 滚动条选择器 你可以使用以下伪元素选择器去修改基于 webkit 的浏览器的滚动条样式：
+::-webkit-scrollbar：整个滚动条。 ::-webkit-scrollbar-button：滚动条上的按钮（上下箭头）。 ::-webkit-scrollbar-thumb：滚动条上的滚动滑块。 ::-webkit-scrollbar-track：滚动条轨道。 ::-webkit-scrollbar-track-piece：滚动条没有滑块的轨道部分。 ::-webkit-scrollbar-corner：当同时有垂直滚动条和水平滚动条时交汇的部分。通常是浏览器窗口的右下角。 ::-webkit-resizer：出现在某些元素底角的可拖动调整大小的滑块。 </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://tofuwine.github.io/moments/f136f54a/</link>
+      <pubDate>Sat, 25 May 2024 13:38:46 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/f136f54a/</guid>
+      <description>在将顶部导航栏设置为 position: fixed 后，页面锚点跳转会导致锚点内容被导航栏遮挡。
+可通过如下方式进行修正：
+css 1 2 3 4 /* 假设你的导航栏高度是 60px */ html { scroll-padding-top: 60px; } Powered by ChatGPT </description>
+    </item>
+    <item>
       <title>CSS 按钮样式：悬停、颜色和背景</title>
       <link>https://tofuwine.github.io/posts/0109d3dd/</link>
       <pubDate>Mon, 26 Feb 2024 11:18:27 +0800</pubDate>

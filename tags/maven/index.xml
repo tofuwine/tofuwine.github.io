@@ -16,6 +16,15 @@
       <description>记录 Maven 常见问题处理方式</description>
     </item>
     <item>
+      <title></title>
+      <link>https://tofuwine.github.io/moments/e1692452/</link>
+      <pubDate>Fri, 31 May 2024 14:03:03 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/e1692452/</guid>
+      <description>Maven 镜像仓库（阿里云）：
+text 1 https://maven.aliyun.com/repository/public gradle plugin 镜像仓库（阿里云）：
+text 1 https://maven.aliyun.com/repository/gradle-plugin 配置指南：阿里云云效 Maven</description>
+    </item>
+    <item>
       <title>Maven 打包跳过测试的几种实现方式</title>
       <link>https://tofuwine.github.io/posts/9327881c/</link>
       <pubDate>Thu, 25 Jan 2024 10:18:00 +0800</pubDate>

@@ -156,6 +156,14 @@ Card Table 卡表，主要用来标记卡页的状态，每个卡表项对应一
       <description>MyBatis 问题汇总</description>
     </item>
     <item>
+      <title></title>
+      <link>https://tofuwine.github.io/moments/9a60975e/</link>
+      <pubDate>Wed, 21 Aug 2024 19:14:10 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/9a60975e/</guid>
+      <description>黑猴火出了圈，发现有一些人刚发售就全成就了。因此了解到了一款软件 Steam++ (已更名为 Watt Toolkit)，而且这还是一个开源项目。
+BeyondDimension/SteamTools 软件内置了部分网络加速，而且是免费的，还是蛮有用的，特此记录。</description>
+    </item>
+    <item>
       <title>使用 Docker 部署 qBittorrent</title>
       <link>https://tofuwine.github.io/posts/2fe79e5b/</link>
       <pubDate>Tue, 30 Jul 2024 16:58:47 +0800</pubDate>
@@ -184,11 +192,37 @@ Card Table 卡表，主要用来标记卡页的状态，每个卡表项对应一
       <description>cron 表达式基本语法</description>
     </item>
     <item>
+      <title></title>
+      <link>https://tofuwine.github.io/moments/3ff9dbf0/</link>
+      <pubDate>Tue, 04 Jun 2024 11:04:20 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/3ff9dbf0/</guid>
+      <description>::-webkit-scrollbar CSS 伪类元素会影响设置了 overflow:scroll; 的元素的滚动条样式。
+::-webkit-scrollbar 仅在基于 Blink 或 WebKit 的浏览器 （例如，Chrome、Edge、Opera、Safari、iOS 上所有的浏览器，以及其他基于 WebKit 的浏览器） 上可用。滚动条样式的标准方法可用于 scrollbar-color 和 scrollbar-width。 CSS 滚动条选择器 你可以使用以下伪元素选择器去修改基于 webkit 的浏览器的滚动条样式：
+::-webkit-scrollbar：整个滚动条。 ::-webkit-scrollbar-button：滚动条上的按钮（上下箭头）。 ::-webkit-scrollbar-thumb：滚动条上的滚动滑块。 ::-webkit-scrollbar-track：滚动条轨道。 ::-webkit-scrollbar-track-piece：滚动条没有滑块的轨道部分。 ::-webkit-scrollbar-corner：当同时有垂直滚动条和水平滚动条时交汇的部分。通常是浏览器窗口的右下角。 ::-webkit-resizer：出现在某些元素底角的可拖动调整大小的滑块。 </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://tofuwine.github.io/moments/e1692452/</link>
+      <pubDate>Fri, 31 May 2024 14:03:03 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/e1692452/</guid>
+      <description>Maven 镜像仓库（阿里云）：
+text 1 https://maven.aliyun.com/repository/public gradle plugin 镜像仓库（阿里云）：
+text 1 https://maven.aliyun.com/repository/gradle-plugin 配置指南：阿里云云效 Maven</description>
+    </item>
+    <item>
       <title>单例模式的多种实现方式</title>
       <link>https://tofuwine.github.io/posts/218a0437/</link>
       <pubDate>Fri, 31 May 2024 14:14:02 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/218a0437/</guid>
       <description>本文介绍实现单例模式的 6 种方式</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://tofuwine.github.io/moments/1510274c/</link>
+      <pubDate>Tue, 28 May 2024 13:08:06 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/1510274c/</guid>
+      <description>Chrome 恐龙小游戏：
+text 1 chrome://dino/ </description>
     </item>
     <item>
       <title>Google 搜索技巧</title>
@@ -203,6 +237,15 @@ Card Table 卡表，主要用来标记卡页的状态，每个卡表项对应一
       <pubDate>Mon, 27 May 2024 15:17:52 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/6b53001d/</guid>
       <description>使用 Github 存储图片作为免费图床并通过 Typora + PicGo 自动上传</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://tofuwine.github.io/moments/f136f54a/</link>
+      <pubDate>Sat, 25 May 2024 13:38:46 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/f136f54a/</guid>
+      <description>在将顶部导航栏设置为 position: fixed 后，页面锚点跳转会导致锚点内容被导航栏遮挡。
+可通过如下方式进行修正：
+css 1 2 3 4 /* 假设你的导航栏高度是 60px */ html { scroll-padding-top: 60px; } Powered by ChatGPT </description>
     </item>
     <item>
       <title>Hugo 添加瞬间页</title>
@@ -312,6 +355,15 @@ Card Table 卡表，主要用来标记卡页的状态，每个卡表项对应一
       <description>Docker Compose 入门</description>
     </item>
     <item>
+      <title></title>
+      <link>https://tofuwine.github.io/moments/7dbf531c/</link>
+      <pubDate>Mon, 01 Apr 2024 10:00:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/7dbf531c/</guid>
+      <description>当反射赋值 private 修饰的属性时，需先设置 accessible 为 true：
+java 1 fieldName.setAccessible(true); 当反射赋值静态属性，将第一个参数设置为 null：
+java 1 fieldName.set(null, newValue); </description>
+    </item>
+    <item>
       <title>FreeMarker 基本用法</title>
       <link>https://tofuwine.github.io/posts/28095def/</link>
       <pubDate>Sun, 31 Mar 2024 11:10:20 +0800</pubDate>
@@ -324,6 +376,14 @@ Card Table 卡表，主要用来标记卡页的状态，每个卡表项对应一
       <pubDate>Wed, 27 Mar 2024 11:03:00 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/1b7354d2/</guid>
       <description>OpenWRT 同时配置 AdGuardHome + PassWall</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://tofuwine.github.io/moments/742acb47/</link>
+      <pubDate>Tue, 26 Mar 2024 09:20:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/742acb47/</guid>
+      <description>广告屏蔽大师 Plus+ 订阅链接：
+text 1 2 3 4 5 // ad-pc.txt：[推荐桌面端]合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX&amp;#39;sAnnoyance，以及补充的一些规则； https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt // ad.txt：【推荐】合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX&amp;#39;sAnnoyance，以及补充的一些规则； https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt </description>
     </item>
     <item>
       <title>Windows 常用技巧</title>
@@ -340,11 +400,26 @@ Card Table 卡表，主要用来标记卡页的状态，每个卡表项对应一
       <description>YAML 基本语法介绍</description>
     </item>
     <item>
+      <title></title>
+      <link>https://tofuwine.github.io/moments/369af6d4/</link>
+      <pubDate>Fri, 22 Mar 2024 14:12:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/369af6d4/</guid>
+      <description>Windows 11 家庭中文版 转 专业版密钥：
+text 1 BTY9C-JXQ4W-YFHCH-6RF4V-VC2RY </description>
+    </item>
+    <item>
       <title>Java 获取应用 PID</title>
       <link>https://tofuwine.github.io/posts/5d7a2ee8/</link>
       <pubDate>Wed, 20 Mar 2024 08:30:42 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/5d7a2ee8/</guid>
       <description>本文介绍 Java 获取应用 PID 的几种方式</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://tofuwine.github.io/moments/f992711e/</link>
+      <pubDate>Wed, 13 Mar 2024 09:05:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/f992711e/</guid>
+      <description>Apple 美区礼品卡购买地址：Buy Apple Gift Cards - Apple</description>
     </item>
     <item>
       <title>Spring Bean Scope 解析</title>
@@ -382,6 +457,14 @@ Card Table 卡表，主要用来标记卡页的状态，每个卡表项对应一
       <pubDate>Fri, 01 Mar 2024 09:01:44 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/2ebecd7d/</guid>
       <description>Markdown 数学公式 KaTex 渲染语法</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://tofuwine.github.io/moments/2937dde5/</link>
+      <pubDate>Tue, 27 Feb 2024 09:59:38 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/2937dde5/</guid>
+      <description>获取 Spring Boot 启动类信息：
+java 1 2 3 4 5 6 7 8 9 10 11 import org.springframework.boot.context.event.ApplicationStartedEvent; import org.springframework.context.ApplicationListener; import org.springframework.stereotype.Component; @Component public class StorageStartApplicationClassListener implements ApplicationListener&amp;lt;ApplicationStartedEvent&amp;gt; { @Override public void onApplicationEvent(ApplicationStartedEvent event) { Class&amp;lt;?&amp;gt; mainApplicationClass = event.getSpringApplication().getMainApplicationClass(); } } 上述示例使用 ApplicationStartedEvent 事件，也可以使用 ApplicationReadyEvent 事件。</description>
     </item>
     <item>
       <title>Spring 拦截器与 Servlet Filter 的区别与使用</title>
@@ -475,11 +558,47 @@ Card Table 卡表，主要用来标记卡页的状态，每个卡表项对应一
       <description>Typora Activation</description>
     </item>
     <item>
+      <title></title>
+      <link>https://tofuwine.github.io/moments/4a506211/</link>
+      <pubDate>Wed, 13 Dec 2023 15:27:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/4a506211/</guid>
+      <description>获取 Spring Boot 注入的对象的原始 class:
+java 1 2 3 4 import org.springframework.aop.support.AopUtils; // 使用 Spring 自带工具实现 AopUtil.getTargetClass() </description>
+    </item>
+    <item>
       <title>Node.js 基础配置</title>
       <link>https://tofuwine.github.io/posts/a3d38191/</link>
       <pubDate>Mon, 27 Nov 2023 15:16:00 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/a3d38191/</guid>
       <description>Node 配置。npm 配置私有仓库 or 国内镜像仓库</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://tofuwine.github.io/moments/bb6643c6/</link>
+      <pubDate>Mon, 04 Sep 2023 09:28:45 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/bb6643c6/</guid>
+      <description>Internet Download Manager Activation Script:
+lstprjct/IDM-Activation-Script 快速激活：
+powershell 1 iex(irm is.gd/idm_reset) </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://tofuwine.github.io/moments/317a0102/</link>
+      <pubDate>Fri, 25 Aug 2023 14:43:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/317a0102/</guid>
+      <description>引入 Spring Boot 依赖的两种方式:
+Parent
+xml 1 2 3 4 5 &amp;lt;parent&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-starter-parent&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.1.2&amp;lt;/version&amp;gt; &amp;lt;/parent&amp;gt; 依赖管理
+xml 1 2 3 4 5 6 7 8 9 10 11 &amp;lt;dependencyManagement&amp;gt; &amp;lt;dependencies&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-dependencies&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.1.2&amp;lt;/version&amp;gt; &amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt; &amp;lt;scope&amp;gt;import&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;/dependencies&amp;gt; &amp;lt;/dependencyManagement&amp;gt; </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://tofuwine.github.io/moments/1272fca5/</link>
+      <pubDate>Tue, 08 Aug 2023 13:41:23 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/1272fca5/</guid>
+      <description>指定一个目录，获取该目录下（包含子目录）的所有 txt 文件：
+依赖：commons-io:commons-io
+java 1 FileUtils.listFiles(new File(filePath), new SuffixFileFilter(&amp;#34;txt&amp;#34;), DirectoryFileFilter.INSTANCE); </description>
     </item>
     <item>
       <title>Spring Boot 自定义数据源配置</title>
