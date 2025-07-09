@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 06 Jul 2025 19:14:10 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jul 2025 17:01:03 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code Snippet</title>
+      <link>https://tofuwine.github.io/tags/code-snippet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/code-snippet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>https://tofuwine.github.io/tags/java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring</title>
+      <link>https://tofuwine.github.io/tags/spring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/spring/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Oracle</title>
       <link>https://tofuwine.github.io/tags/oracle/</link>
@@ -27,13 +48,6 @@
       <link>https://tofuwine.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Java</title>
-      <link>https://tofuwine.github.io/tags/java/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tofuwine.github.io/tags/java/</guid>
       <description></description>
     </item>
     <item>
@@ -83,13 +97,6 @@
       <link>https://tofuwine.github.io/tags/javascript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/tags/javascript/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>JVM</title>
-      <link>https://tofuwine.github.io/tags/jvm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tofuwine.github.io/tags/jvm/</guid>
       <description></description>
     </item>
     <item>
@@ -163,13 +170,6 @@
       <description></description>
     </item>
     <item>
-      <title>Dnfm</title>
-      <link>https://tofuwine.github.io/tags/dnfm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tofuwine.github.io/tags/dnfm/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Cron</title>
       <link>https://tofuwine.github.io/tags/cron/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -237,13 +237,6 @@
       <link>https://tofuwine.github.io/tags/mermaid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/tags/mermaid/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Spring</title>
-      <link>https://tofuwine.github.io/tags/spring/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tofuwine.github.io/tags/spring/</guid>
       <description></description>
     </item>
     <item>
@@ -324,13 +317,6 @@
       <description></description>
     </item>
     <item>
-      <title>Spring Boot</title>
-      <link>https://tofuwine.github.io/tags/spring-boot/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tofuwine.github.io/tags/spring-boot/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Activation</title>
       <link>https://tofuwine.github.io/tags/activation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -380,10 +366,10 @@
       <description></description>
     </item>
     <item>
-      <title>New Feature</title>
-      <link>https://tofuwine.github.io/tags/new-feature/</link>
+      <title>MySQL</title>
+      <link>https://tofuwine.github.io/tags/mysql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tofuwine.github.io/tags/new-feature/</guid>
+      <guid>https://tofuwine.github.io/tags/mysql/</guid>
       <description></description>
     </item>
     <item>

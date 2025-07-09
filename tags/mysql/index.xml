@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>MySQL on Tofuwine&#39;s Blog</title>
+    <link>https://tofuwine.github.io/tags/mysql/</link>
+    <description>Recent content in MySQL on Tofuwine&#39;s Blog</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 08 Jul 2025 17:01:03 +0800</lastBuildDate>
+    <atom:link href="https://tofuwine.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MySQL 命令行操作</title>
+      <link>https://tofuwine.github.io/posts/f6d56fea/</link>
+      <pubDate>Thu, 04 Mar 2021 17:01:03 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/f6d56fea/</guid>
+      <description>登录和退出 bash 1 2 3 4 5 6 7 8 9 10 # 登录 (回车后输密码) mysql -u 用户名 -p # 远程登录 (示例) mysql -h 192.168.1.100 -u root -P 3306 -p # 退出 MySQL exit # 或 \q 数据库操作 mysql 1 2 3 4 5 6 7 8 9 10 11 12 13 14 -- 查看所有数据库 SHOW DATABASES; -- 创建数据库 CREATE DATABASE dbname; -- 删除数据库 DROP DATABASE dbname; -- 选择数据库 USE dbname; -- 查看当前数据库 SELECT DATABASE(); 表操作 mysql 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 -- 查看所有表 SHOW TABLES; -- 创建表 CREATE TABLE users ( id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) NOT NULL, email VARCHAR(50) UNIQUE, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ); -- 查看表结构 DESCRIBE users; -- 或 DESC users; -- 删除表 DROP TABLE users; -- 重命名表 RENAME TABLE old_name TO new_name; 数据操作 mysql 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 -- 插入数据 INSERT INTO users (name, email) VALUES (&amp;#39;张三&amp;#39;, &amp;#39;zhangsan@example.</description>
+    </item>
+  </channel>
+</rss>

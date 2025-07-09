@@ -6,15 +6,21 @@
     <description>Recent content in 🌟 瞬间 on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 06 Jul 2025 19:14:10 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jul 2025 10:16:10 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/moments/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
+      <link>https://tofuwine.github.io/moments/8d16bc78/</link>
+      <pubDate>Tue, 08 Jul 2025 10:16:10 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/8d16bc78/</guid>
+      <description>数据库表的 MetaData 获取方式</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://tofuwine.github.io/moments/7ec8e461/</link>
-      <pubDate>Sun, 06 Jul 2025 19:14:10 +0800</pubDate>
+      <pubDate>Sun, 06 Jul 2025 13:39:00 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/7ec8e461/</guid>
-      <description>Oracle 查询某个表的字段及其属性：
-sql 1 2 3 4 5 6 7 8 9 10 11 12 SELECT column_id AS &amp;#34;列序号&amp;#34;, column_name AS &amp;#34;字段名&amp;#34;, data_type AS &amp;#34;数据类型&amp;#34;, data_length AS &amp;#34;长度&amp;#34;, data_precision AS &amp;#34;精度(数字类型)&amp;#34;, data_scale AS &amp;#34;小数位数&amp;#34;, nullable AS &amp;#34;是否允许为空&amp;#34;, data_default AS &amp;#34;默认值&amp;#34; FROM user_tab_columns WHERE table_name = &amp;#39;YOUR_TABLE_NAME&amp;#39; ORDER BY column_id; </description>
+      <description>Oracle 查询某个表的字段及其属性</description>
     </item>
     <item>
       <title></title>
