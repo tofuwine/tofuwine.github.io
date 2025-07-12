@@ -9,7 +9,7 @@
     <lastBuildDate>Tue, 08 Jul 2025 10:16:10 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>数据库表的 MetaData 获取方式</title>
       <link>https://tofuwine.github.io/moments/8d16bc78/</link>
       <pubDate>Tue, 08 Jul 2025 10:16:10 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/8d16bc78/</guid>
@@ -63,7 +63,7 @@ Card Table 卡表，主要用来标记卡页的状态，每个卡表项对应一
       <description>Java 中子类与父类的同名字段是如何处理的</description>
     </item>
     <item>
-      <title></title>
+      <title>Maven/Gradle 镜像仓库</title>
       <link>https://tofuwine.github.io/moments/e1692452/</link>
       <pubDate>Fri, 31 May 2024 14:03:03 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/e1692452/</guid>
@@ -79,7 +79,7 @@ text 1 https://maven.aliyun.com/repository/gradle-plugin 配置指南：阿里�
       <description>本文介绍实现单例模式的 6 种方式</description>
     </item>
     <item>
-      <title></title>
+      <title>Java 反射私有和静态属性</title>
       <link>https://tofuwine.github.io/moments/7dbf531c/</link>
       <pubDate>Mon, 01 Apr 2024 10:00:00 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/7dbf531c/</guid>
@@ -109,7 +109,7 @@ java 1 fieldName.set(null, newValue); </description>
       <description>本文介绍 Java 的几种位运算</description>
     </item>
     <item>
-      <title></title>
+      <title>Spring Boot 依赖引入的方式</title>
       <link>https://tofuwine.github.io/moments/317a0102/</link>
       <pubDate>Fri, 25 Aug 2023 14:43:00 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/317a0102/</guid>
@@ -119,7 +119,7 @@ xml 1 2 3 4 5 &amp;lt;parent&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.
 xml 1 2 3 4 5 6 7 8 9 10 11 &amp;lt;dependencyManagement&amp;gt; &amp;lt;dependencies&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-dependencies&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.1.2&amp;lt;/version&amp;gt; &amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt; &amp;lt;scope&amp;gt;import&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;/dependencies&amp;gt; &amp;lt;/dependencyManagement&amp;gt; </description>
     </item>
     <item>
-      <title></title>
+      <title>获取指定目录下所有 txt 文件</title>
       <link>https://tofuwine.github.io/moments/1272fca5/</link>
       <pubDate>Tue, 08 Aug 2023 13:41:23 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/1272fca5/</guid>

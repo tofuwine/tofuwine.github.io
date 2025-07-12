@@ -9,21 +9,21 @@
     <lastBuildDate>Tue, 08 Jul 2025 10:16:10 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/moments/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>数据库表的 MetaData 获取方式</title>
       <link>https://tofuwine.github.io/moments/8d16bc78/</link>
       <pubDate>Tue, 08 Jul 2025 10:16:10 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/8d16bc78/</guid>
       <description>数据库表的 MetaData 获取方式</description>
     </item>
     <item>
-      <title></title>
+      <title>Oracle 查询表字段及属性</title>
       <link>https://tofuwine.github.io/moments/7ec8e461/</link>
       <pubDate>Sun, 06 Jul 2025 13:39:00 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/7ec8e461/</guid>
       <description>Oracle 查询某个表的字段及其属性</description>
     </item>
     <item>
-      <title></title>
+      <title>SteamTools</title>
       <link>https://tofuwine.github.io/moments/9a60975e/</link>
       <pubDate>Wed, 21 Aug 2024 19:14:10 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/9a60975e/</guid>
@@ -31,7 +31,7 @@
 BeyondDimension/SteamTools 软件内置了部分网络加速，而且是免费的，还是蛮有用的，特此记录。</description>
     </item>
     <item>
-      <title></title>
+      <title>CSS 滚动条</title>
       <link>https://tofuwine.github.io/moments/3ff9dbf0/</link>
       <pubDate>Tue, 04 Jun 2024 11:04:20 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/3ff9dbf0/</guid>
@@ -40,7 +40,7 @@ BeyondDimension/SteamTools 软件内置了部分网络加速，而且是免费�
 ::-webkit-scrollbar：整个滚动条。 ::-webkit-scrollbar-button：滚动条上的按钮（上下箭头）。 ::-webkit-scrollbar-thumb：滚动条上的滚动滑块。 ::-webkit-scrollbar-track：滚动条轨道。 ::-webkit-scrollbar-track-piece：滚动条没有滑块的轨道部分。 ::-webkit-scrollbar-corner：当同时有垂直滚动条和水平滚动条时交汇的部分。通常是浏览器窗口的右下角。 ::-webkit-resizer：出现在某些元素底角的可拖动调整大小的滑块。 </description>
     </item>
     <item>
-      <title></title>
+      <title>Maven/Gradle 镜像仓库</title>
       <link>https://tofuwine.github.io/moments/e1692452/</link>
       <pubDate>Fri, 31 May 2024 14:03:03 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/e1692452/</guid>
@@ -49,7 +49,7 @@ text 1 https://maven.aliyun.com/repository/public gradle plugin 镜像仓库（�
 text 1 https://maven.aliyun.com/repository/gradle-plugin 配置指南：阿里云云效 Maven</description>
     </item>
     <item>
-      <title></title>
+      <title>Chome 恐龙小游戏</title>
       <link>https://tofuwine.github.io/moments/1510274c/</link>
       <pubDate>Tue, 28 May 2024 13:08:06 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/1510274c/</guid>
@@ -57,7 +57,7 @@ text 1 https://maven.aliyun.com/repository/gradle-plugin 配置指南：阿里�
 text 1 chrome://dino/ </description>
     </item>
     <item>
-      <title></title>
+      <title>导航栏遮挡修复</title>
       <link>https://tofuwine.github.io/moments/f136f54a/</link>
       <pubDate>Sat, 25 May 2024 13:38:46 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/f136f54a/</guid>
@@ -66,7 +66,7 @@ text 1 chrome://dino/ </description>
 css 1 2 3 4 /* 假设你的导航栏高度是 60px */ html { scroll-padding-top: 60px; } Powered by ChatGPT </description>
     </item>
     <item>
-      <title></title>
+      <title>Java 反射私有和静态属性</title>
       <link>https://tofuwine.github.io/moments/7dbf531c/</link>
       <pubDate>Mon, 01 Apr 2024 10:00:00 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/7dbf531c/</guid>
@@ -75,7 +75,7 @@ java 1 fieldName.setAccessible(true); 当反射赋值静态属性，将第一个
 java 1 fieldName.set(null, newValue); </description>
     </item>
     <item>
-      <title></title>
+      <title>广告屏蔽大师订阅链接</title>
       <link>https://tofuwine.github.io/moments/742acb47/</link>
       <pubDate>Tue, 26 Mar 2024 09:20:00 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/742acb47/</guid>
@@ -83,7 +83,7 @@ java 1 fieldName.set(null, newValue); </description>
 text 1 2 3 4 5 // ad-pc.txt：[推荐桌面端]合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX&amp;#39;sAnnoyance，以及补充的一些规则； https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt // ad.txt：【推荐】合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX&amp;#39;sAnnoyance，以及补充的一些规则； https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt </description>
     </item>
     <item>
-      <title></title>
+      <title>Windows 11 密钥</title>
       <link>https://tofuwine.github.io/moments/369af6d4/</link>
       <pubDate>Fri, 22 Mar 2024 14:12:00 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/369af6d4/</guid>
@@ -91,14 +91,14 @@ text 1 2 3 4 5 // ad-pc.txt：[推荐桌面端]合并自乘风视频广告过滤
 text 1 BTY9C-JXQ4W-YFHCH-6RF4V-VC2RY </description>
     </item>
     <item>
-      <title></title>
+      <title>Apple 礼品卡</title>
       <link>https://tofuwine.github.io/moments/f992711e/</link>
       <pubDate>Wed, 13 Mar 2024 09:05:00 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/f992711e/</guid>
       <description>Apple 美区礼品卡购买地址：Buy Apple Gift Cards - Apple</description>
     </item>
     <item>
-      <title></title>
+      <title>Spring Boot 启动类信息获取方式</title>
       <link>https://tofuwine.github.io/moments/2937dde5/</link>
       <pubDate>Tue, 27 Feb 2024 09:59:38 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/2937dde5/</guid>
@@ -106,7 +106,7 @@ text 1 BTY9C-JXQ4W-YFHCH-6RF4V-VC2RY </description>
 java 1 2 3 4 5 6 7 8 9 10 11 import org.springframework.boot.context.event.ApplicationStartedEvent; import org.springframework.context.ApplicationListener; import org.springframework.stereotype.Component; @Component public class StorageStartApplicationClassListener implements ApplicationListener&amp;lt;ApplicationStartedEvent&amp;gt; { @Override public void onApplicationEvent(ApplicationStartedEvent event) { Class&amp;lt;?&amp;gt; mainApplicationClass = event.getSpringApplication().getMainApplicationClass(); } } 上述示例使用 ApplicationStartedEvent 事件，也可以使用 ApplicationReadyEvent 事件。</description>
     </item>
     <item>
-      <title></title>
+      <title>获取 IoC 容器的原始对象</title>
       <link>https://tofuwine.github.io/moments/4a506211/</link>
       <pubDate>Wed, 13 Dec 2023 15:27:00 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/4a506211/</guid>
@@ -114,7 +114,7 @@ java 1 2 3 4 5 6 7 8 9 10 11 import org.springframework.boot.context.event.Appli
 java 1 2 3 4 import org.springframework.aop.support.AopUtils; // 使用 Spring 自带工具实现 AopUtil.getTargetClass() </description>
     </item>
     <item>
-      <title></title>
+      <title>IDM 激活</title>
       <link>https://tofuwine.github.io/moments/bb6643c6/</link>
       <pubDate>Mon, 04 Sep 2023 09:28:45 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/bb6643c6/</guid>
@@ -123,7 +123,7 @@ lstprjct/IDM-Activation-Script 快速激活：
 powershell 1 iex(irm is.gd/idm_reset) </description>
     </item>
     <item>
-      <title></title>
+      <title>Spring Boot 依赖引入的方式</title>
       <link>https://tofuwine.github.io/moments/317a0102/</link>
       <pubDate>Fri, 25 Aug 2023 14:43:00 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/317a0102/</guid>
@@ -133,7 +133,7 @@ xml 1 2 3 4 5 &amp;lt;parent&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.
 xml 1 2 3 4 5 6 7 8 9 10 11 &amp;lt;dependencyManagement&amp;gt; &amp;lt;dependencies&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-dependencies&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.1.2&amp;lt;/version&amp;gt; &amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt; &amp;lt;scope&amp;gt;import&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;/dependencies&amp;gt; &amp;lt;/dependencyManagement&amp;gt; </description>
     </item>
     <item>
-      <title></title>
+      <title>获取指定目录下所有 txt 文件</title>
       <link>https://tofuwine.github.io/moments/1272fca5/</link>
       <pubDate>Tue, 08 Aug 2023 13:41:23 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/1272fca5/</guid>

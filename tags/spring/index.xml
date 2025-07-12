@@ -6,10 +6,17 @@
     <description>Recent content in Spring on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 08 Jul 2025 10:16:10 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jul 2025 10:10:30 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/tags/spring/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>Spring Boot 手动加载 Resource 目录下指定配置文件</title>
+      <link>https://tofuwine.github.io/posts/25d1ea79/</link>
+      <pubDate>Thu, 10 Jul 2025 10:10:30 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/25d1ea79/</guid>
+      <description>Spring Boot 手动加载 Resource 目录下指定配置文件</description>
+    </item>
+    <item>
+      <title>数据库表的 MetaData 获取方式</title>
       <link>https://tofuwine.github.io/moments/8d16bc78/</link>
       <pubDate>Tue, 08 Jul 2025 10:16:10 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/8d16bc78/</guid>
@@ -51,7 +58,7 @@
       <description>Spring Bean 六种作用域分析</description>
     </item>
     <item>
-      <title></title>
+      <title>Spring Boot 启动类信息获取方式</title>
       <link>https://tofuwine.github.io/moments/2937dde5/</link>
       <pubDate>Tue, 27 Feb 2024 09:59:38 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/2937dde5/</guid>
@@ -66,7 +73,7 @@ java 1 2 3 4 5 6 7 8 9 10 11 import org.springframework.boot.context.event.Appli
       <description>Spring Interceptor 与 Servlet Filter 区别与使用示例</description>
     </item>
     <item>
-      <title></title>
+      <title>获取 IoC 容器的原始对象</title>
       <link>https://tofuwine.github.io/moments/4a506211/</link>
       <pubDate>Wed, 13 Dec 2023 15:27:00 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/4a506211/</guid>
@@ -74,7 +81,7 @@ java 1 2 3 4 5 6 7 8 9 10 11 import org.springframework.boot.context.event.Appli
 java 1 2 3 4 import org.springframework.aop.support.AopUtils; // 使用 Spring 自带工具实现 AopUtil.getTargetClass() </description>
     </item>
     <item>
-      <title></title>
+      <title>Spring Boot 依赖引入的方式</title>
       <link>https://tofuwine.github.io/moments/317a0102/</link>
       <pubDate>Fri, 25 Aug 2023 14:43:00 +0800</pubDate>
       <guid>https://tofuwine.github.io/moments/317a0102/</guid>
