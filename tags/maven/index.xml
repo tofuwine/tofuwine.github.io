@@ -6,8 +6,15 @@
     <description>Recent content in Maven on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 25 Nov 2024 13:58:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 26 Jun 2025 10:49:00 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/tags/maven/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maven 本地依赖的使用</title>
+      <link>https://tofuwine.github.io/posts/cfd48118/</link>
+      <pubDate>Thu, 26 Jun 2025 10:49:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/cfd48118/</guid>
+      <description>Maven 使用本地依赖</description>
+    </item>
     <item>
       <title>Maven FAQ</title>
       <link>https://tofuwine.github.io/posts/d19d7a70/</link>

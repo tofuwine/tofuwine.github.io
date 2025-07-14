@@ -53,6 +53,13 @@
 特性 TRUNCATE TABLE DELETE FROM 类型 DDL(数据定义语言)命令 DML(数据操作语言)命令 功能 移除表中 所有行 数据 移除表中的行（可以移除所有行，也可以移除符合 WHERE 条件的行） WHERE 子句 不支持。总是移除整个表的数据。 支持。可以指定条件只删除部分数据 事务与日志 最小日志。仅记录页释放操作（在大多数 DBMS 中），日志量极小。通常被视为一个操作（即使物理上可能是分批删除）。通常无法回滚（视 DBMS 和事务模型而定）。 完整日志。记录每一行被删除的操作，日志量巨大（尤其大表）。执行在事务中，可以被回滚（ROLLBACK） 速度 极快 （尤其在大型表上）。不扫描数据本身，直接释放数据页。 相对较慢（尤其删除大量数据时）。需要扫描每一行（如果无索引），并完整记录日志。 资源消耗 极低（锁需求少，日志少，事务管理开销小） 非常高（表级或行级锁，巨大的日志，UNDO 记录存储，事务开销） 表空间 立即释放数据页占用的磁盘空间给文件系统/数据库 （重置 HWM） 通常不立即释放空间到文件系统（DBMS 保留空间供后续重用）。（SHRINK 或 VACUUM 等操作可回收） IDENTITY/序列 重置表的自增计数器/序列（在几乎所有 DBMS 中：SQL Server、MySQL、PostgreSQL 等） 不影响表的自增计数器/序列。下一条插入的 ID 会继续按原有序列增长。 触发器 不触发 DELETE 触发器 触发 DELETE 触发器（如果定义了的话） 外键约束 如果该表是 被引用表 （有外键指向它），操作 通常失败 （除非 DBMS 支持 CASCADE 或 DISABLE 约束） 受外键约束限制，行为取决于约束定义（RESTRICT、CASCADE、SET NULL、NO ACTION） 所需权限 需要 ALTER TABLE 权限（DDL 级别，权限要求更高） 需要表上的 DELETE 权限（DML 级别） 锁机制 通常获取 表级元数据锁 或 批模式锁，阻止并发 DDL 和所有数据操作。 获取 行级锁 或 表级锁（取决于 DBMS 和隔离级别），在事务期间持续，阻塞时间长。 分区表 可指定 TRUNCATE PARTITION （移除特定分区数据） 可用 WHERE 子句按分区键删除，但效率通常不如 TRUNCATE PARTITION 表结构 只删除数据，保留表结构（列、索引、约束等） 只删除数据，保留表结构（列、索引、约束等） 恢复性 几乎不可回滚。需要数据库备份或日志备份来恢复 在事务未提交前可回滚（ROLLBACK） 总结关键区别 目的与颗粒度 TRUNCATE：快速移除整个表的数据。是重置或清空表的最快方式。它是原子操作（针对整个表） DELETE：移除符合条件的行（包括移除所有行）。提供精细控制（通过 WHERE 子句） 性能与资源 TRUNCATE：通常在处理大表时 快几个数量级，因为它绕过 DML 的日志记录和事务开销，直接操作底层存储结构。资源消耗（日志、锁、CPU）远低于 DELETE。 DELETE 对于大表移除操作 非常慢且资源密集，因为要逐行记录日志并处理事务。 事务与回滚 TRUNCATE 在事务上下文中行为不同（通常不可回滚，取决于 DBMS）。例如，在 SQL Server 中，如果 TRUNCATE 在显式事务（BEGIN TRAN .</description>
     </item>
     <item>
+      <title>Maven 本地依赖的使用</title>
+      <link>https://tofuwine.github.io/posts/cfd48118/</link>
+      <pubDate>Thu, 26 Jun 2025 10:49:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/cfd48118/</guid>
+      <description>Maven 使用本地依赖</description>
+    </item>
+    <item>
       <title>腾讯应用宝电脑版绕过风险检测安装 APK</title>
       <link>https://tofuwine.github.io/posts/2c18e2ae/</link>
       <pubDate>Tue, 13 May 2025 13:34:00 +0800</pubDate>
