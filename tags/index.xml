@@ -6,13 +6,13 @@
     <description>Recent content in Tags on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 10 Jul 2025 10:10:30 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 17 Sep 2025 10:38:42 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Spring</title>
-      <link>https://tofuwine.github.io/tags/spring/</link>
+      <title>Spring Boot</title>
+      <link>https://tofuwine.github.io/tags/spring-boot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tofuwine.github.io/tags/spring/</guid>
+      <guid>https://tofuwine.github.io/tags/spring-boot/</guid>
       <description></description>
     </item>
     <item>
@@ -27,6 +27,27 @@
       <link>https://tofuwine.github.io/tags/java/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring</title>
+      <link>https://tofuwine.github.io/tags/spring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/spring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Logback</title>
+      <link>https://tofuwine.github.io/tags/logback/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/logback/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MyBatis</title>
+      <link>https://tofuwine.github.io/tags/mybatis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/mybatis/</guid>
       <description></description>
     </item>
     <item>
@@ -139,13 +160,6 @@
       <link>https://tofuwine.github.io/tags/nginx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/tags/nginx/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>MyBatis</title>
-      <link>https://tofuwine.github.io/tags/mybatis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tofuwine.github.io/tags/mybatis/</guid>
       <description></description>
     </item>
     <item>
@@ -363,6 +377,13 @@
       <link>https://tofuwine.github.io/tags/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/tags/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shell</title>
+      <link>https://tofuwine.github.io/tags/shell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tofuwine.github.io/tags/shell/</guid>
       <description></description>
     </item>
     <item>

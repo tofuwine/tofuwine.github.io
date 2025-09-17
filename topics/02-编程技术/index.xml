@@ -6,8 +6,48 @@
     <description>Recent content in 🖥️ 计算机编程技术 on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 10 Jul 2025 10:10:30 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 17 Sep 2025 10:38:42 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/topics/02-%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Boot 3 集成 Swagger UI</title>
+      <link>https://tofuwine.github.io/posts/013ccaaf/</link>
+      <pubDate>Wed, 17 Sep 2025 10:38:42 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/013ccaaf/</guid>
+      <description>Java 17 Spring Boot 3.5.5 Springdoc OpenAPI 2.8.13 Maven 依赖 xml 1 2 3 4 5 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springdoc&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;springdoc-openapi-starter-webmvc-ui&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.8.13&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; 请注意与 Spring Boot 版本的兼容，兼容矩阵可查看 FAQ
+相关配置 OpenAPI doc 详细配置项可参考 官方文档
+默认路径:
+text 1 http://localhost:8080/v3/api-docs 我们可以通过配置 springdoc.api-docs.path 来自定义 OpenAPI doc 的路径。
+例如:
+properties 1 2 # 当我们如下配置时，OpenAPI doc 的路径为: http://localhost:808/api-docs springdoc.api-docs.path=/api-docs 默认情况下，OpenAPI doc 为 JSON 格式，我们可以通过如下配置修改为 yaml:
+properties 1 springdoc.api-docs.path=/api-docs.yaml Swagger UI 详细配置项可参考 官方文档
+默认路径:
+text 1 http://localhost:8080/swagger-ui/index.html 我们可以通过配置 springdoc.</description>
+    </item>
+    <item>
+      <title>logback.xml 文件解析</title>
+      <link>https://tofuwine.github.io/posts/7fd7b3be/</link>
+      <pubDate>Fri, 08 Aug 2025 13:10:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/7fd7b3be/</guid>
+      <description>logback.xml 文件解析</description>
+    </item>
+    <item>
+      <title>MyBatis 关于 Oracle CHAR 类型字段的查询</title>
+      <link>https://tofuwine.github.io/posts/6a608fea/</link>
+      <pubDate>Thu, 17 Jul 2025 09:16:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/6a608fea/</guid>
+      <description>问题描述 此前生产遇到一个问题，同样的 SQL 在代码中执行查不出结果，将执行的 SQL 复制到 PL/SQL 等数据库工具中又可以查出来，但本地却始终无法复现。 最终经排查是生产环境下表 T 的筛选条件 C 的数据类型由原来的 VARCHAR2 改成了 CHAR 导致的，而本地测试环境均为 VARCHAR2。
+那么为何 CHAR 类型的就无法被查出结果呢？
+问题分析 首先我们需要了解一下 Oracle 中 CHAR 对比 VARCHAR2 有何不同之处：
+CHAR 定长字符类型，无论存储内容长度如何，均占用固定长度空间（例如，CHAR(10) 无论存储内容长度为多少，均占用 10 个字节的空间）。
+若内容不足定义长度，系统会自动用空格填充至指定长度 若内容超过定义的长度，会直接拒绝（ORA-12899） 若内容长度未超过，但字节数超过，则会触发字符截断 （永远不要依赖这种隐式截断） 优点：由于长度是固定的，所以在比较时性能较高，不需要考虑长度差异
+缺点：如果存储的字符串长度远小于定义的长度时，会浪费存储空间
+VARCHAR2 由 VARCHAR 升级而来，是一个可变长度的字符类型数据。VARCHAR2(n) 定义可以存储最多为 n 个字符的可变长度字符串。
+优点：节省空间，只占用必要的字符数加上一些额外的字节来记录长度信息，支持多字节字符集（MBCS），是 Oracle 官方推荐的类型，能够动态调整存储大小，有效地利用存储空间。
+缺点：相对于 CHAR 类型，可能在某些特定情况下性能稍逊一筹。
+Powered by AI 由上述可知，CHAR 会在长度不足时补空格，而我们数据库中定义 CHAR(5) 但实际只存储了一个字母 A/B, 这就导致了实际内容与预期不一致。
+那么对于 SQL：
+sql 1 SELECT * FROM T WHERE C = &amp;#39;A&amp;#39; 为何 PL/SQL 等数据库工具可以查出结果？</description>
+    </item>
     <item>
       <title>Spring Boot 手动加载 Resource 目录下指定配置文件</title>
       <link>https://tofuwine.github.io/posts/25d1ea79/</link>
@@ -317,6 +357,13 @@ Card Table 卡表，主要用来标记卡页的状态，每个卡表项对应一
       <pubDate>Fri, 24 Jun 2022 08:59:41 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/2478e847/</guid>
       <description>Spring Boot 打包后获取 Classpath 目录下文件</description>
+    </item>
+    <item>
+      <title>IDEA 中的 Java 运行参数说明</title>
+      <link>https://tofuwine.github.io/posts/30223ad6/</link>
+      <pubDate>Wed, 25 May 2022 13:52:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/30223ad6/</guid>
+      <description>IDEA 中的 Java 运行参数说明</description>
     </item>
     <item>
       <title>MySQL 命令行操作</title>

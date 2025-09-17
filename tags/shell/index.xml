@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Shell on Tofuwine&#39;s Blog</title>
+    <link>https://tofuwine.github.io/tags/shell/</link>
+    <description>Recent content in Shell on Tofuwine&#39;s Blog</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 08 Jun 2022 13:18:00 +0800</lastBuildDate>
+    <atom:link href="https://tofuwine.github.io/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shell 获取指定目录下所有文件夹名称</title>
+      <link>https://tofuwine.github.io/moments/49b28a93/</link>
+      <pubDate>Wed, 08 Jun 2022 13:18:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/49b28a93/</guid>
+      <description> shell 1 2 3 4 5 6 #!/bin/bash LOCATION=${1} DIR_LIST=$(ls -l ${LOCATION} | awk &amp;#39;/^d/ {print $NF}&amp;#39;) echo ${DIR_LIST[*]} </description>
+    </item>
+  </channel>
+</rss>

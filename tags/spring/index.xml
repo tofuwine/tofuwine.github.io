@@ -6,8 +6,15 @@
     <description>Recent content in Spring on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 10 Jul 2025 10:10:30 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 16 Sep 2025 20:35:00 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/tags/spring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IntelliJ Platform Icons</title>
+      <link>https://tofuwine.github.io/moments/d3bff3f1/</link>
+      <pubDate>Tue, 16 Sep 2025 20:35:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/d3bff3f1/</guid>
+      <description>IntelliJ Platform Icons</description>
+    </item>
     <item>
       <title>Spring Boot 手动加载 Resource 目录下指定配置文件</title>
       <link>https://tofuwine.github.io/posts/25d1ea79/</link>
@@ -103,6 +110,13 @@ xml 1 2 3 4 5 6 7 8 9 10 11 &amp;lt;dependencyManagement&amp;gt; &amp;lt;depende
       <pubDate>Fri, 24 Jun 2022 08:59:41 +0800</pubDate>
       <guid>https://tofuwine.github.io/posts/2478e847/</guid>
       <description>Spring Boot 打包后获取 Classpath 目录下文件</description>
+    </item>
+    <item>
+      <title>IDEA 中的 Java 运行参数说明</title>
+      <link>https://tofuwine.github.io/posts/30223ad6/</link>
+      <pubDate>Wed, 25 May 2022 13:52:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/30223ad6/</guid>
+      <description>IDEA 中的 Java 运行参数说明</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,15 @@
     <description>Recent content in 🌟 瞬间 on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 08 Jul 2025 10:16:10 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 16 Sep 2025 20:35:00 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/moments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IntelliJ Platform Icons</title>
+      <link>https://tofuwine.github.io/moments/d3bff3f1/</link>
+      <pubDate>Tue, 16 Sep 2025 20:35:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/d3bff3f1/</guid>
+      <description>IntelliJ Platform Icons</description>
+    </item>
     <item>
       <title>数据库表的 MetaData 获取方式</title>
       <link>https://tofuwine.github.io/moments/8d16bc78/</link>
@@ -140,6 +147,13 @@ xml 1 2 3 4 5 6 7 8 9 10 11 &amp;lt;dependencyManagement&amp;gt; &amp;lt;depende
       <description>指定一个目录，获取该目录下（包含子目录）的所有 txt 文件：
 依赖：commons-io:commons-io
 java 1 FileUtils.listFiles(new File(filePath), new SuffixFileFilter(&amp;#34;txt&amp;#34;), DirectoryFileFilter.INSTANCE); </description>
+    </item>
+    <item>
+      <title>Shell 获取指定目录下所有文件夹名称</title>
+      <link>https://tofuwine.github.io/moments/49b28a93/</link>
+      <pubDate>Wed, 08 Jun 2022 13:18:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/moments/49b28a93/</guid>
+      <description> shell 1 2 3 4 5 6 #!/bin/bash LOCATION=${1} DIR_LIST=$(ls -l ${LOCATION} | awk &amp;#39;/^d/ {print $NF}&amp;#39;) echo ${DIR_LIST[*]} </description>
     </item>
   </channel>
 </rss>

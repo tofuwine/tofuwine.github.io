@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Spring Boot on Tofuwine&#39;s Blog</title>
+    <link>https://tofuwine.github.io/tags/spring-boot/</link>
+    <description>Recent content in Spring Boot on Tofuwine&#39;s Blog</description>
+    <generator>Hugo -- 0.126.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 17 Sep 2025 10:38:42 +0800</lastBuildDate>
+    <atom:link href="https://tofuwine.github.io/tags/spring-boot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Boot 3 集成 Swagger UI</title>
+      <link>https://tofuwine.github.io/posts/013ccaaf/</link>
+      <pubDate>Wed, 17 Sep 2025 10:38:42 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/013ccaaf/</guid>
+      <description>Java 17 Spring Boot 3.5.5 Springdoc OpenAPI 2.8.13 Maven 依赖 xml 1 2 3 4 5 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springdoc&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;springdoc-openapi-starter-webmvc-ui&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.8.13&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; 请注意与 Spring Boot 版本的兼容，兼容矩阵可查看 FAQ
+相关配置 OpenAPI doc 详细配置项可参考 官方文档
+默认路径:
+text 1 http://localhost:8080/v3/api-docs 我们可以通过配置 springdoc.api-docs.path 来自定义 OpenAPI doc 的路径。
+例如:
+properties 1 2 # 当我们如下配置时，OpenAPI doc 的路径为: http://localhost:808/api-docs springdoc.api-docs.path=/api-docs 默认情况下，OpenAPI doc 为 JSON 格式，我们可以通过如下配置修改为 yaml:
+properties 1 springdoc.api-docs.path=/api-docs.yaml Swagger UI 详细配置项可参考 官方文档
+默认路径:
+text 1 http://localhost:8080/swagger-ui/index.html 我们可以通过配置 springdoc.</description>
+    </item>
+  </channel>
+</rss>

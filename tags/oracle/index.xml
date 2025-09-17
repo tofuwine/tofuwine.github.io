@@ -6,8 +6,26 @@
     <description>Recent content in Oracle on Tofuwine&#39;s Blog</description>
     <generator>Hugo -- 0.126.0</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 06 Jul 2025 13:39:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 17 Jul 2025 09:16:00 +0800</lastBuildDate>
     <atom:link href="https://tofuwine.github.io/tags/oracle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MyBatis 关于 Oracle CHAR 类型字段的查询</title>
+      <link>https://tofuwine.github.io/posts/6a608fea/</link>
+      <pubDate>Thu, 17 Jul 2025 09:16:00 +0800</pubDate>
+      <guid>https://tofuwine.github.io/posts/6a608fea/</guid>
+      <description>问题描述 此前生产遇到一个问题，同样的 SQL 在代码中执行查不出结果，将执行的 SQL 复制到 PL/SQL 等数据库工具中又可以查出来，但本地却始终无法复现。 最终经排查是生产环境下表 T 的筛选条件 C 的数据类型由原来的 VARCHAR2 改成了 CHAR 导致的，而本地测试环境均为 VARCHAR2。
+那么为何 CHAR 类型的就无法被查出结果呢？
+问题分析 首先我们需要了解一下 Oracle 中 CHAR 对比 VARCHAR2 有何不同之处：
+CHAR 定长字符类型，无论存储内容长度如何，均占用固定长度空间（例如，CHAR(10) 无论存储内容长度为多少，均占用 10 个字节的空间）。
+若内容不足定义长度，系统会自动用空格填充至指定长度 若内容超过定义的长度，会直接拒绝（ORA-12899） 若内容长度未超过，但字节数超过，则会触发字符截断 （永远不要依赖这种隐式截断） 优点：由于长度是固定的，所以在比较时性能较高，不需要考虑长度差异
+缺点：如果存储的字符串长度远小于定义的长度时，会浪费存储空间
+VARCHAR2 由 VARCHAR 升级而来，是一个可变长度的字符类型数据。VARCHAR2(n) 定义可以存储最多为 n 个字符的可变长度字符串。
+优点：节省空间，只占用必要的字符数加上一些额外的字节来记录长度信息，支持多字节字符集（MBCS），是 Oracle 官方推荐的类型，能够动态调整存储大小，有效地利用存储空间。
+缺点：相对于 CHAR 类型，可能在某些特定情况下性能稍逊一筹。
+Powered by AI 由上述可知，CHAR 会在长度不足时补空格，而我们数据库中定义 CHAR(5) 但实际只存储了一个字母 A/B, 这就导致了实际内容与预期不一致。
+那么对于 SQL：
+sql 1 SELECT * FROM T WHERE C = &amp;#39;A&amp;#39; 为何 PL/SQL 等数据库工具可以查出结果？</description>
+    </item>
     <item>
       <title>Oracle 查询表字段及属性</title>
       <link>https://tofuwine.github.io/moments/7ec8e461/</link>
