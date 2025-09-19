@@ -850,14 +850,11 @@ java 1 FileUtils.listFiles(new File(filePath), new SuffixFileFilter(&amp;#34;txt
       <description>服务器常用的状态码及其对应的含义</description>
     </item>
     <item>
-      <title>🤝 友链</title>
+      <title>🤝 友链 🤝</title>
       <link>https://tofuwine.github.io/friend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/friend/</guid>
-      <description> Tofuwine&amp;#39;s Blog 记录、 分享，仅此。 LS-Shandong LS-Shandong 的博客网站 Rickey&amp;#39;s Blog 真诚记录，生活值得 三水水水碎碎念 Share life, bit by bit 友链申请 如果您希望互相添加友链，请按如下格式在评论区留言：
-名称 Tofuwine&amp;rsquo;s Blog 网址 https://www.tofuwine.cn 图标 https://www.tofuwine.cn/images/favicon.svg 描述 记录、 分享，仅此。 作者将在审核通过后，将您的信息添加到友链列表。
-与此同时，如果您的站点提供了友链申请方式，作者也会按您的格式要求申请友链。
-请注意：如果您的站点有以下情况，作者将拒绝添加友链！ 您的站点含有涉黄、涉赌、涉毒、涉政等内容 您的站点含有分裂国家、激化民族/种族矛盾等内容 您的站点含有大量广告内容 </description>
+      <description>海内存知己 天涯若比邻</description>
     </item>
     <item>
       <title>🧑‍💻 关于</title>
