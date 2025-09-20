@@ -861,11 +861,7 @@ java 1 FileUtils.listFiles(new File(filePath), new SuffixFileFilter(&amp;#34;txt
       <link>https://tofuwine.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tofuwine.github.io/about/</guid>
-      <description>简介 本站仅作为个人博客、笔记使用。转载内容会在文章标题显式标注，且在文章末尾声明原文信息。
-站点信息 名称 Tofuwine&amp;rsquo;s Blog 网址 https://www.tofuwine.cn 图标 https://www.tofuwine.cn/images/favicon.svg 网址(备用) https://tofuwine.github.io 图标(备用) https://tofuwine.github.io/images/favicon.svg 描述 记录、 分享，仅此。 License 本站原创内容采用 CC BY-NC 4.0 许可，请在转载时标注作者和原文链接。
-如有侵权内容，请联系作者删除。
-相关技术 &amp;amp; 软件 本站内容完全托管 GitHub，多仓库管理，闭源博文源码，开源静态界面。
-博客框架：Hugo 博客主题：PaperMod-PE (Forked from PaperMod) 存储仓库：GitHub 部署方案： 🟢 GitHub Actions &amp;amp; GitHub Pages (Ref: https://tofuwine.github.io) 🟢 Cloudflare Pages (Ref: https://www.tofuwine.cn) 写作方式：Typora &amp;amp; IntelliJ IDEA 图床方案：Typora + PicGo + Github + jsDelivr 评论方案：Giscus 图片灯箱：Fancybox 数学公式：MathJax &amp;amp; KaTex 绘图：Mermaid slug uuid：it-tools FAQ 站点图片无法加载 站点使用 Github 作为图床方案，并使用 jsDelivr CDN，请检查你的网络是否可访问 jsDelivr。</description>
+      <description>文章千古事 得失寸心知</description>
     </item>
   </channel>
 </rss>
